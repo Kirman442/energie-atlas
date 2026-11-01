@@ -1,0 +1,1 @@
+import{t as e}from"./jsx-runtime-Wy9s6hX0.js";import{_ as t}from"./index-B0ldNA24.js";var n=e();function r({k:e}){let{t:r}=t();return(0,n.jsx)(`span`,{className:`ltype`,"data-kind":e,children:r(`nrw.kind.${e}`)})}export{r as t};
