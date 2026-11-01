@@ -1,0 +1,60 @@
+{
+  "schema": "nrw_wind_planning_display_v1",
+  "features": 1485,
+  "source_features": 1486,
+  "reconstructed_features": 9,
+  "linearized_curve_features": 6,
+  "omitted_display_features": 1,
+  "omitted_source_fids": [
+    "1268"
+  ],
+  "omitted_native_area_m2": 0.10227743798894728,
+  "omission_decision": "User approved ignoring the single ~0.1m2 polygon after checking prevalence; source retained",
+  "date_labels": {
+    "April 2025": 882,
+    "Januar 2026": 342,
+    "Juli 2025": 169,
+    "Juli 2026": 93
+  },
+  "region_date_groups": [
+    {
+      "region": "Arnsberg",
+      "source_date_label": "April 2025",
+      "features": 181
+    },
+    {
+      "region": "Detmold",
+      "source_date_label": "April 2025",
+      "features": 432
+    },
+    {
+      "region": "Düsseldorf",
+      "source_date_label": "Juli 2025",
+      "features": 169
+    },
+    {
+      "region": "Köln",
+      "source_date_label": "Januar 2026",
+      "features": 342
+    },
+    {
+      "region": "Münster",
+      "source_date_label": "April 2025",
+      "features": 269
+    },
+    {
+      "region": "Regionalverband Ruhr",
+      "source_date_label": "Juli 2026",
+      "features": 93
+    }
+  ],
+  "limits": [
+    "Regional planning polygons with mixed source date labels, not one current legal state",
+    "No permit, siting eligibility, electricity yield or potential-capacity inference",
+    "Nine native candidates reconstructed using linework; structure agrees geometrically, not legal/source intent certification",
+    "Six original curves were linearized in conversion; native WKB retained separately",
+    "Display simplification 5m and precision grid 0.00001 degrees with topology preservation; analytical geometry separate",
+    "A collapsed micro-polygon omitted from display with explicit ID and area; source/native candidate retained",
+    "Technical planning IDs derive from source FID, not permanent official IDs"
+  ]
+}

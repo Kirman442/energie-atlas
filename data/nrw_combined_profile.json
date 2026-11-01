@@ -1,0 +1,810 @@
+{
+  "schema": "nrw_combined_profile_v1",
+  "snapshot": "2026-10-28",
+  "geography": "bkg_fixed_20261021_v6",
+  "stock": {
+    "solar": {
+      "units": 1194769,
+      "gross_capacity_kw": "16053029.708000",
+      "coordinate_units": 40885
+    },
+    "onshore": {
+      "units": 4063,
+      "gross_capacity_kw": "10034724.520000",
+      "coordinate_units": 3975
+    }
+  },
+  "coverage": {
+    "solar": [
+      {
+        "kind": "inside",
+        "units": 40729,
+        "gross_capacity_kw": "6976595.196000"
+      },
+      {
+        "kind": "outside",
+        "units": 156,
+        "gross_capacity_kw": "19807.738000"
+      },
+      {
+        "kind": "missing",
+        "units": 1153884,
+        "gross_capacity_kw": "9056626.774000"
+      }
+    ],
+    "onshore": [
+      {
+        "kind": "inside",
+        "units": 3968,
+        "gross_capacity_kw": "9970614.000000"
+      },
+      {
+        "kind": "outside",
+        "units": 7,
+        "gross_capacity_kw": "23435.000000"
+      },
+      {
+        "kind": "missing",
+        "units": 88,
+        "gross_capacity_kw": "40675.520000"
+      }
+    ]
+  },
+  "districts": [
+    {
+      "code": "05111",
+      "name": "Düsseldorf",
+      "solar": {
+        "units": 12248,
+        "gross_capacity_kw": "164592.178000"
+      },
+      "onshore": {
+        "units": 0,
+        "gross_capacity_kw": "0.000000"
+      }
+    },
+    {
+      "code": "05112",
+      "name": "Duisburg",
+      "solar": {
+        "units": 13966,
+        "gross_capacity_kw": "144472.726000"
+      },
+      "onshore": {
+        "units": 1,
+        "gross_capacity_kw": "2300.000000"
+      }
+    },
+    {
+      "code": "05113",
+      "name": "Essen",
+      "solar": {
+        "units": 16287,
+        "gross_capacity_kw": "148482.211000"
+      },
+      "onshore": {
+        "units": 1,
+        "gross_capacity_kw": "1.000000"
+      }
+    },
+    {
+      "code": "05114",
+      "name": "Krefeld",
+      "solar": {
+        "units": 10270,
+        "gross_capacity_kw": "134912.133000"
+      },
+      "onshore": {
+        "units": 14,
+        "gross_capacity_kw": "16150.000000"
+      }
+    },
+    {
+      "code": "05116",
+      "name": "Mönchengladbach",
+      "solar": {
+        "units": 12226,
+        "gross_capacity_kw": "141847.700000"
+      },
+      "onshore": {
+        "units": 17,
+        "gross_capacity_kw": "42109.900000"
+      }
+    },
+    {
+      "code": "05117",
+      "name": "Mülheim an der Ruhr",
+      "solar": {
+        "units": 6335,
+        "gross_capacity_kw": "59568.145000"
+      },
+      "onshore": {
+        "units": 0,
+        "gross_capacity_kw": "0.000000"
+      }
+    },
+    {
+      "code": "05119",
+      "name": "Oberhausen",
+      "solar": {
+        "units": 7466,
+        "gross_capacity_kw": "66691.718000"
+      },
+      "onshore": {
+        "units": 1,
+        "gross_capacity_kw": "1.000000"
+      }
+    },
+    {
+      "code": "05120",
+      "name": "Remscheid",
+      "solar": {
+        "units": 4202,
+        "gross_capacity_kw": "42277.831000"
+      },
+      "onshore": {
+        "units": 2,
+        "gross_capacity_kw": "1505.500000"
+      }
+    },
+    {
+      "code": "05122",
+      "name": "Solingen",
+      "solar": {
+        "units": 6854,
+        "gross_capacity_kw": "64631.834000"
+      },
+      "onshore": {
+        "units": 0,
+        "gross_capacity_kw": "0.000000"
+      }
+    },
+    {
+      "code": "05124",
+      "name": "Wuppertal",
+      "solar": {
+        "units": 9377,
+        "gross_capacity_kw": "102101.714000"
+      },
+      "onshore": {
+        "units": 8,
+        "gross_capacity_kw": "9401.600000"
+      }
+    },
+    {
+      "code": "05154",
+      "name": "Kleve",
+      "solar": {
+        "units": 34780,
+        "gross_capacity_kw": "586991.067000"
+      },
+      "onshore": {
+        "units": 213,
+        "gross_capacity_kw": "458076.300000"
+      }
+    },
+    {
+      "code": "05158",
+      "name": "Mettmann",
+      "solar": {
+        "units": 26063,
+        "gross_capacity_kw": "275346.714000"
+      },
+      "onshore": {
+        "units": 6,
+        "gross_capacity_kw": "7235.000000"
+      }
+    },
+    {
+      "code": "05162",
+      "name": "Rhein-Kreis Neuss",
+      "solar": {
+        "units": 31586,
+        "gross_capacity_kw": "449606.252000"
+      },
+      "onshore": {
+        "units": 110,
+        "gross_capacity_kw": "334811.500000"
+      }
+    },
+    {
+      "code": "05166",
+      "name": "Viersen",
+      "solar": {
+        "units": 28429,
+        "gross_capacity_kw": "341859.287000"
+      },
+      "onshore": {
+        "units": 48,
+        "gross_capacity_kw": "133902.500000"
+      }
+    },
+    {
+      "code": "05170",
+      "name": "Wesel",
+      "solar": {
+        "units": 38121,
+        "gross_capacity_kw": "522768.223000"
+      },
+      "onshore": {
+        "units": 66,
+        "gross_capacity_kw": "138057.000000"
+      }
+    },
+    {
+      "code": "05314",
+      "name": "Bonn",
+      "solar": {
+        "units": 12416,
+        "gross_capacity_kw": "94630.023000"
+      },
+      "onshore": {
+        "units": 0,
+        "gross_capacity_kw": "0.000000"
+      }
+    },
+    {
+      "code": "05315",
+      "name": "Köln",
+      "solar": {
+        "units": 24715,
+        "gross_capacity_kw": "279039.949000"
+      },
+      "onshore": {
+        "units": 7,
+        "gross_capacity_kw": "16610.000000"
+      }
+    },
+    {
+      "code": "05316",
+      "name": "Leverkusen",
+      "solar": {
+        "units": 7088,
+        "gross_capacity_kw": "64213.401000"
+      },
+      "onshore": {
+        "units": 0,
+        "gross_capacity_kw": "0.000000"
+      }
+    },
+    {
+      "code": "05334",
+      "name": "Städteregion Aachen",
+      "solar": {
+        "units": 32046,
+        "gross_capacity_kw": "348934.037000"
+      },
+      "onshore": {
+        "units": 103,
+        "gross_capacity_kw": "260333.000000"
+      }
+    },
+    {
+      "code": "05358",
+      "name": "Düren",
+      "solar": {
+        "units": 24280,
+        "gross_capacity_kw": "428759.132000"
+      },
+      "onshore": {
+        "units": 211,
+        "gross_capacity_kw": "605831.100000"
+      }
+    },
+    {
+      "code": "05362",
+      "name": "Rhein-Erft-Kreis",
+      "solar": {
+        "units": 32227,
+        "gross_capacity_kw": "522074.685000"
+      },
+      "onshore": {
+        "units": 77,
+        "gross_capacity_kw": "254880.000000"
+      }
+    },
+    {
+      "code": "05366",
+      "name": "Euskirchen",
+      "solar": {
+        "units": 22029,
+        "gross_capacity_kw": "354486.508000"
+      },
+      "onshore": {
+        "units": 134,
+        "gross_capacity_kw": "303445.000000"
+      }
+    },
+    {
+      "code": "05370",
+      "name": "Heinsberg",
+      "solar": {
+        "units": 28025,
+        "gross_capacity_kw": "337496.139000"
+      },
+      "onshore": {
+        "units": 128,
+        "gross_capacity_kw": "338190.000000"
+      }
+    },
+    {
+      "code": "05374",
+      "name": "Oberbergischer Kreis",
+      "solar": {
+        "units": 22892,
+        "gross_capacity_kw": "257312.655000"
+      },
+      "onshore": {
+        "units": 19,
+        "gross_capacity_kw": "19900.000000"
+      }
+    },
+    {
+      "code": "05378",
+      "name": "Rheinisch-Bergischer Kreis",
+      "solar": {
+        "units": 23234,
+        "gross_capacity_kw": "195130.651000"
+      },
+      "onshore": {
+        "units": 2,
+        "gross_capacity_kw": "275.600000"
+      }
+    },
+    {
+      "code": "05382",
+      "name": "Rhein-Sieg-Kreis",
+      "solar": {
+        "units": 52632,
+        "gross_capacity_kw": "502682.942000"
+      },
+      "onshore": {
+        "units": 5,
+        "gross_capacity_kw": "3209.500000"
+      }
+    },
+    {
+      "code": "05512",
+      "name": "Bottrop",
+      "solar": {
+        "units": 6289,
+        "gross_capacity_kw": "74650.198000"
+      },
+      "onshore": {
+        "units": 8,
+        "gross_capacity_kw": "17820.000000"
+      }
+    },
+    {
+      "code": "05513",
+      "name": "Gelsenkirchen",
+      "solar": {
+        "units": 6285,
+        "gross_capacity_kw": "73343.134000"
+      },
+      "onshore": {
+        "units": 2,
+        "gross_capacity_kw": "4600.000000"
+      }
+    },
+    {
+      "code": "05515",
+      "name": "Münster",
+      "solar": {
+        "units": 15252,
+        "gross_capacity_kw": "198663.876000"
+      },
+      "onshore": {
+        "units": 38,
+        "gross_capacity_kw": "83420.000000"
+      }
+    },
+    {
+      "code": "05554",
+      "name": "Borken",
+      "solar": {
+        "units": 52611,
+        "gross_capacity_kw": "1008521.868000"
+      },
+      "onshore": {
+        "units": 341,
+        "gross_capacity_kw": "892195.100000"
+      }
+    },
+    {
+      "code": "05558",
+      "name": "Coesfeld",
+      "solar": {
+        "units": 29439,
+        "gross_capacity_kw": "513470.092000"
+      },
+      "onshore": {
+        "units": 142,
+        "gross_capacity_kw": "414992.000000"
+      }
+    },
+    {
+      "code": "05562",
+      "name": "Recklinghausen",
+      "solar": {
+        "units": 37416,
+        "gross_capacity_kw": "427360.104000"
+      },
+      "onshore": {
+        "units": 88,
+        "gross_capacity_kw": "264174.400000"
+      }
+    },
+    {
+      "code": "05566",
+      "name": "Steinfurt",
+      "solar": {
+        "units": 57856,
+        "gross_capacity_kw": "886193.499000"
+      },
+      "onshore": {
+        "units": 295,
+        "gross_capacity_kw": "675436.000000"
+      }
+    },
+    {
+      "code": "05570",
+      "name": "Warendorf",
+      "solar": {
+        "units": 33197,
+        "gross_capacity_kw": "607278.913000"
+      },
+      "onshore": {
+        "units": 229,
+        "gross_capacity_kw": "605091.500000"
+      }
+    },
+    {
+      "code": "05711",
+      "name": "Bielefeld",
+      "solar": {
+        "units": 15983,
+        "gross_capacity_kw": "192577.203000"
+      },
+      "onshore": {
+        "units": 7,
+        "gross_capacity_kw": "15300.000000"
+      }
+    },
+    {
+      "code": "05754",
+      "name": "Gütersloh",
+      "solar": {
+        "units": 37302,
+        "gross_capacity_kw": "562593.972000"
+      },
+      "onshore": {
+        "units": 46,
+        "gross_capacity_kw": "92356.000000"
+      }
+    },
+    {
+      "code": "05758",
+      "name": "Herford",
+      "solar": {
+        "units": 23498,
+        "gross_capacity_kw": "290089.089000"
+      },
+      "onshore": {
+        "units": 19,
+        "gross_capacity_kw": "21424.500000"
+      }
+    },
+    {
+      "code": "05762",
+      "name": "Höxter",
+      "solar": {
+        "units": 20264,
+        "gross_capacity_kw": "356415.368000"
+      },
+      "onshore": {
+        "units": 360,
+        "gross_capacity_kw": "870950.300000"
+      }
+    },
+    {
+      "code": "05766",
+      "name": "Lippe",
+      "solar": {
+        "units": 30820,
+        "gross_capacity_kw": "398517.527000"
+      },
+      "onshore": {
+        "units": 136,
+        "gross_capacity_kw": "331503.620000"
+      }
+    },
+    {
+      "code": "05770",
+      "name": "Minden-Lübbecke",
+      "solar": {
+        "units": 32287,
+        "gross_capacity_kw": "488191.088000"
+      },
+      "onshore": {
+        "units": 89,
+        "gross_capacity_kw": "128745.600000"
+      }
+    },
+    {
+      "code": "05774",
+      "name": "Paderborn",
+      "solar": {
+        "units": 34315,
+        "gross_capacity_kw": "589423.572000"
+      },
+      "onshore": {
+        "units": 519,
+        "gross_capacity_kw": "1428080.400000"
+      }
+    },
+    {
+      "code": "05911",
+      "name": "Bochum",
+      "solar": {
+        "units": 11488,
+        "gross_capacity_kw": "120197.187000"
+      },
+      "onshore": {
+        "units": 0,
+        "gross_capacity_kw": "0.000000"
+      }
+    },
+    {
+      "code": "05913",
+      "name": "Dortmund",
+      "solar": {
+        "units": 20809,
+        "gross_capacity_kw": "217971.297000"
+      },
+      "onshore": {
+        "units": 8,
+        "gross_capacity_kw": "16360.000000"
+      }
+    },
+    {
+      "code": "05914",
+      "name": "Hagen",
+      "solar": {
+        "units": 6504,
+        "gross_capacity_kw": "68139.904000"
+      },
+      "onshore": {
+        "units": 17,
+        "gross_capacity_kw": "44930.000000"
+      }
+    },
+    {
+      "code": "05915",
+      "name": "Hamm",
+      "solar": {
+        "units": 11057,
+        "gross_capacity_kw": "130438.778000"
+      },
+      "onshore": {
+        "units": 22,
+        "gross_capacity_kw": "50850.000000"
+      }
+    },
+    {
+      "code": "05916",
+      "name": "Herne",
+      "solar": {
+        "units": 4070,
+        "gross_capacity_kw": "39227.673000"
+      },
+      "onshore": {
+        "units": 0,
+        "gross_capacity_kw": "0.000000"
+      }
+    },
+    {
+      "code": "05954",
+      "name": "Ennepe-Ruhr-Kreis",
+      "solar": {
+        "units": 17465,
+        "gross_capacity_kw": "184175.080000"
+      },
+      "onshore": {
+        "units": 10,
+        "gross_capacity_kw": "9242.000000"
+      }
+    },
+    {
+      "code": "05958",
+      "name": "Hochsauerlandkreis",
+      "solar": {
+        "units": 27959,
+        "gross_capacity_kw": "400011.725000"
+      },
+      "onshore": {
+        "units": 121,
+        "gross_capacity_kw": "394652.900000"
+      }
+    },
+    {
+      "code": "05962",
+      "name": "Märkischer Kreis",
+      "solar": {
+        "units": 24951,
+        "gross_capacity_kw": "273798.410000"
+      },
+      "onshore": {
+        "units": 39,
+        "gross_capacity_kw": "83780.000000"
+      }
+    },
+    {
+      "code": "05966",
+      "name": "Olpe",
+      "solar": {
+        "units": 12705,
+        "gross_capacity_kw": "150614.047000"
+      },
+      "onshore": {
+        "units": 27,
+        "gross_capacity_kw": "84300.000000"
+      }
+    },
+    {
+      "code": "05970",
+      "name": "Siegen-Wittgenstein",
+      "solar": {
+        "units": 19726,
+        "gross_capacity_kw": "214278.753000"
+      },
+      "onshore": {
+        "units": 40,
+        "gross_capacity_kw": "92608.600000"
+      }
+    },
+    {
+      "code": "05974",
+      "name": "Soest",
+      "solar": {
+        "units": 35209,
+        "gross_capacity_kw": "584500.873000"
+      },
+      "onshore": {
+        "units": 235,
+        "gross_capacity_kw": "397036.100000"
+      }
+    },
+    {
+      "code": "05978",
+      "name": "Unna",
+      "solar": {
+        "units": 30218,
+        "gross_capacity_kw": "371476.623000"
+      },
+      "onshore": {
+        "units": 52,
+        "gross_capacity_kw": "68650.000000"
+      }
+    }
+  ],
+  "potential": [
+    {
+      "source": "gdb",
+      "capacity_kw": "111157344.9396128656786583",
+      "modeled_annual_kwh": "83131422588.74349975685330"
+    },
+    {
+      "source": "excel",
+      "capacity_kw": "84309002.1977045222",
+      "modeled_annual_kwh": "67863744599.8316075"
+    }
+  ],
+  "wind_resource": [
+    {
+      "district_key": "__NRW__",
+      "field": "wind_speed_uncertainty_pct",
+      "unit": "%",
+      "registered_units": 4063,
+      "inside_nrw_units": 3968,
+      "available_inside_units": 3968,
+      "unavailable_inside_units": 0,
+      "available_share_of_inside_pct": 100.0,
+      "registered_gross_capacity_kw": "10034724.520000",
+      "available_inside_gross_capacity_kw": "9970614.000000",
+      "min": 2.72,
+      "p10": 3.82,
+      "median": 4.53,
+      "p90": 6.84,
+      "max": 13.82,
+      "statistics_scope": "Unweighted model samples at operating turbine locations inside NRW; not district-wide resource"
+    },
+    {
+      "district_key": "__NRW__",
+      "field": "wind_speed_150m_m_s",
+      "unit": "m/s",
+      "registered_units": 4063,
+      "inside_nrw_units": 3968,
+      "available_inside_units": 3968,
+      "unavailable_inside_units": 0,
+      "available_share_of_inside_pct": 100.0,
+      "registered_gross_capacity_kw": "10034724.520000",
+      "available_inside_gross_capacity_kw": "9970614.000000",
+      "min": 5.19,
+      "p10": 6.22,
+      "median": 6.65,
+      "p90": 7.4,
+      "max": 9.14,
+      "statistics_scope": "Unweighted model samples at operating turbine locations inside NRW; not district-wide resource"
+    },
+    {
+      "district_key": "__NRW__",
+      "field": "capped_wind_power_density_150m_w_m2",
+      "unit": "W/m2",
+      "registered_units": 4063,
+      "inside_nrw_units": 3968,
+      "available_inside_units": 3968,
+      "unavailable_inside_units": 0,
+      "available_share_of_inside_pct": 100.0,
+      "registered_gross_capacity_kw": "10034724.520000",
+      "available_inside_gross_capacity_kw": "9970614.000000",
+      "min": 159.94,
+      "p10": 256.462,
+      "median": 297.235,
+      "p90": 367.439,
+      "max": 542.42,
+      "statistics_scope": "Unweighted model samples at operating turbine locations inside NRW; not district-wide resource"
+    }
+  ],
+  "planning": {
+    "matched": {
+      "units": 2610,
+      "gross_capacity_kw": "7395795.000000",
+      "resource_at_operating_units": {
+        "speed_m_s": {
+          "available_units": 2610,
+          "min": 5.58,
+          "p10": 6.23,
+          "median": 6.65,
+          "p90": 7.36,
+          "max": 9.13
+        },
+        "density_w_m2": {
+          "available_units": 2610,
+          "min": 183.53,
+          "p10": 258.405,
+          "median": 297.49,
+          "p90": 360.192,
+          "max": 542.42
+        },
+        "uncertainty_pct": {
+          "available_units": 2610,
+          "min": 2.76,
+          "p10": 3.82,
+          "median": 4.52,
+          "p90": 6.44,
+          "max": 13.82
+        }
+      }
+    },
+    "source_objects": 1486,
+    "objects_with_units": 686,
+    "dates": [
+      "April 2025",
+      "Januar 2026",
+      "Juli 2025",
+      "Juli 2026"
+    ],
+    "reconstructed": {
+      "units": 46,
+      "gross_capacity_kw": "110300.000000"
+    }
+  },
+  "limits": [
+    "Administrative attribution of current operating SEE, not independently confirmed physical locations",
+    "Gross nameplate capacity, not actual generation or firm capacity",
+    "Rooftop GDB/Excel estimates remain methodologically unreconciled; no remaining potential subtraction",
+    "Wind samples at operating points at fixed 150m, not NRW area mean",
+    "Planning dates differ by region; no legal suitability or remaining capacity inference"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "schema": "regional_source_passport_v1",
+  "id": "rlp_rooftop_pv",
+  "state_code": "07",
+  "status": "PREPARED_WITH_LIMITS_NOT_ACTIVE",
+  "source": "Energie- und Klimaschutzagentur Rheinland-Pfalz/Energieatlas",
+  "stock_extraction_documented": "2026-04-22",
+  "last_export_year": 2025,
+  "model_update": "2026-04",
+  "laser_data": "2024-03",
+  "geography": "36 Kreis keys match bkg_fixed_20261021_v6; provider 10-digit IDs retained; pilot VG keys not treated as AGS",
+  "power_unit": "kW source; roof DC/model capacity",
+  "model_power_is_remaining_free_capacity": false,
+  "stock_history": "Provider-plausibilized MaStR plus legacy register, known corrections and Amprion history; not identical to our 2026-10-21 snapshot",
+  "energy": "Modeled from installed capacity and annual DWD radiation, not measured generation; used/unused decomposition held diagnostic-only due nonadditivity",
+  "reuse": {
+    "status": "ATTRIBUTION_IN_EXPORT_CONFIRMED_NO_NAMED_OPEN_LICENSE",
+    "attribution": "Energie- und Klimaschutzagentur Rheinland-Pfalz/Energieatlas",
+    "source_url": "https://www.energieatlas.rlp.de/earp/daten/solarkataster/solarpotenziale-photovoltaik",
+    "terms_url": "https://www.energieatlas.rlp.de/earp/informationen/impressum",
+    "gate": "Check application-specific redistribution scope before publication; website terms contain conditional reuse provisions. No CC/DL-DE label inferred."
+  },
+  "upstream_method_urls": [
+    "https://www.energieatlas.rlp.de/earp/daten/datenquellen-und-methodik/ee-stromerzeugung",
+    "https://www.energieatlas.rlp.de/earp/daten/datenquellen-und-methodik/methodik-solarpotenziale"
+  ],
+  "limits": [
+    "Modern fixed potential compared to historical installed stock; not annual roof model history",
+    "No replacement of own MaStR and no cross-provider remaining-potential calculation",
+    "Pilot municipality coverage limited to Mainz-Bingen, no all-RLP Ortsgemeinden claim",
+    "PV and solarthermal roof uses compete; do not sum"
+  ]
+}

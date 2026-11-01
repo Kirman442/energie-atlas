@@ -1,0 +1,1466 @@
+{
+  "schema": "solar_nrw_spatial_check_v1",
+  "status": "PASS_SPATIAL_EVIDENCE",
+  "snapshot": "2026-10-28",
+  "geography": "bkg_fixed_20261021_v6",
+  "source_points_sha256": "07c7caab42a974f41870f169ae975b82372bbfefc13e1bb1b99be235340b9101",
+  "source_boundary_sha256": "fbad737e060c319b8bb52b1605a346be1dd0637a24073bac0308ab65247557c6",
+  "boundary": "accepted original EPSG:25832 state 05, not simplified browser boundary",
+  "rule": "polygon covers coordinate, including exact boundary; no tolerance buffer or automatic relocation",
+  "point_count": 40885,
+  "inside_count": 40729,
+  "inside_capacity_kw": "6976595.196000",
+  "outside_count": 156,
+  "outside_capacity_kw": "19807.738000",
+  "outside_within_100m_count": 10,
+  "outside_over_1000m_count": 142,
+  "outside_by_district": [
+    {
+      "district_key": "05113",
+      "unit_count": 1,
+      "gross_capacity_kw": "163.000000"
+    },
+    {
+      "district_key": "05117",
+      "unit_count": 1,
+      "gross_capacity_kw": "749.430000"
+    },
+    {
+      "district_key": "05154",
+      "unit_count": 7,
+      "gross_capacity_kw": "895.925000"
+    },
+    {
+      "district_key": "05158",
+      "unit_count": 1,
+      "gross_capacity_kw": "42.365000"
+    },
+    {
+      "district_key": "05162",
+      "unit_count": 2,
+      "gross_capacity_kw": "761.600000"
+    },
+    {
+      "district_key": "05166",
+      "unit_count": 1,
+      "gross_capacity_kw": "49.000000"
+    },
+    {
+      "district_key": "05170",
+      "unit_count": 2,
+      "gross_capacity_kw": "117.590000"
+    },
+    {
+      "district_key": "05314",
+      "unit_count": 1,
+      "gross_capacity_kw": "64.800000"
+    },
+    {
+      "district_key": "05315",
+      "unit_count": 2,
+      "gross_capacity_kw": "224.905000"
+    },
+    {
+      "district_key": "05334",
+      "unit_count": 4,
+      "gross_capacity_kw": "392.300000"
+    },
+    {
+      "district_key": "05358",
+      "unit_count": 2,
+      "gross_capacity_kw": "263.800000"
+    },
+    {
+      "district_key": "05362",
+      "unit_count": 3,
+      "gross_capacity_kw": "310.870000"
+    },
+    {
+      "district_key": "05366",
+      "unit_count": 5,
+      "gross_capacity_kw": "587.320000"
+    },
+    {
+      "district_key": "05370",
+      "unit_count": 3,
+      "gross_capacity_kw": "175.095000"
+    },
+    {
+      "district_key": "05374",
+      "unit_count": 7,
+      "gross_capacity_kw": "658.010000"
+    },
+    {
+      "district_key": "05378",
+      "unit_count": 3,
+      "gross_capacity_kw": "288.240000"
+    },
+    {
+      "district_key": "05382",
+      "unit_count": 2,
+      "gross_capacity_kw": "203.810000"
+    },
+    {
+      "district_key": "05515",
+      "unit_count": 1,
+      "gross_capacity_kw": "99.615000"
+    },
+    {
+      "district_key": "05554",
+      "unit_count": 12,
+      "gross_capacity_kw": "1171.251000"
+    },
+    {
+      "district_key": "05558",
+      "unit_count": 11,
+      "gross_capacity_kw": "1060.500000"
+    },
+    {
+      "district_key": "05562",
+      "unit_count": 5,
+      "gross_capacity_kw": "578.280000"
+    },
+    {
+      "district_key": "05566",
+      "unit_count": 11,
+      "gross_capacity_kw": "1121.035000"
+    },
+    {
+      "district_key": "05570",
+      "unit_count": 6,
+      "gross_capacity_kw": "615.120000"
+    },
+    {
+      "district_key": "05711",
+      "unit_count": 1,
+      "gross_capacity_kw": "41.860000"
+    },
+    {
+      "district_key": "05754",
+      "unit_count": 4,
+      "gross_capacity_kw": "307.455000"
+    },
+    {
+      "district_key": "05758",
+      "unit_count": 2,
+      "gross_capacity_kw": "329.460000"
+    },
+    {
+      "district_key": "05762",
+      "unit_count": 9,
+      "gross_capacity_kw": "1408.772000"
+    },
+    {
+      "district_key": "05766",
+      "unit_count": 5,
+      "gross_capacity_kw": "881.870000"
+    },
+    {
+      "district_key": "05770",
+      "unit_count": 9,
+      "gross_capacity_kw": "648.815000"
+    },
+    {
+      "district_key": "05774",
+      "unit_count": 5,
+      "gross_capacity_kw": "378.580000"
+    },
+    {
+      "district_key": "05913",
+      "unit_count": 2,
+      "gross_capacity_kw": "222.980000"
+    },
+    {
+      "district_key": "05916",
+      "unit_count": 2,
+      "gross_capacity_kw": "155.000000"
+    },
+    {
+      "district_key": "05958",
+      "unit_count": 4,
+      "gross_capacity_kw": "400.370000"
+    },
+    {
+      "district_key": "05962",
+      "unit_count": 2,
+      "gross_capacity_kw": "273.750000"
+    },
+    {
+      "district_key": "05966",
+      "unit_count": 2,
+      "gross_capacity_kw": "316.540000"
+    },
+    {
+      "district_key": "05970",
+      "unit_count": 8,
+      "gross_capacity_kw": "3005.055000"
+    },
+    {
+      "district_key": "05974",
+      "unit_count": 5,
+      "gross_capacity_kw": "650.420000"
+    },
+    {
+      "district_key": "05978",
+      "unit_count": 3,
+      "gross_capacity_kw": "192.950000"
+    }
+  ],
+  "outside": [
+    {
+      "unit_id": "SEE900303900512",
+      "longitude": 10.49716,
+      "latitude": 51.08678,
+      "district_key": "05166",
+      "gross_capacity_kw": "49.000000",
+      "distance_to_nrw_m": 95462.09
+    },
+    {
+      "unit_id": "SEE900835469549",
+      "longitude": 10.4246,
+      "latitude": 51.08086,
+      "district_key": "05570",
+      "gross_capacity_kw": "67.080000",
+      "distance_to_nrw_m": 91452.31
+    },
+    {
+      "unit_id": "SEE901398648938",
+      "longitude": 10.48256,
+      "latitude": 51.10245,
+      "district_key": "05758",
+      "gross_capacity_kw": "293.760000",
+      "distance_to_nrw_m": 93706.93
+    },
+    {
+      "unit_id": "SEE902357436290",
+      "longitude": 9.39506,
+      "latitude": 51.68505,
+      "district_key": "05762",
+      "gross_capacity_kw": "65.520000",
+      "distance_to_nrw_m": 299.66
+    },
+    {
+      "unit_id": "SEE902402838390",
+      "longitude": 10.57052,
+      "latitude": 52.15041,
+      "district_key": "05754",
+      "gross_capacity_kw": "99.960000",
+      "distance_to_nrw_m": 82693.29
+    },
+    {
+      "unit_id": "SEE902733925943",
+      "longitude": 10.11875,
+      "latitude": 53.30179,
+      "district_key": "05558",
+      "gross_capacity_kw": "90.480000",
+      "distance_to_nrw_m": 112620.33
+    },
+    {
+      "unit_id": "SEE903622203609",
+      "longitude": 10.19916,
+      "latitude": 53.66072,
+      "district_key": "05154",
+      "gross_capacity_kw": "41.000000",
+      "distance_to_nrw_m": 148903.21
+    },
+    {
+      "unit_id": "SEE904787906848",
+      "longitude": 7.0,
+      "latitude": 50.0,
+      "district_key": "05314",
+      "gross_capacity_kw": "64.800000",
+      "distance_to_nrw_m": 42569.51
+    },
+    {
+      "unit_id": "SEE906397907093",
+      "longitude": 7.0,
+      "latitude": 50.0,
+      "district_key": "05378",
+      "gross_capacity_kw": "164.900000",
+      "distance_to_nrw_m": 42569.51
+    },
+    {
+      "unit_id": "SEE906966506214",
+      "longitude": 10.49082,
+      "latitude": 51.1047,
+      "district_key": "05566",
+      "gross_capacity_kw": "399.300000",
+      "distance_to_nrw_m": 94087.66
+    },
+    {
+      "unit_id": "SEE909144397581",
+      "longitude": 14.0,
+      "latitude": 55.0,
+      "district_key": "05562",
+      "gross_capacity_kw": "99.900000",
+      "distance_to_nrw_m": 425965.09
+    },
+    {
+      "unit_id": "SEE910237439354",
+      "longitude": 10.52527,
+      "latitude": 51.10413,
+      "district_key": "05770",
+      "gross_capacity_kw": "32.385000",
+      "distance_to_nrw_m": 96216.8
+    },
+    {
+      "unit_id": "SEE911109793734",
+      "longitude": 10.53558,
+      "latitude": 51.80339,
+      "district_key": "05958",
+      "gross_capacity_kw": "98.490000",
+      "distance_to_nrw_m": 74259.86
+    },
+    {
+      "unit_id": "SEE911908761477",
+      "longitude": 6.271,
+      "latitude": 50.4819,
+      "district_key": "05358",
+      "gross_capacity_kw": "229.600000",
+      "distance_to_nrw_m": 1994.83
+    },
+    {
+      "unit_id": "SEE912374285825",
+      "longitude": 11.02571,
+      "latitude": 52.43332,
+      "district_key": "05558",
+      "gross_capacity_kw": "168.035000",
+      "distance_to_nrw_m": 124544.06
+    },
+    {
+      "unit_id": "SEE912720592492",
+      "longitude": 9.48134,
+      "latitude": 52.59769,
+      "district_key": "05770",
+      "gross_capacity_kw": "118.080000",
+      "distance_to_nrw_m": 26849.7
+    },
+    {
+      "unit_id": "SEE912796994879",
+      "longitude": 10.54305,
+      "latitude": 51.08999,
+      "district_key": "05554",
+      "gross_capacity_kw": "349.530000",
+      "distance_to_nrw_m": 98078.79
+    },
+    {
+      "unit_id": "SEE913044291085",
+      "longitude": 8.45952,
+      "latitude": 52.29797,
+      "district_key": "05770",
+      "gross_capacity_kw": "35.640000",
+      "distance_to_nrw_m": 71.6
+    },
+    {
+      "unit_id": "SEE913461922845",
+      "longitude": 10.49741,
+      "latitude": 51.10289,
+      "district_key": "05766",
+      "gross_capacity_kw": "51.975000",
+      "distance_to_nrw_m": 94588.61
+    },
+    {
+      "unit_id": "SEE913968931678",
+      "longitude": 10.19151,
+      "latitude": 51.18293,
+      "district_key": "05966",
+      "gross_capacity_kw": "267.040000",
+      "distance_to_nrw_m": 71610.48
+    },
+    {
+      "unit_id": "SEE914065704868",
+      "longitude": 11.57091,
+      "latitude": 48.13191,
+      "district_key": "05315",
+      "gross_capacity_kw": "59.605000",
+      "distance_to_nrw_m": 378194.53
+    },
+    {
+      "unit_id": "SEE914789426251",
+      "longitude": 9.65476,
+      "latitude": 52.08092,
+      "district_key": "05770",
+      "gross_capacity_kw": "44.460000",
+      "distance_to_nrw_m": 27716.72
+    },
+    {
+      "unit_id": "SEE914996560144",
+      "longitude": 9.75568,
+      "latitude": 51.17534,
+      "district_key": "05774",
+      "gross_capacity_kw": "122.640000",
+      "distance_to_nrw_m": 48764.87
+    },
+    {
+      "unit_id": "SEE915318410291",
+      "longitude": 7.88508,
+      "latitude": 50.87164,
+      "district_key": "05970",
+      "gross_capacity_kw": "98.000000",
+      "distance_to_nrw_m": 40.56
+    },
+    {
+      "unit_id": "SEE916834562280",
+      "longitude": 9.20799,
+      "latitude": 52.0436,
+      "district_key": "05754",
+      "gross_capacity_kw": "49.245000",
+      "distance_to_nrw_m": 2124.16
+    },
+    {
+      "unit_id": "SEE916852637007",
+      "longitude": 8.68958,
+      "latitude": 53.25678,
+      "district_key": "05558",
+      "gross_capacity_kw": "169.585000",
+      "distance_to_nrw_m": 80725.2
+    },
+    {
+      "unit_id": "SEE916954988847",
+      "longitude": 10.67505,
+      "latitude": 50.75118,
+      "district_key": "05970",
+      "gross_capacity_kw": "56.625000",
+      "distance_to_nrw_m": 127738.14
+    },
+    {
+      "unit_id": "SEE916986314447",
+      "longitude": 10.50568,
+      "latitude": 51.10655,
+      "district_key": "05958",
+      "gross_capacity_kw": "72.980000",
+      "distance_to_nrw_m": 94896.93
+    },
+    {
+      "unit_id": "SEE917540955526",
+      "longitude": 7.0,
+      "latitude": 50.0,
+      "district_key": "05374",
+      "gross_capacity_kw": "134.820000",
+      "distance_to_nrw_m": 42569.51
+    },
+    {
+      "unit_id": "SEE918090963368",
+      "longitude": 10.51324,
+      "latitude": 51.10804,
+      "district_key": "05366",
+      "gross_capacity_kw": "99.880000",
+      "distance_to_nrw_m": 95281.19
+    },
+    {
+      "unit_id": "SEE918432455742",
+      "longitude": 8.00731,
+      "latitude": 52.52049,
+      "district_key": "05558",
+      "gross_capacity_kw": "47.520000",
+      "distance_to_nrw_m": 17438.79
+    },
+    {
+      "unit_id": "SEE918482425528",
+      "longitude": 5.70762,
+      "latitude": 47.91323,
+      "district_key": "05774",
+      "gross_capacity_kw": "66.600000",
+      "distance_to_nrw_m": 272865.59
+    },
+    {
+      "unit_id": "SEE918554388799",
+      "longitude": 9.33074,
+      "latitude": 51.3798,
+      "district_key": "05762",
+      "gross_capacity_kw": "90.410000",
+      "distance_to_nrw_m": 11911.7
+    },
+    {
+      "unit_id": "SEE918572891820",
+      "longitude": 8.37289,
+      "latitude": 52.30322,
+      "district_key": "05770",
+      "gross_capacity_kw": "99.900000",
+      "distance_to_nrw_m": 5803.14
+    },
+    {
+      "unit_id": "SEE920636846936",
+      "longitude": 10.62604,
+      "latitude": 52.24986,
+      "district_key": "05978",
+      "gross_capacity_kw": "45.000000",
+      "distance_to_nrw_m": 90828.78
+    },
+    {
+      "unit_id": "SEE921134562700",
+      "longitude": 10.40456,
+      "latitude": 51.14144,
+      "district_key": "05554",
+      "gross_capacity_kw": "68.760000",
+      "distance_to_nrw_m": 86825.42
+    },
+    {
+      "unit_id": "SEE921382322453",
+      "longitude": 8.54674,
+      "latitude": 52.58968,
+      "district_key": "05570",
+      "gross_capacity_kw": "179.400000",
+      "distance_to_nrw_m": 8727.82
+    },
+    {
+      "unit_id": "SEE921644460176",
+      "longitude": 8.2417,
+      "latitude": 50.55068,
+      "district_key": "05970",
+      "gross_capacity_kw": "99.940000",
+      "distance_to_nrw_m": 17119.33
+    },
+    {
+      "unit_id": "SEE922102943750",
+      "longitude": 8.777,
+      "latitude": 51.35514,
+      "district_key": "05958",
+      "gross_capacity_kw": "142.500000",
+      "distance_to_nrw_m": 2821.26
+    },
+    {
+      "unit_id": "SEE922411445310",
+      "longitude": 10.71218,
+      "latitude": 52.47672,
+      "district_key": "05374",
+      "gross_capacity_kw": "46.530000",
+      "distance_to_nrw_m": 107010.12
+    },
+    {
+      "unit_id": "SEE922643992439",
+      "longitude": 13.75559,
+      "latitude": 47.43426,
+      "district_key": "05916",
+      "gross_capacity_kw": "35.000000",
+      "distance_to_nrw_m": 546834.63
+    },
+    {
+      "unit_id": "SEE923084759216",
+      "longitude": 6.11102,
+      "latitude": 50.59008,
+      "district_key": "05370",
+      "gross_capacity_kw": "79.200000",
+      "distance_to_nrw_m": 5770.26
+    },
+    {
+      "unit_id": "SEE923280456667",
+      "longitude": 10.72499,
+      "latitude": 51.85752,
+      "district_key": "05334",
+      "gross_capacity_kw": "66.000000",
+      "distance_to_nrw_m": 87021.91
+    },
+    {
+      "unit_id": "SEE923783189611",
+      "longitude": 6.182,
+      "latitude": 50.096,
+      "district_key": "05334",
+      "gross_capacity_kw": "99.800000",
+      "distance_to_nrw_m": 29880.75
+    },
+    {
+      "unit_id": "SEE924158585533",
+      "longitude": 10.49006,
+      "latitude": 51.87025,
+      "district_key": "05766",
+      "gross_capacity_kw": "50.160000",
+      "distance_to_nrw_m": 70845.73
+    },
+    {
+      "unit_id": "SEE924537241128",
+      "longitude": 10.51672,
+      "latitude": 51.09365,
+      "district_key": "05158",
+      "gross_capacity_kw": "42.365000",
+      "distance_to_nrw_m": 96271.0
+    },
+    {
+      "unit_id": "SEE925008912622",
+      "longitude": 9.7651,
+      "latitude": 52.15985,
+      "district_key": "05374",
+      "gross_capacity_kw": "67.580000",
+      "distance_to_nrw_m": 39129.74
+    },
+    {
+      "unit_id": "SEE925394486714",
+      "longitude": 9.0,
+      "latitude": 51.0,
+      "district_key": "05974",
+      "gross_capacity_kw": "247.590000",
+      "distance_to_nrw_m": 23163.01
+    },
+    {
+      "unit_id": "SEE925448487162",
+      "longitude": 10.50748,
+      "latitude": 51.10297,
+      "district_key": "05113",
+      "gross_capacity_kw": "163.000000",
+      "distance_to_nrw_m": 95200.05
+    },
+    {
+      "unit_id": "SEE925451729273",
+      "longitude": 13.0,
+      "latitude": 53.0,
+      "district_key": "05315",
+      "gross_capacity_kw": "165.300000",
+      "distance_to_nrw_m": 267324.96
+    },
+    {
+      "unit_id": "SEE926040560628",
+      "longitude": 5.0,
+      "latitude": 48.0,
+      "district_key": "05962",
+      "gross_capacity_kw": "99.450000",
+      "distance_to_nrw_m": 278039.21
+    },
+    {
+      "unit_id": "SEE927802898959",
+      "longitude": 10.21695,
+      "latitude": 51.33635,
+      "district_key": "05962",
+      "gross_capacity_kw": "174.300000",
+      "distance_to_nrw_m": 63599.56
+    },
+    {
+      "unit_id": "SEE927892052248",
+      "longitude": 6.02471,
+      "latitude": 50.82162,
+      "district_key": "05334",
+      "gross_capacity_kw": "73.600000",
+      "distance_to_nrw_m": 4.98
+    },
+    {
+      "unit_id": "SEE928874577674",
+      "longitude": 12.6215,
+      "latitude": 52.0389,
+      "district_key": "05366",
+      "gross_capacity_kw": "34.560000",
+      "distance_to_nrw_m": 218168.42
+    },
+    {
+      "unit_id": "SEE929190089599",
+      "longitude": 8.0451,
+      "latitude": 50.5139,
+      "district_key": "05970",
+      "gross_capacity_kw": "2375.730000",
+      "distance_to_nrw_m": 19816.62
+    },
+    {
+      "unit_id": "SEE929559426294",
+      "longitude": 10.51263,
+      "latitude": 51.10466,
+      "district_key": "05366",
+      "gross_capacity_kw": "44.280000",
+      "distance_to_nrw_m": 95424.58
+    },
+    {
+      "unit_id": "SEE930878083785",
+      "longitude": 11.04576,
+      "latitude": 50.2002,
+      "district_key": "05978",
+      "gross_capacity_kw": "48.950000",
+      "distance_to_nrw_m": 190295.13
+    },
+    {
+      "unit_id": "SEE932672194933",
+      "longitude": 9.66086,
+      "latitude": 51.93809,
+      "district_key": "05374",
+      "gross_capacity_kw": "68.450000",
+      "distance_to_nrw_m": 16179.87
+    },
+    {
+      "unit_id": "SEE934119727384",
+      "longitude": 6.0,
+      "latitude": 52.0,
+      "district_key": "05554",
+      "gross_capacity_kw": "90.300000",
+      "distance_to_nrw_m": 13618.9
+    },
+    {
+      "unit_id": "SEE934334622624",
+      "longitude": 7.9131,
+      "latitude": 52.0616,
+      "district_key": "05570",
+      "gross_capacity_kw": "99.975000",
+      "distance_to_nrw_m": 1.47
+    },
+    {
+      "unit_id": "SEE934335764842",
+      "longitude": 7.1518,
+      "latitude": 52.38744,
+      "district_key": "05554",
+      "gross_capacity_kw": "30.060000",
+      "distance_to_nrw_m": 13453.59
+    },
+    {
+      "unit_id": "SEE937327611445",
+      "longitude": 10.65648,
+      "latitude": 51.12343,
+      "district_key": "05515",
+      "gross_capacity_kw": "99.615000",
+      "distance_to_nrw_m": 102283.33
+    },
+    {
+      "unit_id": "SEE937526923912",
+      "longitude": 10.48644,
+      "latitude": 51.09654,
+      "district_key": "05758",
+      "gross_capacity_kw": "35.700000",
+      "distance_to_nrw_m": 94268.79
+    },
+    {
+      "unit_id": "SEE937591448129",
+      "longitude": 14.07531,
+      "latitude": 53.67544,
+      "district_key": "05382",
+      "gross_capacity_kw": "153.900000",
+      "distance_to_nrw_m": 356735.63
+    },
+    {
+      "unit_id": "SEE937832990660",
+      "longitude": 10.47884,
+      "latitude": 51.50734,
+      "district_key": "05913",
+      "gross_capacity_kw": "30.380000",
+      "distance_to_nrw_m": 73250.45
+    },
+    {
+      "unit_id": "SEE937910230756",
+      "longitude": 11.45311,
+      "latitude": 50.90359,
+      "district_key": "05374",
+      "gross_capacity_kw": "216.340000",
+      "distance_to_nrw_m": 162516.56
+    },
+    {
+      "unit_id": "SEE939473154432",
+      "longitude": 8.77672,
+      "latitude": 51.35498,
+      "district_key": "05958",
+      "gross_capacity_kw": "86.400000",
+      "distance_to_nrw_m": 2828.77
+    },
+    {
+      "unit_id": "SEE939677811414",
+      "longitude": 7.0,
+      "latitude": 50.0,
+      "district_key": "05970",
+      "gross_capacity_kw": "99.600000",
+      "distance_to_nrw_m": 42569.51
+    },
+    {
+      "unit_id": "SEE939908720089",
+      "longitude": 10.47523,
+      "latitude": 51.1126,
+      "district_key": "05913",
+      "gross_capacity_kw": "192.600000",
+      "distance_to_nrw_m": 92706.14
+    },
+    {
+      "unit_id": "SEE940361517819",
+      "longitude": 7.90924,
+      "latitude": 52.19514,
+      "district_key": "05566",
+      "gross_capacity_kw": "50.400000",
+      "distance_to_nrw_m": 29.29
+    },
+    {
+      "unit_id": "SEE941391734740",
+      "longitude": 11.34733,
+      "latitude": 52.82849,
+      "district_key": "05554",
+      "gross_capacity_kw": "116.886000",
+      "distance_to_nrw_m": 154622.9
+    },
+    {
+      "unit_id": "SEE942579802596",
+      "longitude": 10.52142,
+      "latitude": 51.10339,
+      "district_key": "05362",
+      "gross_capacity_kw": "121.900000",
+      "distance_to_nrw_m": 96031.96
+    },
+    {
+      "unit_id": "SEE942816548607",
+      "longitude": 5.0,
+      "latitude": 51.0,
+      "district_key": "05334",
+      "gross_capacity_kw": "152.900000",
+      "distance_to_nrw_m": 61064.02
+    },
+    {
+      "unit_id": "SEE943135582518",
+      "longitude": 6.15599,
+      "latitude": 51.39341,
+      "district_key": "05154",
+      "gross_capacity_kw": "99.225000",
+      "distance_to_nrw_m": 3493.28
+    },
+    {
+      "unit_id": "SEE944929334986",
+      "longitude": 10.5223,
+      "latitude": 51.09664,
+      "district_key": "05170",
+      "gross_capacity_kw": "45.980000",
+      "distance_to_nrw_m": 96449.26
+    },
+    {
+      "unit_id": "SEE946405788221",
+      "longitude": 9.0,
+      "latitude": 51.0,
+      "district_key": "05762",
+      "gross_capacity_kw": "204.740000",
+      "distance_to_nrw_m": 23163.01
+    },
+    {
+      "unit_id": "SEE947398297226",
+      "longitude": 13.26759,
+      "latitude": 54.5888,
+      "district_key": "05154",
+      "gross_capacity_kw": "99.940000",
+      "distance_to_nrw_m": 360508.46
+    },
+    {
+      "unit_id": "SEE948695976227",
+      "longitude": 11.0,
+      "latitude": 46.0,
+      "district_key": "05770",
+      "gross_capacity_kw": "81.000000",
+      "distance_to_nrw_m": 562632.06
+    },
+    {
+      "unit_id": "SEE949224427814",
+      "longitude": 10.451,
+      "latitude": 48.56,
+      "district_key": "05566",
+      "gross_capacity_kw": "99.660000",
+      "distance_to_nrw_m": 289912.23
+    },
+    {
+      "unit_id": "SEE949718535056",
+      "longitude": 10.47907,
+      "latitude": 51.105,
+      "district_key": "05562",
+      "gross_capacity_kw": "144.450000",
+      "distance_to_nrw_m": 93354.48
+    },
+    {
+      "unit_id": "SEE950137494848",
+      "longitude": 11.05588,
+      "latitude": 52.13115,
+      "district_key": "05374",
+      "gross_capacity_kw": "49.290000",
+      "distance_to_nrw_m": 113590.32
+    },
+    {
+      "unit_id": "SEE950650892251",
+      "longitude": 6.86983,
+      "latitude": 50.3712,
+      "district_key": "05366",
+      "gross_capacity_kw": "279.000000",
+      "distance_to_nrw_m": 4776.77
+    },
+    {
+      "unit_id": "SEE950778089977",
+      "longitude": 9.90944,
+      "latitude": 51.99809,
+      "district_key": "05766",
+      "gross_capacity_kw": "33.735000",
+      "distance_to_nrw_m": 34393.6
+    },
+    {
+      "unit_id": "SEE951990613650",
+      "longitude": 10.69063,
+      "latitude": 50.28646,
+      "district_key": "05382",
+      "gross_capacity_kw": "49.910000",
+      "distance_to_nrw_m": 166637.47
+    },
+    {
+      "unit_id": "SEE952540872213",
+      "longitude": 10.47954,
+      "latitude": 51.09359,
+      "district_key": "05974",
+      "gross_capacity_kw": "51.750000",
+      "distance_to_nrw_m": 94014.46
+    },
+    {
+      "unit_id": "SEE952773396753",
+      "longitude": 9.0,
+      "latitude": 51.0,
+      "district_key": "05762",
+      "gross_capacity_kw": "95.660000",
+      "distance_to_nrw_m": 23163.01
+    },
+    {
+      "unit_id": "SEE953709703621",
+      "longitude": 8.43566,
+      "latitude": 52.78187,
+      "district_key": "05566",
+      "gross_capacity_kw": "34.680000",
+      "distance_to_nrw_m": 30129.55
+    },
+    {
+      "unit_id": "SEE954456767225",
+      "longitude": 14.17316,
+      "latitude": 53.92953,
+      "district_key": "05766",
+      "gross_capacity_kw": "692.000000",
+      "distance_to_nrw_m": 373185.64
+    },
+    {
+      "unit_id": "SEE954573254356",
+      "longitude": 8.0,
+      "latitude": 50.0,
+      "district_key": "05970",
+      "gross_capacity_kw": "76.000000",
+      "distance_to_nrw_m": 76702.17
+    },
+    {
+      "unit_id": "SEE954611742777",
+      "longitude": 9.43843,
+      "latitude": 51.82904,
+      "district_key": "05762",
+      "gross_capacity_kw": "52.437000",
+      "distance_to_nrw_m": 16.48
+    },
+    {
+      "unit_id": "SEE955681032010",
+      "longitude": 10.43532,
+      "latitude": 51.50058,
+      "district_key": "05754",
+      "gross_capacity_kw": "99.360000",
+      "distance_to_nrw_m": 70474.5
+    },
+    {
+      "unit_id": "SEE956409802939",
+      "longitude": 9.68542,
+      "latitude": 52.89084,
+      "district_key": "05558",
+      "gross_capacity_kw": "70.790000",
+      "distance_to_nrw_m": 58717.31
+    },
+    {
+      "unit_id": "SEE956555064380",
+      "longitude": 9.05163,
+      "latitude": 50.8515,
+      "district_key": "05117",
+      "gross_capacity_kw": "749.430000",
+      "distance_to_nrw_m": 37024.57
+    },
+    {
+      "unit_id": "SEE957376170953",
+      "longitude": 10.35083,
+      "latitude": 51.04293,
+      "district_key": "05370",
+      "gross_capacity_kw": "54.945000",
+      "distance_to_nrw_m": 89535.1
+    },
+    {
+      "unit_id": "SEE957688285093",
+      "longitude": 10.50531,
+      "latitude": 51.09965,
+      "district_key": "05562",
+      "gross_capacity_kw": "52.170000",
+      "distance_to_nrw_m": 95247.38
+    },
+    {
+      "unit_id": "SEE957833238745",
+      "longitude": 7.12645,
+      "latitude": 52.47378,
+      "district_key": "05566",
+      "gross_capacity_kw": "67.320000",
+      "distance_to_nrw_m": 23130.54
+    },
+    {
+      "unit_id": "SEE958715119497",
+      "longitude": 12.14546,
+      "latitude": 51.65906,
+      "district_key": "05711",
+      "gross_capacity_kw": "41.860000",
+      "distance_to_nrw_m": 186581.46
+    },
+    {
+      "unit_id": "SEE959122130730",
+      "longitude": 8.79712,
+      "latitude": 52.9496,
+      "district_key": "05566",
+      "gross_capacity_kw": "105.500000",
+      "distance_to_nrw_m": 47527.57
+    },
+    {
+      "unit_id": "SEE959489343088",
+      "longitude": 10.50391,
+      "latitude": 51.10751,
+      "district_key": "05774",
+      "gross_capacity_kw": "49.680000",
+      "distance_to_nrw_m": 94736.84
+    },
+    {
+      "unit_id": "SEE959992998812",
+      "longitude": 9.33134,
+      "latitude": 52.40681,
+      "district_key": "05754",
+      "gross_capacity_kw": "58.890000",
+      "distance_to_nrw_m": 14030.43
+    },
+    {
+      "unit_id": "SEE960662635609",
+      "longitude": 12.28326,
+      "latitude": 49.22083,
+      "district_key": "05554",
+      "gross_capacity_kw": "99.465000",
+      "distance_to_nrw_m": 330024.76
+    },
+    {
+      "unit_id": "SEE960935655747",
+      "longitude": 10.53918,
+      "latitude": 51.05428,
+      "district_key": "05554",
+      "gross_capacity_kw": "99.900000",
+      "distance_to_nrw_m": 99839.26
+    },
+    {
+      "unit_id": "SEE961206931782",
+      "longitude": 10.31598,
+      "latitude": 51.45783,
+      "district_key": "05566",
+      "gross_capacity_kw": "38.000000",
+      "distance_to_nrw_m": 63855.17
+    },
+    {
+      "unit_id": "SEE961376331443",
+      "longitude": 10.50999,
+      "latitude": 51.10546,
+      "district_key": "05366",
+      "gross_capacity_kw": "129.600000",
+      "distance_to_nrw_m": 95219.73
+    },
+    {
+      "unit_id": "SEE962214514554",
+      "longitude": 10.49791,
+      "latitude": 51.10129,
+      "district_key": "05154",
+      "gross_capacity_kw": "56.000000",
+      "distance_to_nrw_m": 94706.24
+    },
+    {
+      "unit_id": "SEE962373073633",
+      "longitude": 6.02797,
+      "latitude": 53.99688,
+      "district_key": "05162",
+      "gross_capacity_kw": "720.020000",
+      "distance_to_nrw_m": 199361.81
+    },
+    {
+      "unit_id": "SEE962932743236",
+      "longitude": 10.56275,
+      "latitude": 51.11624,
+      "district_key": "05562",
+      "gross_capacity_kw": "82.800000",
+      "distance_to_nrw_m": 97451.64
+    },
+    {
+      "unit_id": "SEE964326038713",
+      "longitude": 9.64557,
+      "latitude": 51.27072,
+      "district_key": "05374",
+      "gross_capacity_kw": "75.000000",
+      "distance_to_nrw_m": 35699.77
+    },
+    {
+      "unit_id": "SEE964411914632",
+      "longitude": 9.26762,
+      "latitude": 50.80884,
+      "district_key": "05762",
+      "gross_capacity_kw": "47.120000",
+      "distance_to_nrw_m": 51034.51
+    },
+    {
+      "unit_id": "SEE965445964297",
+      "longitude": 6.98994,
+      "latitude": 55.00431,
+      "district_key": "05362",
+      "gross_capacity_kw": "149.850000",
+      "distance_to_nrw_m": 284332.62
+    },
+    {
+      "unit_id": "SEE965682579278",
+      "longitude": 10.12378,
+      "latitude": 51.69784,
+      "district_key": "05558",
+      "gross_capacity_kw": "129.250000",
+      "distance_to_nrw_m": 47323.84
+    },
+    {
+      "unit_id": "SEE968028286984",
+      "longitude": 9.09389,
+      "latitude": 52.29326,
+      "district_key": "05558",
+      "gross_capacity_kw": "88.060000",
+      "distance_to_nrw_m": 5705.4
+    },
+    {
+      "unit_id": "SEE968458762065",
+      "longitude": 10.26919,
+      "latitude": 51.0376,
+      "district_key": "05554",
+      "gross_capacity_kw": "83.820000",
+      "distance_to_nrw_m": 85343.63
+    },
+    {
+      "unit_id": "SEE968704583932",
+      "longitude": 10.56324,
+      "latitude": 51.1325,
+      "district_key": "05774",
+      "gross_capacity_kw": "95.200000",
+      "distance_to_nrw_m": 96393.92
+    },
+    {
+      "unit_id": "SEE969184555129",
+      "longitude": 7.4129,
+      "latitude": 52.31591,
+      "district_key": "05566",
+      "gross_capacity_kw": "99.880000",
+      "distance_to_nrw_m": 452.7
+    },
+    {
+      "unit_id": "SEE969208679220",
+      "longitude": 10.49865,
+      "latitude": 51.12146,
+      "district_key": "05562",
+      "gross_capacity_kw": "198.960000",
+      "distance_to_nrw_m": 93556.93
+    },
+    {
+      "unit_id": "SEE970668011369",
+      "longitude": 11.00021,
+      "latitude": 49.4521,
+      "district_key": "05966",
+      "gross_capacity_kw": "49.500000",
+      "distance_to_nrw_m": 243903.98
+    },
+    {
+      "unit_id": "SEE970705041946",
+      "longitude": 10.50929,
+      "latitude": 51.09457,
+      "district_key": "05558",
+      "gross_capacity_kw": "39.480000",
+      "distance_to_nrw_m": 95767.6
+    },
+    {
+      "unit_id": "SEE970763308333",
+      "longitude": 10.03817,
+      "latitude": 50.73113,
+      "district_key": "05162",
+      "gross_capacity_kw": "41.580000",
+      "distance_to_nrw_m": 99366.26
+    },
+    {
+      "unit_id": "SEE971172256567",
+      "longitude": 8.2417,
+      "latitude": 50.55068,
+      "district_key": "05970",
+      "gross_capacity_kw": "99.980000",
+      "distance_to_nrw_m": 17119.33
+    },
+    {
+      "unit_id": "SEE973393882211",
+      "longitude": 6.0,
+      "latitude": 52.0,
+      "district_key": "05554",
+      "gross_capacity_kw": "99.650000",
+      "distance_to_nrw_m": 13618.9
+    },
+    {
+      "unit_id": "SEE973758613719",
+      "longitude": 7.80458,
+      "latitude": 50.9264,
+      "district_key": "05970",
+      "gross_capacity_kw": "99.180000",
+      "distance_to_nrw_m": 1265.29
+    },
+    {
+      "unit_id": "SEE973982120434",
+      "longitude": 10.49526,
+      "latitude": 51.09515,
+      "district_key": "05762",
+      "gross_capacity_kw": "43.120000",
+      "distance_to_nrw_m": 94881.62
+    },
+    {
+      "unit_id": "SEE974481296835",
+      "longitude": 8.9574,
+      "latitude": 52.41705,
+      "district_key": "05558",
+      "gross_capacity_kw": "122.010000",
+      "distance_to_nrw_m": 25.79
+    },
+    {
+      "unit_id": "SEE974903175694",
+      "longitude": 8.00347,
+      "latitude": 52.07104,
+      "district_key": "05570",
+      "gross_capacity_kw": "91.440000",
+      "distance_to_nrw_m": 1454.88
+    },
+    {
+      "unit_id": "SEE975265855057",
+      "longitude": 8.48252,
+      "latitude": 52.50438,
+      "district_key": "05770",
+      "gross_capacity_kw": "64.800000",
+      "distance_to_nrw_m": 390.68
+    },
+    {
+      "unit_id": "SEE975542006851",
+      "longitude": 10.04144,
+      "latitude": 51.90949,
+      "district_key": "05774",
+      "gross_capacity_kw": "44.460000",
+      "distance_to_nrw_m": 40335.43
+    },
+    {
+      "unit_id": "SEE977146930075",
+      "longitude": 10.48895,
+      "latitude": 51.10133,
+      "district_key": "05378",
+      "gross_capacity_kw": "53.130000",
+      "distance_to_nrw_m": 94157.61
+    },
+    {
+      "unit_id": "SEE977903765315",
+      "longitude": 7.9131,
+      "latitude": 52.0616,
+      "district_key": "05570",
+      "gross_capacity_kw": "99.975000",
+      "distance_to_nrw_m": 1.47
+    },
+    {
+      "unit_id": "SEE977939782133",
+      "longitude": 10.50581,
+      "latitude": 51.17634,
+      "district_key": "05974",
+      "gross_capacity_kw": "43.880000",
+      "distance_to_nrw_m": 90277.93
+    },
+    {
+      "unit_id": "SEE978284097248",
+      "longitude": 9.4115,
+      "latitude": 51.9024,
+      "district_key": "05554",
+      "gross_capacity_kw": "44.160000",
+      "distance_to_nrw_m": 4614.52
+    },
+    {
+      "unit_id": "SEE978584304466",
+      "longitude": 10.49471,
+      "latitude": 51.1035,
+      "district_key": "05154",
+      "gross_capacity_kw": "99.940000",
+      "distance_to_nrw_m": 94390.52
+    },
+    {
+      "unit_id": "SEE979094716954",
+      "longitude": 10.49534,
+      "latitude": 51.09867,
+      "district_key": "05978",
+      "gross_capacity_kw": "99.000000",
+      "distance_to_nrw_m": 94692.79
+    },
+    {
+      "unit_id": "SEE979611866346",
+      "longitude": 10.09847,
+      "latitude": 51.29691,
+      "district_key": "05170",
+      "gross_capacity_kw": "71.610000",
+      "distance_to_nrw_m": 59537.48
+    },
+    {
+      "unit_id": "SEE980024695041",
+      "longitude": 10.51536,
+      "latitude": 51.10145,
+      "district_key": "05554",
+      "gross_capacity_kw": "40.320000",
+      "distance_to_nrw_m": 95764.57
+    },
+    {
+      "unit_id": "SEE980221788089",
+      "longitude": 12.1663,
+      "latitude": 53.70024,
+      "district_key": "05974",
+      "gross_capacity_kw": "51.600000",
+      "distance_to_nrw_m": 244137.36
+    },
+    {
+      "unit_id": "SEE981379527490",
+      "longitude": 10.51607,
+      "latitude": 51.07162,
+      "district_key": "05566",
+      "gross_capacity_kw": "49.335000",
+      "distance_to_nrw_m": 97458.62
+    },
+    {
+      "unit_id": "SEE982019827659",
+      "longitude": 8.83673,
+      "latitude": 52.77157,
+      "district_key": "05766",
+      "gross_capacity_kw": "54.000000",
+      "distance_to_nrw_m": 29473.73
+    },
+    {
+      "unit_id": "SEE983172826701",
+      "longitude": 10.48758,
+      "latitude": 51.10237,
+      "district_key": "05154",
+      "gross_capacity_kw": "290.000000",
+      "distance_to_nrw_m": 94017.15
+    },
+    {
+      "unit_id": "SEE984995700865",
+      "longitude": 8.50079,
+      "latitude": 52.18298,
+      "district_key": "05554",
+      "gross_capacity_kw": "48.400000",
+      "distance_to_nrw_m": 518.12
+    },
+    {
+      "unit_id": "SEE985240622505",
+      "longitude": 8.29585,
+      "latitude": 52.45592,
+      "district_key": "05770",
+      "gross_capacity_kw": "77.010000",
+      "distance_to_nrw_m": 96.64
+    },
+    {
+      "unit_id": "SEE985800276346",
+      "longitude": 8.74295,
+      "latitude": 48.23083,
+      "district_key": "05362",
+      "gross_capacity_kw": "39.120000",
+      "distance_to_nrw_m": 275783.29
+    },
+    {
+      "unit_id": "SEE986928789299",
+      "longitude": 10.49474,
+      "latitude": 51.17167,
+      "district_key": "05154",
+      "gross_capacity_kw": "209.820000",
+      "distance_to_nrw_m": 89953.7
+    },
+    {
+      "unit_id": "SEE987513521874",
+      "longitude": 10.50224,
+      "latitude": 51.07376,
+      "district_key": "05916",
+      "gross_capacity_kw": "120.000000",
+      "distance_to_nrw_m": 96504.19
+    },
+    {
+      "unit_id": "SEE987759421792",
+      "longitude": 9.0156,
+      "latitude": 52.61251,
+      "district_key": "05558",
+      "gross_capacity_kw": "60.260000",
+      "distance_to_nrw_m": 12727.38
+    },
+    {
+      "unit_id": "SEE987854828434",
+      "longitude": 8.2203,
+      "latitude": 54.37655,
+      "district_key": "05358",
+      "gross_capacity_kw": "34.200000",
+      "distance_to_nrw_m": 207268.23
+    },
+    {
+      "unit_id": "SEE988464389896",
+      "longitude": 10.51118,
+      "latitude": 51.10668,
+      "district_key": "05566",
+      "gross_capacity_kw": "98.560000",
+      "distance_to_nrw_m": 95227.34
+    },
+    {
+      "unit_id": "SEE989138169622",
+      "longitude": 9.12,
+      "latitude": 51.37,
+      "district_key": "05762",
+      "gross_capacity_kw": "60.000000",
+      "distance_to_nrw_m": 8230.47
+    },
+    {
+      "unit_id": "SEE989691045623",
+      "longitude": 8.29698,
+      "latitude": 52.45646,
+      "district_key": "05770",
+      "gross_capacity_kw": "95.540000",
+      "distance_to_nrw_m": 16.12
+    },
+    {
+      "unit_id": "SEE991524849797",
+      "longitude": 10.4997,
+      "latitude": 51.11116,
+      "district_key": "05762",
+      "gross_capacity_kw": "749.765000",
+      "distance_to_nrw_m": 94282.99
+    },
+    {
+      "unit_id": "SEE991560412696",
+      "longitude": 10.50413,
+      "latitude": 51.10328,
+      "district_key": "05974",
+      "gross_capacity_kw": "255.600000",
+      "distance_to_nrw_m": 94978.29
+    },
+    {
+      "unit_id": "SEE993596592762",
+      "longitude": 10.49501,
+      "latitude": 51.10418,
+      "district_key": "05378",
+      "gross_capacity_kw": "70.210000",
+      "distance_to_nrw_m": 94371.88
+    },
+    {
+      "unit_id": "SEE995591875635",
+      "longitude": 10.49542,
+      "latitude": 51.09966,
+      "district_key": "05570",
+      "gross_capacity_kw": "77.250000",
+      "distance_to_nrw_m": 94643.41
+    },
+    {
+      "unit_id": "SEE997490692511",
+      "longitude": 10.52732,
+      "latitude": 51.10088,
+      "district_key": "05566",
+      "gross_capacity_kw": "78.400000",
+      "distance_to_nrw_m": 96528.47
+    },
+    {
+      "unit_id": "SEE998181732592",
+      "longitude": 10.38137,
+      "latitude": 52.4519,
+      "district_key": "05558",
+      "gross_capacity_kw": "75.030000",
+      "distance_to_nrw_m": 84604.18
+    },
+    {
+      "unit_id": "SEE998263919255",
+      "longitude": 10.71465,
+      "latitude": 51.12301,
+      "district_key": "05370",
+      "gross_capacity_kw": "40.950000",
+      "distance_to_nrw_m": 105674.57
+    }
+  ],
+  "limits": [
+    "Geometric containment is not physical position validation",
+    "Outside evidence does not establish whether coordinate or declared administration is wrong",
+    "No administrative reassignment or source coordinate edit",
+    "Distances are projected diagnostic meters, rounded to two decimals",
+    "100m/1000m counts descriptive, not acceptance thresholds"
+  ]
+}

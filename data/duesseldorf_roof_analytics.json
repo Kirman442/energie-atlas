@@ -1,0 +1,5095 @@
+{
+  "schema": "duesseldorf_roof_analytics_v1",
+  "status": "DESCRIPTIVE_SOURCE_MODEL_CANDIDATE",
+  "city_ags": "05111000",
+  "total": {
+    "parts": 305939,
+    "capacity_mwp": 1999.456,
+    "annual_gwh": 1541.927,
+    "specific_kwh_per_kwp": 771.17,
+    "building_groups": 142377
+  },
+  "orientation": [
+    {
+      "category": "Nord",
+      "parts": 43617,
+      "capacity_mwp": 260.042,
+      "annual_gwh": 147.937,
+      "specific_kwh_per_kwp": 568.9,
+      "energy_share_pct": 9.59,
+      "capacity_share_pct": 13.01
+    },
+    {
+      "category": "Ost",
+      "parts": 63335,
+      "capacity_mwp": 379.39,
+      "annual_gwh": 270.595,
+      "specific_kwh_per_kwp": 713.24,
+      "energy_share_pct": 17.55,
+      "capacity_share_pct": 18.97
+    },
+    {
+      "category": "Süd",
+      "parts": 68974,
+      "capacity_mwp": 397.613,
+      "annual_gwh": 339.614,
+      "specific_kwh_per_kwp": 854.13,
+      "energy_share_pct": 22.03,
+      "capacity_share_pct": 19.89
+    },
+    {
+      "category": "West",
+      "parts": 62498,
+      "capacity_mwp": 379.807,
+      "annual_gwh": 272.03,
+      "specific_kwh_per_kwp": 716.23,
+      "energy_share_pct": 17.64,
+      "capacity_share_pct": 19.0
+    },
+    {
+      "category": "Flach",
+      "parts": 67515,
+      "capacity_mwp": 582.604,
+      "annual_gwh": 511.751,
+      "specific_kwh_per_kwp": 878.39,
+      "energy_share_pct": 33.19,
+      "capacity_share_pct": 29.14
+    }
+  ],
+  "inclination": [
+    {
+      "degrees": 0,
+      "parts": 67515,
+      "capacity_mwp": 582.604,
+      "annual_gwh": 511.751,
+      "specific_kwh_per_kwp": 878.39
+    },
+    {
+      "degrees": 11,
+      "parts": 2878,
+      "capacity_mwp": 33.089,
+      "annual_gwh": 25.398,
+      "specific_kwh_per_kwp": 767.58
+    },
+    {
+      "degrees": 12,
+      "parts": 2625,
+      "capacity_mwp": 22.28,
+      "annual_gwh": 16.951,
+      "specific_kwh_per_kwp": 760.83
+    },
+    {
+      "degrees": 13,
+      "parts": 2602,
+      "capacity_mwp": 15.862,
+      "annual_gwh": 12.055,
+      "specific_kwh_per_kwp": 759.97
+    },
+    {
+      "degrees": 14,
+      "parts": 2909,
+      "capacity_mwp": 24.212,
+      "annual_gwh": 18.316,
+      "specific_kwh_per_kwp": 756.48
+    },
+    {
+      "degrees": 15,
+      "parts": 3014,
+      "capacity_mwp": 22.32,
+      "annual_gwh": 16.859,
+      "specific_kwh_per_kwp": 755.34
+    },
+    {
+      "degrees": 16,
+      "parts": 2659,
+      "capacity_mwp": 14.099,
+      "annual_gwh": 10.536,
+      "specific_kwh_per_kwp": 747.25
+    },
+    {
+      "degrees": 17,
+      "parts": 3289,
+      "capacity_mwp": 24.707,
+      "annual_gwh": 18.651,
+      "specific_kwh_per_kwp": 754.86
+    },
+    {
+      "degrees": 18,
+      "parts": 3357,
+      "capacity_mwp": 22.638,
+      "annual_gwh": 17.172,
+      "specific_kwh_per_kwp": 758.56
+    },
+    {
+      "degrees": 19,
+      "parts": 3271,
+      "capacity_mwp": 19.707,
+      "annual_gwh": 14.802,
+      "specific_kwh_per_kwp": 751.12
+    },
+    {
+      "degrees": 20,
+      "parts": 3474,
+      "capacity_mwp": 21.212,
+      "annual_gwh": 15.854,
+      "specific_kwh_per_kwp": 747.42
+    },
+    {
+      "degrees": 21,
+      "parts": 3598,
+      "capacity_mwp": 25.833,
+      "annual_gwh": 19.371,
+      "specific_kwh_per_kwp": 749.85
+    },
+    {
+      "degrees": 22,
+      "parts": 3534,
+      "capacity_mwp": 23.355,
+      "annual_gwh": 17.426,
+      "specific_kwh_per_kwp": 746.13
+    },
+    {
+      "degrees": 23,
+      "parts": 3330,
+      "capacity_mwp": 19.094,
+      "annual_gwh": 14.361,
+      "specific_kwh_per_kwp": 752.13
+    },
+    {
+      "degrees": 24,
+      "parts": 4147,
+      "capacity_mwp": 27.169,
+      "annual_gwh": 20.15,
+      "specific_kwh_per_kwp": 741.64
+    },
+    {
+      "degrees": 25,
+      "parts": 3529,
+      "capacity_mwp": 22.255,
+      "annual_gwh": 16.476,
+      "specific_kwh_per_kwp": 740.35
+    },
+    {
+      "degrees": 26,
+      "parts": 3371,
+      "capacity_mwp": 19.391,
+      "annual_gwh": 14.234,
+      "specific_kwh_per_kwp": 734.05
+    },
+    {
+      "degrees": 27,
+      "parts": 3968,
+      "capacity_mwp": 24.943,
+      "annual_gwh": 18.217,
+      "specific_kwh_per_kwp": 730.33
+    },
+    {
+      "degrees": 28,
+      "parts": 4960,
+      "capacity_mwp": 27.632,
+      "annual_gwh": 20.041,
+      "specific_kwh_per_kwp": 725.28
+    },
+    {
+      "degrees": 29,
+      "parts": 7749,
+      "capacity_mwp": 55.928,
+      "annual_gwh": 40.811,
+      "specific_kwh_per_kwp": 729.7
+    },
+    {
+      "degrees": 30,
+      "parts": 5949,
+      "capacity_mwp": 41.64,
+      "annual_gwh": 30.526,
+      "specific_kwh_per_kwp": 733.08
+    },
+    {
+      "degrees": 31,
+      "parts": 4753,
+      "capacity_mwp": 30.312,
+      "annual_gwh": 21.849,
+      "specific_kwh_per_kwp": 720.8
+    },
+    {
+      "degrees": 32,
+      "parts": 5513,
+      "capacity_mwp": 35.158,
+      "annual_gwh": 25.331,
+      "specific_kwh_per_kwp": 720.49
+    },
+    {
+      "degrees": 33,
+      "parts": 6022,
+      "capacity_mwp": 37.199,
+      "annual_gwh": 26.64,
+      "specific_kwh_per_kwp": 716.15
+    },
+    {
+      "degrees": 34,
+      "parts": 7988,
+      "capacity_mwp": 54.637,
+      "annual_gwh": 38.968,
+      "specific_kwh_per_kwp": 713.22
+    },
+    {
+      "degrees": 35,
+      "parts": 6486,
+      "capacity_mwp": 40.784,
+      "annual_gwh": 29.029,
+      "specific_kwh_per_kwp": 711.77
+    },
+    {
+      "degrees": 36,
+      "parts": 6488,
+      "capacity_mwp": 40.92,
+      "annual_gwh": 29.095,
+      "specific_kwh_per_kwp": 711.04
+    },
+    {
+      "degrees": 37,
+      "parts": 7943,
+      "capacity_mwp": 51.341,
+      "annual_gwh": 36.219,
+      "specific_kwh_per_kwp": 705.45
+    },
+    {
+      "degrees": 38,
+      "parts": 7891,
+      "capacity_mwp": 50.145,
+      "annual_gwh": 35.25,
+      "specific_kwh_per_kwp": 702.97
+    },
+    {
+      "degrees": 39,
+      "parts": 8523,
+      "capacity_mwp": 55.664,
+      "annual_gwh": 38.989,
+      "specific_kwh_per_kwp": 700.44
+    },
+    {
+      "degrees": 40,
+      "parts": 7747,
+      "capacity_mwp": 45.67,
+      "annual_gwh": 32.122,
+      "specific_kwh_per_kwp": 703.35
+    },
+    {
+      "degrees": 41,
+      "parts": 8200,
+      "capacity_mwp": 45.824,
+      "annual_gwh": 32.416,
+      "specific_kwh_per_kwp": 707.39
+    },
+    {
+      "degrees": 42,
+      "parts": 9125,
+      "capacity_mwp": 48.79,
+      "annual_gwh": 34.367,
+      "specific_kwh_per_kwp": 704.4
+    },
+    {
+      "degrees": 43,
+      "parts": 11656,
+      "capacity_mwp": 69.05,
+      "annual_gwh": 48.716,
+      "specific_kwh_per_kwp": 705.52
+    },
+    {
+      "degrees": 44,
+      "parts": 12311,
+      "capacity_mwp": 86.999,
+      "annual_gwh": 63.384,
+      "specific_kwh_per_kwp": 728.56
+    },
+    {
+      "degrees": 45,
+      "parts": 6966,
+      "capacity_mwp": 44.456,
+      "annual_gwh": 33.191,
+      "specific_kwh_per_kwp": 746.59
+    },
+    {
+      "degrees": 46,
+      "parts": 4886,
+      "capacity_mwp": 28.991,
+      "annual_gwh": 21.514,
+      "specific_kwh_per_kwp": 742.1
+    },
+    {
+      "degrees": 47,
+      "parts": 4054,
+      "capacity_mwp": 23.124,
+      "annual_gwh": 17.19,
+      "specific_kwh_per_kwp": 743.38
+    },
+    {
+      "degrees": 48,
+      "parts": 3394,
+      "capacity_mwp": 19.325,
+      "annual_gwh": 14.4,
+      "specific_kwh_per_kwp": 745.17
+    },
+    {
+      "degrees": 49,
+      "parts": 2914,
+      "capacity_mwp": 16.881,
+      "annual_gwh": 12.593,
+      "specific_kwh_per_kwp": 745.97
+    },
+    {
+      "degrees": 50,
+      "parts": 2106,
+      "capacity_mwp": 10.241,
+      "annual_gwh": 7.698,
+      "specific_kwh_per_kwp": 751.68
+    },
+    {
+      "degrees": 51,
+      "parts": 1529,
+      "capacity_mwp": 6.931,
+      "annual_gwh": 5.255,
+      "specific_kwh_per_kwp": 758.2
+    },
+    {
+      "degrees": 52,
+      "parts": 1380,
+      "capacity_mwp": 5.424,
+      "annual_gwh": 4.082,
+      "specific_kwh_per_kwp": 752.56
+    },
+    {
+      "degrees": 53,
+      "parts": 1158,
+      "capacity_mwp": 4.267,
+      "annual_gwh": 3.17,
+      "specific_kwh_per_kwp": 742.85
+    },
+    {
+      "degrees": 54,
+      "parts": 1065,
+      "capacity_mwp": 3.468,
+      "annual_gwh": 2.566,
+      "specific_kwh_per_kwp": 739.88
+    },
+    {
+      "degrees": 55,
+      "parts": 1121,
+      "capacity_mwp": 3.282,
+      "annual_gwh": 2.419,
+      "specific_kwh_per_kwp": 737.0
+    },
+    {
+      "degrees": 56,
+      "parts": 1015,
+      "capacity_mwp": 2.669,
+      "annual_gwh": 1.953,
+      "specific_kwh_per_kwp": 731.95
+    },
+    {
+      "degrees": 57,
+      "parts": 1093,
+      "capacity_mwp": 2.586,
+      "annual_gwh": 1.886,
+      "specific_kwh_per_kwp": 729.35
+    },
+    {
+      "degrees": 58,
+      "parts": 1095,
+      "capacity_mwp": 2.754,
+      "annual_gwh": 2.032,
+      "specific_kwh_per_kwp": 737.77
+    },
+    {
+      "degrees": 59,
+      "parts": 1200,
+      "capacity_mwp": 3.051,
+      "annual_gwh": 2.251,
+      "specific_kwh_per_kwp": 737.81
+    },
+    {
+      "degrees": 60,
+      "parts": 1240,
+      "capacity_mwp": 2.57,
+      "annual_gwh": 1.876,
+      "specific_kwh_per_kwp": 729.88
+    },
+    {
+      "degrees": 61,
+      "parts": 1252,
+      "capacity_mwp": 2.399,
+      "annual_gwh": 1.743,
+      "specific_kwh_per_kwp": 726.48
+    },
+    {
+      "degrees": 62,
+      "parts": 1252,
+      "capacity_mwp": 2.387,
+      "annual_gwh": 1.743,
+      "specific_kwh_per_kwp": 730.09
+    },
+    {
+      "degrees": 63,
+      "parts": 1337,
+      "capacity_mwp": 2.512,
+      "annual_gwh": 1.804,
+      "specific_kwh_per_kwp": 718.06
+    },
+    {
+      "degrees": 64,
+      "parts": 1436,
+      "capacity_mwp": 2.74,
+      "annual_gwh": 1.97,
+      "specific_kwh_per_kwp": 719.03
+    },
+    {
+      "degrees": 65,
+      "parts": 1345,
+      "capacity_mwp": 2.815,
+      "annual_gwh": 2.002,
+      "specific_kwh_per_kwp": 711.13
+    },
+    {
+      "degrees": 66,
+      "parts": 1380,
+      "capacity_mwp": 2.963,
+      "annual_gwh": 2.096,
+      "specific_kwh_per_kwp": 707.48
+    },
+    {
+      "degrees": 67,
+      "parts": 1336,
+      "capacity_mwp": 2.812,
+      "annual_gwh": 1.961,
+      "specific_kwh_per_kwp": 697.47
+    },
+    {
+      "degrees": 68,
+      "parts": 1239,
+      "capacity_mwp": 2.749,
+      "annual_gwh": 1.919,
+      "specific_kwh_per_kwp": 697.92
+    },
+    {
+      "degrees": 69,
+      "parts": 1187,
+      "capacity_mwp": 2.655,
+      "annual_gwh": 1.829,
+      "specific_kwh_per_kwp": 688.85
+    },
+    {
+      "degrees": 70,
+      "parts": 949,
+      "capacity_mwp": 1.939,
+      "annual_gwh": 1.331,
+      "specific_kwh_per_kwp": 686.33
+    },
+    {
+      "degrees": 71,
+      "parts": 633,
+      "capacity_mwp": 1.365,
+      "annual_gwh": 0.938,
+      "specific_kwh_per_kwp": 686.6
+    },
+    {
+      "degrees": 72,
+      "parts": 544,
+      "capacity_mwp": 1.082,
+      "annual_gwh": 0.737,
+      "specific_kwh_per_kwp": 681.33
+    },
+    {
+      "degrees": 73,
+      "parts": 501,
+      "capacity_mwp": 0.957,
+      "annual_gwh": 0.647,
+      "specific_kwh_per_kwp": 676.1
+    },
+    {
+      "degrees": 74,
+      "parts": 423,
+      "capacity_mwp": 0.861,
+      "annual_gwh": 0.575,
+      "specific_kwh_per_kwp": 667.61
+    },
+    {
+      "degrees": 75,
+      "parts": 374,
+      "capacity_mwp": 0.856,
+      "annual_gwh": 0.563,
+      "specific_kwh_per_kwp": 657.64
+    },
+    {
+      "degrees": 76,
+      "parts": 396,
+      "capacity_mwp": 0.929,
+      "annual_gwh": 0.598,
+      "specific_kwh_per_kwp": 643.99
+    },
+    {
+      "degrees": 77,
+      "parts": 309,
+      "capacity_mwp": 0.745,
+      "annual_gwh": 0.475,
+      "specific_kwh_per_kwp": 637.58
+    },
+    {
+      "degrees": 78,
+      "parts": 294,
+      "capacity_mwp": 0.683,
+      "annual_gwh": 0.434,
+      "specific_kwh_per_kwp": 636.33
+    },
+    {
+      "degrees": 79,
+      "parts": 245,
+      "capacity_mwp": 0.544,
+      "annual_gwh": 0.34,
+      "specific_kwh_per_kwp": 625.48
+    },
+    {
+      "degrees": 80,
+      "parts": 225,
+      "capacity_mwp": 0.589,
+      "annual_gwh": 0.355,
+      "specific_kwh_per_kwp": 603.37
+    },
+    {
+      "degrees": 81,
+      "parts": 193,
+      "capacity_mwp": 0.555,
+      "annual_gwh": 0.339,
+      "specific_kwh_per_kwp": 609.95
+    },
+    {
+      "degrees": 82,
+      "parts": 156,
+      "capacity_mwp": 0.463,
+      "annual_gwh": 0.286,
+      "specific_kwh_per_kwp": 617.88
+    },
+    {
+      "degrees": 83,
+      "parts": 82,
+      "capacity_mwp": 0.26,
+      "annual_gwh": 0.155,
+      "specific_kwh_per_kwp": 596.93
+    },
+    {
+      "degrees": 84,
+      "parts": 87,
+      "capacity_mwp": 0.257,
+      "annual_gwh": 0.161,
+      "specific_kwh_per_kwp": 626.98
+    },
+    {
+      "degrees": 85,
+      "parts": 75,
+      "capacity_mwp": 0.305,
+      "annual_gwh": 0.185,
+      "specific_kwh_per_kwp": 606.99
+    },
+    {
+      "degrees": 86,
+      "parts": 56,
+      "capacity_mwp": 0.25,
+      "annual_gwh": 0.141,
+      "specific_kwh_per_kwp": 564.06
+    },
+    {
+      "degrees": 87,
+      "parts": 26,
+      "capacity_mwp": 0.124,
+      "annual_gwh": 0.075,
+      "specific_kwh_per_kwp": 601.79
+    },
+    {
+      "degrees": 88,
+      "parts": 17,
+      "capacity_mwp": 0.179,
+      "annual_gwh": 0.118,
+      "specific_kwh_per_kwp": 659.97
+    }
+  ],
+  "matrix": [
+    {
+      "category": "Flach",
+      "degrees": 0,
+      "parts": 67515,
+      "capacity_mwp": 582.604,
+      "annual_gwh": 511.751,
+      "specific_kwh_per_kwp": 878.39
+    },
+    {
+      "category": "Nord",
+      "degrees": 11,
+      "parts": 745,
+      "capacity_mwp": 9.664,
+      "annual_gwh": 6.816,
+      "specific_kwh_per_kwp": 705.24
+    },
+    {
+      "category": "Nord",
+      "degrees": 12,
+      "parts": 670,
+      "capacity_mwp": 5.741,
+      "annual_gwh": 3.965,
+      "specific_kwh_per_kwp": 690.58
+    },
+    {
+      "category": "Nord",
+      "degrees": 13,
+      "parts": 614,
+      "capacity_mwp": 3.387,
+      "annual_gwh": 2.31,
+      "specific_kwh_per_kwp": 681.88
+    },
+    {
+      "category": "Nord",
+      "degrees": 14,
+      "parts": 676,
+      "capacity_mwp": 6.423,
+      "annual_gwh": 4.382,
+      "specific_kwh_per_kwp": 682.2
+    },
+    {
+      "category": "Nord",
+      "degrees": 15,
+      "parts": 693,
+      "capacity_mwp": 6.224,
+      "annual_gwh": 4.182,
+      "specific_kwh_per_kwp": 671.8
+    },
+    {
+      "category": "Nord",
+      "degrees": 16,
+      "parts": 663,
+      "capacity_mwp": 3.873,
+      "annual_gwh": 2.56,
+      "specific_kwh_per_kwp": 660.88
+    },
+    {
+      "category": "Nord",
+      "degrees": 17,
+      "parts": 750,
+      "capacity_mwp": 6.627,
+      "annual_gwh": 4.399,
+      "specific_kwh_per_kwp": 663.79
+    },
+    {
+      "category": "Nord",
+      "degrees": 18,
+      "parts": 703,
+      "capacity_mwp": 5.011,
+      "annual_gwh": 3.279,
+      "specific_kwh_per_kwp": 654.49
+    },
+    {
+      "category": "Nord",
+      "degrees": 19,
+      "parts": 645,
+      "capacity_mwp": 4.121,
+      "annual_gwh": 2.659,
+      "specific_kwh_per_kwp": 645.22
+    },
+    {
+      "category": "Nord",
+      "degrees": 20,
+      "parts": 801,
+      "capacity_mwp": 5.066,
+      "annual_gwh": 3.222,
+      "specific_kwh_per_kwp": 635.9
+    },
+    {
+      "category": "Nord",
+      "degrees": 21,
+      "parts": 769,
+      "capacity_mwp": 5.605,
+      "annual_gwh": 3.537,
+      "specific_kwh_per_kwp": 631.07
+    },
+    {
+      "category": "Nord",
+      "degrees": 22,
+      "parts": 753,
+      "capacity_mwp": 5.205,
+      "annual_gwh": 3.232,
+      "specific_kwh_per_kwp": 620.98
+    },
+    {
+      "category": "Nord",
+      "degrees": 23,
+      "parts": 674,
+      "capacity_mwp": 3.847,
+      "annual_gwh": 2.363,
+      "specific_kwh_per_kwp": 614.06
+    },
+    {
+      "category": "Nord",
+      "degrees": 24,
+      "parts": 892,
+      "capacity_mwp": 5.939,
+      "annual_gwh": 3.603,
+      "specific_kwh_per_kwp": 606.76
+    },
+    {
+      "category": "Nord",
+      "degrees": 25,
+      "parts": 729,
+      "capacity_mwp": 4.591,
+      "annual_gwh": 2.772,
+      "specific_kwh_per_kwp": 603.66
+    },
+    {
+      "category": "Nord",
+      "degrees": 26,
+      "parts": 728,
+      "capacity_mwp": 4.754,
+      "annual_gwh": 2.815,
+      "specific_kwh_per_kwp": 592.27
+    },
+    {
+      "category": "Nord",
+      "degrees": 27,
+      "parts": 887,
+      "capacity_mwp": 5.783,
+      "annual_gwh": 3.382,
+      "specific_kwh_per_kwp": 584.85
+    },
+    {
+      "category": "Nord",
+      "degrees": 28,
+      "parts": 1123,
+      "capacity_mwp": 6.593,
+      "annual_gwh": 3.823,
+      "specific_kwh_per_kwp": 579.81
+    },
+    {
+      "category": "Nord",
+      "degrees": 29,
+      "parts": 1742,
+      "capacity_mwp": 12.262,
+      "annual_gwh": 6.99,
+      "specific_kwh_per_kwp": 570.01
+    },
+    {
+      "category": "Nord",
+      "degrees": 30,
+      "parts": 1315,
+      "capacity_mwp": 8.871,
+      "annual_gwh": 5.0,
+      "specific_kwh_per_kwp": 563.63
+    },
+    {
+      "category": "Nord",
+      "degrees": 31,
+      "parts": 1119,
+      "capacity_mwp": 7.022,
+      "annual_gwh": 3.939,
+      "specific_kwh_per_kwp": 560.92
+    },
+    {
+      "category": "Nord",
+      "degrees": 32,
+      "parts": 1236,
+      "capacity_mwp": 7.403,
+      "annual_gwh": 4.088,
+      "specific_kwh_per_kwp": 552.15
+    },
+    {
+      "category": "Nord",
+      "degrees": 33,
+      "parts": 1378,
+      "capacity_mwp": 8.461,
+      "annual_gwh": 4.611,
+      "specific_kwh_per_kwp": 544.96
+    },
+    {
+      "category": "Nord",
+      "degrees": 34,
+      "parts": 1838,
+      "capacity_mwp": 12.182,
+      "annual_gwh": 6.546,
+      "specific_kwh_per_kwp": 537.38
+    },
+    {
+      "category": "Nord",
+      "degrees": 35,
+      "parts": 1497,
+      "capacity_mwp": 9.571,
+      "annual_gwh": 5.1,
+      "specific_kwh_per_kwp": 532.84
+    },
+    {
+      "category": "Nord",
+      "degrees": 36,
+      "parts": 1479,
+      "capacity_mwp": 8.468,
+      "annual_gwh": 4.434,
+      "specific_kwh_per_kwp": 523.58
+    },
+    {
+      "category": "Nord",
+      "degrees": 37,
+      "parts": 1904,
+      "capacity_mwp": 11.121,
+      "annual_gwh": 5.726,
+      "specific_kwh_per_kwp": 514.87
+    },
+    {
+      "category": "Nord",
+      "degrees": 38,
+      "parts": 1936,
+      "capacity_mwp": 11.39,
+      "annual_gwh": 5.825,
+      "specific_kwh_per_kwp": 511.41
+    },
+    {
+      "category": "Nord",
+      "degrees": 39,
+      "parts": 2210,
+      "capacity_mwp": 13.315,
+      "annual_gwh": 6.749,
+      "specific_kwh_per_kwp": 506.82
+    },
+    {
+      "category": "Nord",
+      "degrees": 40,
+      "parts": 1882,
+      "capacity_mwp": 8.793,
+      "annual_gwh": 4.428,
+      "specific_kwh_per_kwp": 503.58
+    },
+    {
+      "category": "Nord",
+      "degrees": 41,
+      "parts": 2158,
+      "capacity_mwp": 8.697,
+      "annual_gwh": 4.349,
+      "specific_kwh_per_kwp": 500.02
+    },
+    {
+      "category": "Nord",
+      "degrees": 42,
+      "parts": 2185,
+      "capacity_mwp": 7.73,
+      "annual_gwh": 3.838,
+      "specific_kwh_per_kwp": 496.54
+    },
+    {
+      "category": "Nord",
+      "degrees": 43,
+      "parts": 2263,
+      "capacity_mwp": 9.437,
+      "annual_gwh": 4.645,
+      "specific_kwh_per_kwp": 492.16
+    },
+    {
+      "category": "Nord",
+      "degrees": 44,
+      "parts": 1826,
+      "capacity_mwp": 9.643,
+      "annual_gwh": 4.76,
+      "specific_kwh_per_kwp": 493.62
+    },
+    {
+      "category": "Nord",
+      "degrees": 45,
+      "parts": 737,
+      "capacity_mwp": 2.918,
+      "annual_gwh": 1.448,
+      "specific_kwh_per_kwp": 496.26
+    },
+    {
+      "category": "Nord",
+      "degrees": 46,
+      "parts": 501,
+      "capacity_mwp": 1.757,
+      "annual_gwh": 0.87,
+      "specific_kwh_per_kwp": 495.35
+    },
+    {
+      "category": "Nord",
+      "degrees": 47,
+      "parts": 324,
+      "capacity_mwp": 1.171,
+      "annual_gwh": 0.583,
+      "specific_kwh_per_kwp": 498.33
+    },
+    {
+      "category": "Nord",
+      "degrees": 48,
+      "parts": 221,
+      "capacity_mwp": 0.682,
+      "annual_gwh": 0.34,
+      "specific_kwh_per_kwp": 498.52
+    },
+    {
+      "category": "Nord",
+      "degrees": 49,
+      "parts": 160,
+      "capacity_mwp": 0.348,
+      "annual_gwh": 0.173,
+      "specific_kwh_per_kwp": 498.44
+    },
+    {
+      "category": "Nord",
+      "degrees": 50,
+      "parts": 71,
+      "capacity_mwp": 0.137,
+      "annual_gwh": 0.069,
+      "specific_kwh_per_kwp": 505.65
+    },
+    {
+      "category": "Nord",
+      "degrees": 51,
+      "parts": 24,
+      "capacity_mwp": 0.04,
+      "annual_gwh": 0.021,
+      "specific_kwh_per_kwp": 507.31
+    },
+    {
+      "category": "Nord",
+      "degrees": 52,
+      "parts": 11,
+      "capacity_mwp": 0.013,
+      "annual_gwh": 0.007,
+      "specific_kwh_per_kwp": 524.42
+    },
+    {
+      "category": "Nord",
+      "degrees": 53,
+      "parts": 4,
+      "capacity_mwp": 0.003,
+      "annual_gwh": 0.002,
+      "specific_kwh_per_kwp": 569.1
+    },
+    {
+      "category": "Nord",
+      "degrees": 54,
+      "parts": 1,
+      "capacity_mwp": 0.001,
+      "annual_gwh": 0.001,
+      "specific_kwh_per_kwp": 645.9
+    },
+    {
+      "category": "Nord",
+      "degrees": 55,
+      "parts": 4,
+      "capacity_mwp": 0.005,
+      "annual_gwh": 0.003,
+      "specific_kwh_per_kwp": 591.33
+    },
+    {
+      "category": "Nord",
+      "degrees": 56,
+      "parts": 4,
+      "capacity_mwp": 0.004,
+      "annual_gwh": 0.003,
+      "specific_kwh_per_kwp": 593.92
+    },
+    {
+      "category": "Nord",
+      "degrees": 57,
+      "parts": 1,
+      "capacity_mwp": 0.002,
+      "annual_gwh": 0.001,
+      "specific_kwh_per_kwp": 740.48
+    },
+    {
+      "category": "Nord",
+      "degrees": 58,
+      "parts": 1,
+      "capacity_mwp": 0.003,
+      "annual_gwh": 0.002,
+      "specific_kwh_per_kwp": 625.74
+    },
+    {
+      "category": "Nord",
+      "degrees": 60,
+      "parts": 3,
+      "capacity_mwp": 0.003,
+      "annual_gwh": 0.002,
+      "specific_kwh_per_kwp": 620.84
+    },
+    {
+      "category": "Nord",
+      "degrees": 61,
+      "parts": 2,
+      "capacity_mwp": 0.002,
+      "annual_gwh": 0.001,
+      "specific_kwh_per_kwp": 603.06
+    },
+    {
+      "category": "Nord",
+      "degrees": 62,
+      "parts": 3,
+      "capacity_mwp": 0.004,
+      "annual_gwh": 0.002,
+      "specific_kwh_per_kwp": 604.58
+    },
+    {
+      "category": "Nord",
+      "degrees": 63,
+      "parts": 6,
+      "capacity_mwp": 0.007,
+      "annual_gwh": 0.004,
+      "specific_kwh_per_kwp": 607.78
+    },
+    {
+      "category": "Nord",
+      "degrees": 64,
+      "parts": 3,
+      "capacity_mwp": 0.005,
+      "annual_gwh": 0.003,
+      "specific_kwh_per_kwp": 624.17
+    },
+    {
+      "category": "Nord",
+      "degrees": 65,
+      "parts": 5,
+      "capacity_mwp": 0.016,
+      "annual_gwh": 0.01,
+      "specific_kwh_per_kwp": 643.57
+    },
+    {
+      "category": "Nord",
+      "degrees": 66,
+      "parts": 1,
+      "capacity_mwp": 0.001,
+      "annual_gwh": 0.001,
+      "specific_kwh_per_kwp": 599.01
+    },
+    {
+      "category": "Nord",
+      "degrees": 67,
+      "parts": 6,
+      "capacity_mwp": 0.007,
+      "annual_gwh": 0.004,
+      "specific_kwh_per_kwp": 644.49
+    },
+    {
+      "category": "Nord",
+      "degrees": 68,
+      "parts": 2,
+      "capacity_mwp": 0.003,
+      "annual_gwh": 0.002,
+      "specific_kwh_per_kwp": 651.56
+    },
+    {
+      "category": "Nord",
+      "degrees": 69,
+      "parts": 6,
+      "capacity_mwp": 0.007,
+      "annual_gwh": 0.005,
+      "specific_kwh_per_kwp": 670.71
+    },
+    {
+      "category": "Nord",
+      "degrees": 70,
+      "parts": 5,
+      "capacity_mwp": 0.013,
+      "annual_gwh": 0.009,
+      "specific_kwh_per_kwp": 696.36
+    },
+    {
+      "category": "Nord",
+      "degrees": 71,
+      "parts": 4,
+      "capacity_mwp": 0.004,
+      "annual_gwh": 0.003,
+      "specific_kwh_per_kwp": 621.33
+    },
+    {
+      "category": "Nord",
+      "degrees": 72,
+      "parts": 3,
+      "capacity_mwp": 0.007,
+      "annual_gwh": 0.005,
+      "specific_kwh_per_kwp": 658.23
+    },
+    {
+      "category": "Nord",
+      "degrees": 73,
+      "parts": 2,
+      "capacity_mwp": 0.004,
+      "annual_gwh": 0.003,
+      "specific_kwh_per_kwp": 683.12
+    },
+    {
+      "category": "Nord",
+      "degrees": 74,
+      "parts": 1,
+      "capacity_mwp": 0.001,
+      "annual_gwh": 0.001,
+      "specific_kwh_per_kwp": 663.69
+    },
+    {
+      "category": "Nord",
+      "degrees": 75,
+      "parts": 1,
+      "capacity_mwp": 0.003,
+      "annual_gwh": 0.002,
+      "specific_kwh_per_kwp": 690.42
+    },
+    {
+      "category": "Nord",
+      "degrees": 76,
+      "parts": 2,
+      "capacity_mwp": 0.005,
+      "annual_gwh": 0.003,
+      "specific_kwh_per_kwp": 645.49
+    },
+    {
+      "category": "Nord",
+      "degrees": 77,
+      "parts": 1,
+      "capacity_mwp": 0.001,
+      "annual_gwh": 0.001,
+      "specific_kwh_per_kwp": 746.95
+    },
+    {
+      "category": "Nord",
+      "degrees": 78,
+      "parts": 5,
+      "capacity_mwp": 0.025,
+      "annual_gwh": 0.017,
+      "specific_kwh_per_kwp": 676.06
+    },
+    {
+      "category": "Nord",
+      "degrees": 79,
+      "parts": 3,
+      "capacity_mwp": 0.006,
+      "annual_gwh": 0.004,
+      "specific_kwh_per_kwp": 745.2
+    },
+    {
+      "category": "Nord",
+      "degrees": 80,
+      "parts": 1,
+      "capacity_mwp": 0.003,
+      "annual_gwh": 0.002,
+      "specific_kwh_per_kwp": 774.5
+    },
+    {
+      "category": "Nord",
+      "degrees": 81,
+      "parts": 2,
+      "capacity_mwp": 0.005,
+      "annual_gwh": 0.003,
+      "specific_kwh_per_kwp": 644.09
+    },
+    {
+      "category": "Nord",
+      "degrees": 82,
+      "parts": 1,
+      "capacity_mwp": 0.002,
+      "annual_gwh": 0.001,
+      "specific_kwh_per_kwp": 641.11
+    },
+    {
+      "category": "Nord",
+      "degrees": 84,
+      "parts": 2,
+      "capacity_mwp": 0.002,
+      "annual_gwh": 0.001,
+      "specific_kwh_per_kwp": 667.57
+    },
+    {
+      "category": "Ost",
+      "degrees": 11,
+      "parts": 725,
+      "capacity_mwp": 6.508,
+      "annual_gwh": 4.988,
+      "specific_kwh_per_kwp": 766.53
+    },
+    {
+      "category": "Ost",
+      "degrees": 12,
+      "parts": 694,
+      "capacity_mwp": 5.815,
+      "annual_gwh": 4.427,
+      "specific_kwh_per_kwp": 761.26
+    },
+    {
+      "category": "Ost",
+      "degrees": 13,
+      "parts": 650,
+      "capacity_mwp": 3.803,
+      "annual_gwh": 2.835,
+      "specific_kwh_per_kwp": 745.39
+    },
+    {
+      "category": "Ost",
+      "degrees": 14,
+      "parts": 719,
+      "capacity_mwp": 6.192,
+      "annual_gwh": 4.704,
+      "specific_kwh_per_kwp": 759.64
+    },
+    {
+      "category": "Ost",
+      "degrees": 15,
+      "parts": 719,
+      "capacity_mwp": 4.598,
+      "annual_gwh": 3.444,
+      "specific_kwh_per_kwp": 749.12
+    },
+    {
+      "category": "Ost",
+      "degrees": 16,
+      "parts": 673,
+      "capacity_mwp": 3.244,
+      "annual_gwh": 2.417,
+      "specific_kwh_per_kwp": 744.94
+    },
+    {
+      "category": "Ost",
+      "degrees": 17,
+      "parts": 810,
+      "capacity_mwp": 5.771,
+      "annual_gwh": 4.382,
+      "specific_kwh_per_kwp": 759.44
+    },
+    {
+      "category": "Ost",
+      "degrees": 18,
+      "parts": 814,
+      "capacity_mwp": 5.544,
+      "annual_gwh": 4.161,
+      "specific_kwh_per_kwp": 750.6
+    },
+    {
+      "category": "Ost",
+      "degrees": 19,
+      "parts": 746,
+      "capacity_mwp": 5.37,
+      "annual_gwh": 4.117,
+      "specific_kwh_per_kwp": 766.72
+    },
+    {
+      "category": "Ost",
+      "degrees": 20,
+      "parts": 746,
+      "capacity_mwp": 4.804,
+      "annual_gwh": 3.621,
+      "specific_kwh_per_kwp": 753.8
+    },
+    {
+      "category": "Ost",
+      "degrees": 21,
+      "parts": 857,
+      "capacity_mwp": 6.217,
+      "annual_gwh": 4.698,
+      "specific_kwh_per_kwp": 755.7
+    },
+    {
+      "category": "Ost",
+      "degrees": 22,
+      "parts": 846,
+      "capacity_mwp": 5.736,
+      "annual_gwh": 4.291,
+      "specific_kwh_per_kwp": 748.1
+    },
+    {
+      "category": "Ost",
+      "degrees": 23,
+      "parts": 849,
+      "capacity_mwp": 4.527,
+      "annual_gwh": 3.37,
+      "specific_kwh_per_kwp": 744.53
+    },
+    {
+      "category": "Ost",
+      "degrees": 24,
+      "parts": 1035,
+      "capacity_mwp": 6.92,
+      "annual_gwh": 5.112,
+      "specific_kwh_per_kwp": 738.64
+    },
+    {
+      "category": "Ost",
+      "degrees": 25,
+      "parts": 845,
+      "capacity_mwp": 5.775,
+      "annual_gwh": 4.278,
+      "specific_kwh_per_kwp": 740.76
+    },
+    {
+      "category": "Ost",
+      "degrees": 26,
+      "parts": 751,
+      "capacity_mwp": 4.591,
+      "annual_gwh": 3.349,
+      "specific_kwh_per_kwp": 729.5
+    },
+    {
+      "category": "Ost",
+      "degrees": 27,
+      "parts": 988,
+      "capacity_mwp": 6.248,
+      "annual_gwh": 4.583,
+      "specific_kwh_per_kwp": 733.49
+    },
+    {
+      "category": "Ost",
+      "degrees": 28,
+      "parts": 1290,
+      "capacity_mwp": 7.087,
+      "annual_gwh": 5.132,
+      "specific_kwh_per_kwp": 724.11
+    },
+    {
+      "category": "Ost",
+      "degrees": 29,
+      "parts": 2087,
+      "capacity_mwp": 15.27,
+      "annual_gwh": 11.07,
+      "specific_kwh_per_kwp": 724.93
+    },
+    {
+      "category": "Ost",
+      "degrees": 30,
+      "parts": 1511,
+      "capacity_mwp": 10.201,
+      "annual_gwh": 7.354,
+      "specific_kwh_per_kwp": 720.89
+    },
+    {
+      "category": "Ost",
+      "degrees": 31,
+      "parts": 1261,
+      "capacity_mwp": 8.161,
+      "annual_gwh": 5.904,
+      "specific_kwh_per_kwp": 723.43
+    },
+    {
+      "category": "Ost",
+      "degrees": 32,
+      "parts": 1506,
+      "capacity_mwp": 9.851,
+      "annual_gwh": 7.074,
+      "specific_kwh_per_kwp": 718.09
+    },
+    {
+      "category": "Ost",
+      "degrees": 33,
+      "parts": 1659,
+      "capacity_mwp": 9.659,
+      "annual_gwh": 6.925,
+      "specific_kwh_per_kwp": 716.9
+    },
+    {
+      "category": "Ost",
+      "degrees": 34,
+      "parts": 2168,
+      "capacity_mwp": 15.622,
+      "annual_gwh": 11.164,
+      "specific_kwh_per_kwp": 714.61
+    },
+    {
+      "category": "Ost",
+      "degrees": 35,
+      "parts": 1694,
+      "capacity_mwp": 10.17,
+      "annual_gwh": 7.217,
+      "specific_kwh_per_kwp": 709.61
+    },
+    {
+      "category": "Ost",
+      "degrees": 36,
+      "parts": 1694,
+      "capacity_mwp": 11.098,
+      "annual_gwh": 7.897,
+      "specific_kwh_per_kwp": 711.58
+    },
+    {
+      "category": "Ost",
+      "degrees": 37,
+      "parts": 2149,
+      "capacity_mwp": 14.44,
+      "annual_gwh": 10.195,
+      "specific_kwh_per_kwp": 706.05
+    },
+    {
+      "category": "Ost",
+      "degrees": 38,
+      "parts": 2094,
+      "capacity_mwp": 13.755,
+      "annual_gwh": 9.739,
+      "specific_kwh_per_kwp": 708.0
+    },
+    {
+      "category": "Ost",
+      "degrees": 39,
+      "parts": 2136,
+      "capacity_mwp": 14.378,
+      "annual_gwh": 10.061,
+      "specific_kwh_per_kwp": 699.72
+    },
+    {
+      "category": "Ost",
+      "degrees": 40,
+      "parts": 1997,
+      "capacity_mwp": 12.796,
+      "annual_gwh": 8.924,
+      "specific_kwh_per_kwp": 697.36
+    },
+    {
+      "category": "Ost",
+      "degrees": 41,
+      "parts": 2040,
+      "capacity_mwp": 12.039,
+      "annual_gwh": 8.363,
+      "specific_kwh_per_kwp": 694.65
+    },
+    {
+      "category": "Ost",
+      "degrees": 42,
+      "parts": 2468,
+      "capacity_mwp": 14.404,
+      "annual_gwh": 9.895,
+      "specific_kwh_per_kwp": 686.95
+    },
+    {
+      "category": "Ost",
+      "degrees": 43,
+      "parts": 3425,
+      "capacity_mwp": 21.592,
+      "annual_gwh": 14.831,
+      "specific_kwh_per_kwp": 686.87
+    },
+    {
+      "category": "Ost",
+      "degrees": 44,
+      "parts": 3652,
+      "capacity_mwp": 25.961,
+      "annual_gwh": 18.182,
+      "specific_kwh_per_kwp": 700.37
+    },
+    {
+      "category": "Ost",
+      "degrees": 45,
+      "parts": 2027,
+      "capacity_mwp": 12.317,
+      "annual_gwh": 8.67,
+      "specific_kwh_per_kwp": 703.84
+    },
+    {
+      "category": "Ost",
+      "degrees": 46,
+      "parts": 1416,
+      "capacity_mwp": 8.373,
+      "annual_gwh": 5.893,
+      "specific_kwh_per_kwp": 703.79
+    },
+    {
+      "category": "Ost",
+      "degrees": 47,
+      "parts": 1193,
+      "capacity_mwp": 6.694,
+      "annual_gwh": 4.669,
+      "specific_kwh_per_kwp": 697.58
+    },
+    {
+      "category": "Ost",
+      "degrees": 48,
+      "parts": 947,
+      "capacity_mwp": 5.307,
+      "annual_gwh": 3.624,
+      "specific_kwh_per_kwp": 682.82
+    },
+    {
+      "category": "Ost",
+      "degrees": 49,
+      "parts": 823,
+      "capacity_mwp": 5.05,
+      "annual_gwh": 3.459,
+      "specific_kwh_per_kwp": 684.9
+    },
+    {
+      "category": "Ost",
+      "degrees": 50,
+      "parts": 638,
+      "capacity_mwp": 3.014,
+      "annual_gwh": 2.099,
+      "specific_kwh_per_kwp": 696.31
+    },
+    {
+      "category": "Ost",
+      "degrees": 51,
+      "parts": 462,
+      "capacity_mwp": 2.061,
+      "annual_gwh": 1.441,
+      "specific_kwh_per_kwp": 699.21
+    },
+    {
+      "category": "Ost",
+      "degrees": 52,
+      "parts": 379,
+      "capacity_mwp": 1.551,
+      "annual_gwh": 1.089,
+      "specific_kwh_per_kwp": 702.04
+    },
+    {
+      "category": "Ost",
+      "degrees": 53,
+      "parts": 334,
+      "capacity_mwp": 1.123,
+      "annual_gwh": 0.762,
+      "specific_kwh_per_kwp": 678.0
+    },
+    {
+      "category": "Ost",
+      "degrees": 54,
+      "parts": 300,
+      "capacity_mwp": 1.089,
+      "annual_gwh": 0.745,
+      "specific_kwh_per_kwp": 684.1
+    },
+    {
+      "category": "Ost",
+      "degrees": 55,
+      "parts": 308,
+      "capacity_mwp": 0.944,
+      "annual_gwh": 0.635,
+      "specific_kwh_per_kwp": 672.48
+    },
+    {
+      "category": "Ost",
+      "degrees": 56,
+      "parts": 303,
+      "capacity_mwp": 0.733,
+      "annual_gwh": 0.493,
+      "specific_kwh_per_kwp": 672.7
+    },
+    {
+      "category": "Ost",
+      "degrees": 57,
+      "parts": 322,
+      "capacity_mwp": 0.704,
+      "annual_gwh": 0.466,
+      "specific_kwh_per_kwp": 661.77
+    },
+    {
+      "category": "Ost",
+      "degrees": 58,
+      "parts": 294,
+      "capacity_mwp": 0.762,
+      "annual_gwh": 0.514,
+      "specific_kwh_per_kwp": 674.84
+    },
+    {
+      "category": "Ost",
+      "degrees": 59,
+      "parts": 321,
+      "capacity_mwp": 0.754,
+      "annual_gwh": 0.507,
+      "specific_kwh_per_kwp": 672.45
+    },
+    {
+      "category": "Ost",
+      "degrees": 60,
+      "parts": 307,
+      "capacity_mwp": 0.589,
+      "annual_gwh": 0.393,
+      "specific_kwh_per_kwp": 667.36
+    },
+    {
+      "category": "Ost",
+      "degrees": 61,
+      "parts": 343,
+      "capacity_mwp": 0.71,
+      "annual_gwh": 0.472,
+      "specific_kwh_per_kwp": 663.79
+    },
+    {
+      "category": "Ost",
+      "degrees": 62,
+      "parts": 313,
+      "capacity_mwp": 0.575,
+      "annual_gwh": 0.383,
+      "specific_kwh_per_kwp": 666.88
+    },
+    {
+      "category": "Ost",
+      "degrees": 63,
+      "parts": 399,
+      "capacity_mwp": 0.753,
+      "annual_gwh": 0.496,
+      "specific_kwh_per_kwp": 657.66
+    },
+    {
+      "category": "Ost",
+      "degrees": 64,
+      "parts": 385,
+      "capacity_mwp": 0.723,
+      "annual_gwh": 0.476,
+      "specific_kwh_per_kwp": 658.59
+    },
+    {
+      "category": "Ost",
+      "degrees": 65,
+      "parts": 365,
+      "capacity_mwp": 0.783,
+      "annual_gwh": 0.506,
+      "specific_kwh_per_kwp": 646.92
+    },
+    {
+      "category": "Ost",
+      "degrees": 66,
+      "parts": 382,
+      "capacity_mwp": 0.845,
+      "annual_gwh": 0.546,
+      "specific_kwh_per_kwp": 645.77
+    },
+    {
+      "category": "Ost",
+      "degrees": 67,
+      "parts": 345,
+      "capacity_mwp": 0.801,
+      "annual_gwh": 0.516,
+      "specific_kwh_per_kwp": 644.68
+    },
+    {
+      "category": "Ost",
+      "degrees": 68,
+      "parts": 336,
+      "capacity_mwp": 0.727,
+      "annual_gwh": 0.46,
+      "specific_kwh_per_kwp": 632.65
+    },
+    {
+      "category": "Ost",
+      "degrees": 69,
+      "parts": 318,
+      "capacity_mwp": 0.71,
+      "annual_gwh": 0.448,
+      "specific_kwh_per_kwp": 631.17
+    },
+    {
+      "category": "Ost",
+      "degrees": 70,
+      "parts": 267,
+      "capacity_mwp": 0.532,
+      "annual_gwh": 0.338,
+      "specific_kwh_per_kwp": 635.05
+    },
+    {
+      "category": "Ost",
+      "degrees": 71,
+      "parts": 155,
+      "capacity_mwp": 0.305,
+      "annual_gwh": 0.19,
+      "specific_kwh_per_kwp": 621.52
+    },
+    {
+      "category": "Ost",
+      "degrees": 72,
+      "parts": 136,
+      "capacity_mwp": 0.298,
+      "annual_gwh": 0.19,
+      "specific_kwh_per_kwp": 638.94
+    },
+    {
+      "category": "Ost",
+      "degrees": 73,
+      "parts": 126,
+      "capacity_mwp": 0.236,
+      "annual_gwh": 0.146,
+      "specific_kwh_per_kwp": 618.81
+    },
+    {
+      "category": "Ost",
+      "degrees": 74,
+      "parts": 129,
+      "capacity_mwp": 0.251,
+      "annual_gwh": 0.156,
+      "specific_kwh_per_kwp": 618.69
+    },
+    {
+      "category": "Ost",
+      "degrees": 75,
+      "parts": 92,
+      "capacity_mwp": 0.202,
+      "annual_gwh": 0.122,
+      "specific_kwh_per_kwp": 602.91
+    },
+    {
+      "category": "Ost",
+      "degrees": 76,
+      "parts": 96,
+      "capacity_mwp": 0.281,
+      "annual_gwh": 0.171,
+      "specific_kwh_per_kwp": 609.16
+    },
+    {
+      "category": "Ost",
+      "degrees": 77,
+      "parts": 88,
+      "capacity_mwp": 0.254,
+      "annual_gwh": 0.154,
+      "specific_kwh_per_kwp": 605.75
+    },
+    {
+      "category": "Ost",
+      "degrees": 78,
+      "parts": 87,
+      "capacity_mwp": 0.222,
+      "annual_gwh": 0.131,
+      "specific_kwh_per_kwp": 590.41
+    },
+    {
+      "category": "Ost",
+      "degrees": 79,
+      "parts": 67,
+      "capacity_mwp": 0.178,
+      "annual_gwh": 0.101,
+      "specific_kwh_per_kwp": 568.82
+    },
+    {
+      "category": "Ost",
+      "degrees": 80,
+      "parts": 64,
+      "capacity_mwp": 0.161,
+      "annual_gwh": 0.089,
+      "specific_kwh_per_kwp": 554.06
+    },
+    {
+      "category": "Ost",
+      "degrees": 81,
+      "parts": 42,
+      "capacity_mwp": 0.136,
+      "annual_gwh": 0.074,
+      "specific_kwh_per_kwp": 546.7
+    },
+    {
+      "category": "Ost",
+      "degrees": 82,
+      "parts": 42,
+      "capacity_mwp": 0.139,
+      "annual_gwh": 0.08,
+      "specific_kwh_per_kwp": 571.53
+    },
+    {
+      "category": "Ost",
+      "degrees": 83,
+      "parts": 29,
+      "capacity_mwp": 0.116,
+      "annual_gwh": 0.063,
+      "specific_kwh_per_kwp": 538.41
+    },
+    {
+      "category": "Ost",
+      "degrees": 84,
+      "parts": 20,
+      "capacity_mwp": 0.053,
+      "annual_gwh": 0.031,
+      "specific_kwh_per_kwp": 581.64
+    },
+    {
+      "category": "Ost",
+      "degrees": 85,
+      "parts": 17,
+      "capacity_mwp": 0.069,
+      "annual_gwh": 0.036,
+      "specific_kwh_per_kwp": 521.06
+    },
+    {
+      "category": "Ost",
+      "degrees": 86,
+      "parts": 14,
+      "capacity_mwp": 0.08,
+      "annual_gwh": 0.041,
+      "specific_kwh_per_kwp": 517.28
+    },
+    {
+      "category": "Ost",
+      "degrees": 87,
+      "parts": 4,
+      "capacity_mwp": 0.021,
+      "annual_gwh": 0.012,
+      "specific_kwh_per_kwp": 567.7
+    },
+    {
+      "category": "Ost",
+      "degrees": 88,
+      "parts": 2,
+      "capacity_mwp": 0.015,
+      "annual_gwh": 0.008,
+      "specific_kwh_per_kwp": 501.19
+    },
+    {
+      "category": "Süd",
+      "degrees": 11,
+      "parts": 781,
+      "capacity_mwp": 11.076,
+      "annual_gwh": 9.187,
+      "specific_kwh_per_kwp": 829.44
+    },
+    {
+      "category": "Süd",
+      "degrees": 12,
+      "parts": 625,
+      "capacity_mwp": 5.776,
+      "annual_gwh": 4.804,
+      "specific_kwh_per_kwp": 831.7
+    },
+    {
+      "category": "Süd",
+      "degrees": 13,
+      "parts": 670,
+      "capacity_mwp": 4.584,
+      "annual_gwh": 3.821,
+      "specific_kwh_per_kwp": 833.5
+    },
+    {
+      "category": "Süd",
+      "degrees": 14,
+      "parts": 777,
+      "capacity_mwp": 5.759,
+      "annual_gwh": 4.842,
+      "specific_kwh_per_kwp": 840.71
+    },
+    {
+      "category": "Süd",
+      "degrees": 15,
+      "parts": 816,
+      "capacity_mwp": 6.235,
+      "annual_gwh": 5.236,
+      "specific_kwh_per_kwp": 839.68
+    },
+    {
+      "category": "Süd",
+      "degrees": 16,
+      "parts": 691,
+      "capacity_mwp": 3.963,
+      "annual_gwh": 3.323,
+      "specific_kwh_per_kwp": 838.38
+    },
+    {
+      "category": "Süd",
+      "degrees": 17,
+      "parts": 908,
+      "capacity_mwp": 6.587,
+      "annual_gwh": 5.598,
+      "specific_kwh_per_kwp": 849.86
+    },
+    {
+      "category": "Süd",
+      "degrees": 18,
+      "parts": 914,
+      "capacity_mwp": 6.721,
+      "annual_gwh": 5.695,
+      "specific_kwh_per_kwp": 847.31
+    },
+    {
+      "category": "Süd",
+      "degrees": 19,
+      "parts": 909,
+      "capacity_mwp": 4.353,
+      "annual_gwh": 3.695,
+      "specific_kwh_per_kwp": 848.75
+    },
+    {
+      "category": "Süd",
+      "degrees": 20,
+      "parts": 992,
+      "capacity_mwp": 5.634,
+      "annual_gwh": 4.811,
+      "specific_kwh_per_kwp": 853.9
+    },
+    {
+      "category": "Süd",
+      "degrees": 21,
+      "parts": 1021,
+      "capacity_mwp": 6.907,
+      "annual_gwh": 5.896,
+      "specific_kwh_per_kwp": 853.54
+    },
+    {
+      "category": "Süd",
+      "degrees": 22,
+      "parts": 970,
+      "capacity_mwp": 6.525,
+      "annual_gwh": 5.575,
+      "specific_kwh_per_kwp": 854.33
+    },
+    {
+      "category": "Süd",
+      "degrees": 23,
+      "parts": 918,
+      "capacity_mwp": 5.874,
+      "annual_gwh": 5.021,
+      "specific_kwh_per_kwp": 854.77
+    },
+    {
+      "category": "Süd",
+      "degrees": 24,
+      "parts": 1094,
+      "capacity_mwp": 6.831,
+      "annual_gwh": 5.908,
+      "specific_kwh_per_kwp": 864.83
+    },
+    {
+      "category": "Süd",
+      "degrees": 25,
+      "parts": 951,
+      "capacity_mwp": 5.439,
+      "annual_gwh": 4.679,
+      "specific_kwh_per_kwp": 860.25
+    },
+    {
+      "category": "Süd",
+      "degrees": 26,
+      "parts": 982,
+      "capacity_mwp": 5.242,
+      "annual_gwh": 4.505,
+      "specific_kwh_per_kwp": 859.41
+    },
+    {
+      "category": "Süd",
+      "degrees": 27,
+      "parts": 984,
+      "capacity_mwp": 5.611,
+      "annual_gwh": 4.846,
+      "specific_kwh_per_kwp": 863.65
+    },
+    {
+      "category": "Süd",
+      "degrees": 28,
+      "parts": 1240,
+      "capacity_mwp": 6.518,
+      "annual_gwh": 5.648,
+      "specific_kwh_per_kwp": 866.64
+    },
+    {
+      "category": "Süd",
+      "degrees": 29,
+      "parts": 1860,
+      "capacity_mwp": 13.48,
+      "annual_gwh": 11.729,
+      "specific_kwh_per_kwp": 870.14
+    },
+    {
+      "category": "Süd",
+      "degrees": 30,
+      "parts": 1510,
+      "capacity_mwp": 11.866,
+      "annual_gwh": 10.291,
+      "specific_kwh_per_kwp": 867.25
+    },
+    {
+      "category": "Süd",
+      "degrees": 31,
+      "parts": 1131,
+      "capacity_mwp": 7.229,
+      "annual_gwh": 6.289,
+      "specific_kwh_per_kwp": 869.99
+    },
+    {
+      "category": "Süd",
+      "degrees": 32,
+      "parts": 1317,
+      "capacity_mwp": 8.179,
+      "annual_gwh": 7.109,
+      "specific_kwh_per_kwp": 869.1
+    },
+    {
+      "category": "Süd",
+      "degrees": 33,
+      "parts": 1363,
+      "capacity_mwp": 8.494,
+      "annual_gwh": 7.405,
+      "specific_kwh_per_kwp": 871.79
+    },
+    {
+      "category": "Süd",
+      "degrees": 34,
+      "parts": 1838,
+      "capacity_mwp": 12.465,
+      "annual_gwh": 10.907,
+      "specific_kwh_per_kwp": 875.02
+    },
+    {
+      "category": "Süd",
+      "degrees": 35,
+      "parts": 1602,
+      "capacity_mwp": 10.287,
+      "annual_gwh": 8.947,
+      "specific_kwh_per_kwp": 869.73
+    },
+    {
+      "category": "Süd",
+      "degrees": 36,
+      "parts": 1600,
+      "capacity_mwp": 9.912,
+      "annual_gwh": 8.64,
+      "specific_kwh_per_kwp": 871.63
+    },
+    {
+      "category": "Süd",
+      "degrees": 37,
+      "parts": 1894,
+      "capacity_mwp": 11.943,
+      "annual_gwh": 10.432,
+      "specific_kwh_per_kwp": 873.45
+    },
+    {
+      "category": "Süd",
+      "degrees": 38,
+      "parts": 1922,
+      "capacity_mwp": 12.257,
+      "annual_gwh": 10.71,
+      "specific_kwh_per_kwp": 873.8
+    },
+    {
+      "category": "Süd",
+      "degrees": 39,
+      "parts": 2116,
+      "capacity_mwp": 14.212,
+      "annual_gwh": 12.408,
+      "specific_kwh_per_kwp": 873.08
+    },
+    {
+      "category": "Süd",
+      "degrees": 40,
+      "parts": 1862,
+      "capacity_mwp": 11.141,
+      "annual_gwh": 9.706,
+      "specific_kwh_per_kwp": 871.21
+    },
+    {
+      "category": "Süd",
+      "degrees": 41,
+      "parts": 1977,
+      "capacity_mwp": 12.582,
+      "annual_gwh": 10.932,
+      "specific_kwh_per_kwp": 868.89
+    },
+    {
+      "category": "Süd",
+      "degrees": 42,
+      "parts": 2073,
+      "capacity_mwp": 12.726,
+      "annual_gwh": 11.005,
+      "specific_kwh_per_kwp": 864.76
+    },
+    {
+      "category": "Süd",
+      "degrees": 43,
+      "parts": 2761,
+      "capacity_mwp": 17.731,
+      "annual_gwh": 15.346,
+      "specific_kwh_per_kwp": 865.5
+    },
+    {
+      "category": "Süd",
+      "degrees": 44,
+      "parts": 3390,
+      "capacity_mwp": 26.108,
+      "annual_gwh": 22.622,
+      "specific_kwh_per_kwp": 866.48
+    },
+    {
+      "category": "Süd",
+      "degrees": 45,
+      "parts": 2098,
+      "capacity_mwp": 15.089,
+      "annual_gwh": 13.017,
+      "specific_kwh_per_kwp": 862.66
+    },
+    {
+      "category": "Süd",
+      "degrees": 46,
+      "parts": 1543,
+      "capacity_mwp": 9.863,
+      "annual_gwh": 8.449,
+      "specific_kwh_per_kwp": 856.68
+    },
+    {
+      "category": "Süd",
+      "degrees": 47,
+      "parts": 1308,
+      "capacity_mwp": 8.298,
+      "annual_gwh": 7.082,
+      "specific_kwh_per_kwp": 853.48
+    },
+    {
+      "category": "Süd",
+      "degrees": 48,
+      "parts": 1200,
+      "capacity_mwp": 7.433,
+      "annual_gwh": 6.334,
+      "specific_kwh_per_kwp": 852.2
+    },
+    {
+      "category": "Süd",
+      "degrees": 49,
+      "parts": 1086,
+      "capacity_mwp": 6.279,
+      "annual_gwh": 5.328,
+      "specific_kwh_per_kwp": 848.54
+    },
+    {
+      "category": "Süd",
+      "degrees": 50,
+      "parts": 820,
+      "capacity_mwp": 4.174,
+      "annual_gwh": 3.513,
+      "specific_kwh_per_kwp": 841.7
+    },
+    {
+      "category": "Süd",
+      "degrees": 51,
+      "parts": 649,
+      "capacity_mwp": 3.03,
+      "annual_gwh": 2.542,
+      "specific_kwh_per_kwp": 838.7
+    },
+    {
+      "category": "Süd",
+      "degrees": 52,
+      "parts": 627,
+      "capacity_mwp": 2.339,
+      "annual_gwh": 1.942,
+      "specific_kwh_per_kwp": 830.41
+    },
+    {
+      "category": "Süd",
+      "degrees": 53,
+      "parts": 512,
+      "capacity_mwp": 1.861,
+      "annual_gwh": 1.53,
+      "specific_kwh_per_kwp": 821.82
+    },
+    {
+      "category": "Süd",
+      "degrees": 54,
+      "parts": 496,
+      "capacity_mwp": 1.481,
+      "annual_gwh": 1.219,
+      "specific_kwh_per_kwp": 823.32
+    },
+    {
+      "category": "Süd",
+      "degrees": 55,
+      "parts": 520,
+      "capacity_mwp": 1.486,
+      "annual_gwh": 1.215,
+      "specific_kwh_per_kwp": 818.02
+    },
+    {
+      "category": "Süd",
+      "degrees": 56,
+      "parts": 461,
+      "capacity_mwp": 1.232,
+      "annual_gwh": 0.995,
+      "specific_kwh_per_kwp": 808.29
+    },
+    {
+      "category": "Süd",
+      "degrees": 57,
+      "parts": 510,
+      "capacity_mwp": 1.186,
+      "annual_gwh": 0.95,
+      "specific_kwh_per_kwp": 801.31
+    },
+    {
+      "category": "Süd",
+      "degrees": 58,
+      "parts": 551,
+      "capacity_mwp": 1.306,
+      "annual_gwh": 1.051,
+      "specific_kwh_per_kwp": 804.97
+    },
+    {
+      "category": "Süd",
+      "degrees": 59,
+      "parts": 611,
+      "capacity_mwp": 1.636,
+      "annual_gwh": 1.31,
+      "specific_kwh_per_kwp": 800.96
+    },
+    {
+      "category": "Süd",
+      "degrees": 60,
+      "parts": 640,
+      "capacity_mwp": 1.349,
+      "annual_gwh": 1.065,
+      "specific_kwh_per_kwp": 789.07
+    },
+    {
+      "category": "Süd",
+      "degrees": 61,
+      "parts": 649,
+      "capacity_mwp": 1.261,
+      "annual_gwh": 0.989,
+      "specific_kwh_per_kwp": 784.46
+    },
+    {
+      "category": "Süd",
+      "degrees": 62,
+      "parts": 693,
+      "capacity_mwp": 1.366,
+      "annual_gwh": 1.069,
+      "specific_kwh_per_kwp": 782.2
+    },
+    {
+      "category": "Süd",
+      "degrees": 63,
+      "parts": 664,
+      "capacity_mwp": 1.304,
+      "annual_gwh": 1.017,
+      "specific_kwh_per_kwp": 779.75
+    },
+    {
+      "category": "Süd",
+      "degrees": 64,
+      "parts": 741,
+      "capacity_mwp": 1.484,
+      "annual_gwh": 1.153,
+      "specific_kwh_per_kwp": 776.83
+    },
+    {
+      "category": "Süd",
+      "degrees": 65,
+      "parts": 673,
+      "capacity_mwp": 1.461,
+      "annual_gwh": 1.128,
+      "specific_kwh_per_kwp": 772.13
+    },
+    {
+      "category": "Süd",
+      "degrees": 66,
+      "parts": 697,
+      "capacity_mwp": 1.573,
+      "annual_gwh": 1.21,
+      "specific_kwh_per_kwp": 769.36
+    },
+    {
+      "category": "Süd",
+      "degrees": 67,
+      "parts": 671,
+      "capacity_mwp": 1.391,
+      "annual_gwh": 1.059,
+      "specific_kwh_per_kwp": 761.13
+    },
+    {
+      "category": "Süd",
+      "degrees": 68,
+      "parts": 622,
+      "capacity_mwp": 1.471,
+      "annual_gwh": 1.118,
+      "specific_kwh_per_kwp": 759.87
+    },
+    {
+      "category": "Süd",
+      "degrees": 69,
+      "parts": 600,
+      "capacity_mwp": 1.375,
+      "annual_gwh": 1.033,
+      "specific_kwh_per_kwp": 751.21
+    },
+    {
+      "category": "Süd",
+      "degrees": 70,
+      "parts": 462,
+      "capacity_mwp": 0.996,
+      "annual_gwh": 0.744,
+      "specific_kwh_per_kwp": 747.52
+    },
+    {
+      "category": "Süd",
+      "degrees": 71,
+      "parts": 349,
+      "capacity_mwp": 0.816,
+      "annual_gwh": 0.603,
+      "specific_kwh_per_kwp": 738.97
+    },
+    {
+      "category": "Süd",
+      "degrees": 72,
+      "parts": 296,
+      "capacity_mwp": 0.601,
+      "annual_gwh": 0.438,
+      "specific_kwh_per_kwp": 729.19
+    },
+    {
+      "category": "Süd",
+      "degrees": 73,
+      "parts": 291,
+      "capacity_mwp": 0.55,
+      "annual_gwh": 0.398,
+      "specific_kwh_per_kwp": 724.0
+    },
+    {
+      "category": "Süd",
+      "degrees": 74,
+      "parts": 214,
+      "capacity_mwp": 0.464,
+      "annual_gwh": 0.334,
+      "specific_kwh_per_kwp": 718.64
+    },
+    {
+      "category": "Süd",
+      "degrees": 75,
+      "parts": 190,
+      "capacity_mwp": 0.468,
+      "annual_gwh": 0.332,
+      "specific_kwh_per_kwp": 709.48
+    },
+    {
+      "category": "Süd",
+      "degrees": 76,
+      "parts": 220,
+      "capacity_mwp": 0.442,
+      "annual_gwh": 0.311,
+      "specific_kwh_per_kwp": 702.06
+    },
+    {
+      "category": "Süd",
+      "degrees": 77,
+      "parts": 143,
+      "capacity_mwp": 0.315,
+      "annual_gwh": 0.221,
+      "specific_kwh_per_kwp": 701.68
+    },
+    {
+      "category": "Süd",
+      "degrees": 78,
+      "parts": 138,
+      "capacity_mwp": 0.305,
+      "annual_gwh": 0.212,
+      "specific_kwh_per_kwp": 696.17
+    },
+    {
+      "category": "Süd",
+      "degrees": 79,
+      "parts": 122,
+      "capacity_mwp": 0.239,
+      "annual_gwh": 0.165,
+      "specific_kwh_per_kwp": 691.58
+    },
+    {
+      "category": "Süd",
+      "degrees": 80,
+      "parts": 102,
+      "capacity_mwp": 0.226,
+      "annual_gwh": 0.155,
+      "specific_kwh_per_kwp": 684.38
+    },
+    {
+      "category": "Süd",
+      "degrees": 81,
+      "parts": 100,
+      "capacity_mwp": 0.269,
+      "annual_gwh": 0.181,
+      "specific_kwh_per_kwp": 672.61
+    },
+    {
+      "category": "Süd",
+      "degrees": 82,
+      "parts": 80,
+      "capacity_mwp": 0.238,
+      "annual_gwh": 0.16,
+      "specific_kwh_per_kwp": 671.88
+    },
+    {
+      "category": "Süd",
+      "degrees": 83,
+      "parts": 33,
+      "capacity_mwp": 0.097,
+      "annual_gwh": 0.066,
+      "specific_kwh_per_kwp": 673.53
+    },
+    {
+      "category": "Süd",
+      "degrees": 84,
+      "parts": 41,
+      "capacity_mwp": 0.147,
+      "annual_gwh": 0.099,
+      "specific_kwh_per_kwp": 674.42
+    },
+    {
+      "category": "Süd",
+      "degrees": 85,
+      "parts": 44,
+      "capacity_mwp": 0.168,
+      "annual_gwh": 0.113,
+      "specific_kwh_per_kwp": 670.9
+    },
+    {
+      "category": "Süd",
+      "degrees": 86,
+      "parts": 20,
+      "capacity_mwp": 0.077,
+      "annual_gwh": 0.049,
+      "specific_kwh_per_kwp": 642.16
+    },
+    {
+      "category": "Süd",
+      "degrees": 87,
+      "parts": 15,
+      "capacity_mwp": 0.075,
+      "annual_gwh": 0.048,
+      "specific_kwh_per_kwp": 647.57
+    },
+    {
+      "category": "Süd",
+      "degrees": 88,
+      "parts": 13,
+      "capacity_mwp": 0.147,
+      "annual_gwh": 0.103,
+      "specific_kwh_per_kwp": 699.46
+    },
+    {
+      "category": "West",
+      "degrees": 11,
+      "parts": 627,
+      "capacity_mwp": 5.841,
+      "annual_gwh": 4.408,
+      "specific_kwh_per_kwp": 754.58
+    },
+    {
+      "category": "West",
+      "degrees": 12,
+      "parts": 636,
+      "capacity_mwp": 4.948,
+      "annual_gwh": 3.756,
+      "specific_kwh_per_kwp": 759.08
+    },
+    {
+      "category": "West",
+      "degrees": 13,
+      "parts": 668,
+      "capacity_mwp": 4.088,
+      "annual_gwh": 3.09,
+      "specific_kwh_per_kwp": 755.77
+    },
+    {
+      "category": "West",
+      "degrees": 14,
+      "parts": 737,
+      "capacity_mwp": 5.838,
+      "annual_gwh": 4.389,
+      "specific_kwh_per_kwp": 751.77
+    },
+    {
+      "category": "West",
+      "degrees": 15,
+      "parts": 786,
+      "capacity_mwp": 5.263,
+      "annual_gwh": 3.998,
+      "specific_kwh_per_kwp": 759.64
+    },
+    {
+      "category": "West",
+      "degrees": 16,
+      "parts": 632,
+      "capacity_mwp": 3.019,
+      "annual_gwh": 2.236,
+      "specific_kwh_per_kwp": 740.89
+    },
+    {
+      "category": "West",
+      "degrees": 17,
+      "parts": 821,
+      "capacity_mwp": 5.723,
+      "annual_gwh": 4.271,
+      "specific_kwh_per_kwp": 746.34
+    },
+    {
+      "category": "West",
+      "degrees": 18,
+      "parts": 926,
+      "capacity_mwp": 5.362,
+      "annual_gwh": 4.037,
+      "specific_kwh_per_kwp": 752.8
+    },
+    {
+      "category": "West",
+      "degrees": 19,
+      "parts": 971,
+      "capacity_mwp": 5.862,
+      "annual_gwh": 4.331,
+      "specific_kwh_per_kwp": 738.78
+    },
+    {
+      "category": "West",
+      "degrees": 20,
+      "parts": 935,
+      "capacity_mwp": 5.709,
+      "annual_gwh": 4.201,
+      "specific_kwh_per_kwp": 735.93
+    },
+    {
+      "category": "West",
+      "degrees": 21,
+      "parts": 951,
+      "capacity_mwp": 7.103,
+      "annual_gwh": 5.239,
+      "specific_kwh_per_kwp": 737.62
+    },
+    {
+      "category": "West",
+      "degrees": 22,
+      "parts": 965,
+      "capacity_mwp": 5.889,
+      "annual_gwh": 4.328,
+      "specific_kwh_per_kwp": 734.93
+    },
+    {
+      "category": "West",
+      "degrees": 23,
+      "parts": 889,
+      "capacity_mwp": 4.845,
+      "annual_gwh": 3.607,
+      "specific_kwh_per_kwp": 744.43
+    },
+    {
+      "category": "West",
+      "degrees": 24,
+      "parts": 1126,
+      "capacity_mwp": 7.479,
+      "annual_gwh": 5.527,
+      "specific_kwh_per_kwp": 739.02
+    },
+    {
+      "category": "West",
+      "degrees": 25,
+      "parts": 1004,
+      "capacity_mwp": 6.45,
+      "annual_gwh": 4.748,
+      "specific_kwh_per_kwp": 736.18
+    },
+    {
+      "category": "West",
+      "degrees": 26,
+      "parts": 910,
+      "capacity_mwp": 4.805,
+      "annual_gwh": 3.565,
+      "specific_kwh_per_kwp": 741.92
+    },
+    {
+      "category": "West",
+      "degrees": 27,
+      "parts": 1109,
+      "capacity_mwp": 7.301,
+      "annual_gwh": 5.406,
+      "specific_kwh_per_kwp": 740.39
+    },
+    {
+      "category": "West",
+      "degrees": 28,
+      "parts": 1307,
+      "capacity_mwp": 7.434,
+      "annual_gwh": 5.438,
+      "specific_kwh_per_kwp": 731.49
+    },
+    {
+      "category": "West",
+      "degrees": 29,
+      "parts": 2060,
+      "capacity_mwp": 14.916,
+      "annual_gwh": 11.022,
+      "specific_kwh_per_kwp": 738.93
+    },
+    {
+      "category": "West",
+      "degrees": 30,
+      "parts": 1613,
+      "capacity_mwp": 10.702,
+      "annual_gwh": 7.881,
+      "specific_kwh_per_kwp": 736.39
+    },
+    {
+      "category": "West",
+      "degrees": 31,
+      "parts": 1242,
+      "capacity_mwp": 7.9,
+      "annual_gwh": 5.717,
+      "specific_kwh_per_kwp": 723.67
+    },
+    {
+      "category": "West",
+      "degrees": 32,
+      "parts": 1454,
+      "capacity_mwp": 9.725,
+      "annual_gwh": 7.061,
+      "specific_kwh_per_kwp": 726.08
+    },
+    {
+      "category": "West",
+      "degrees": 33,
+      "parts": 1622,
+      "capacity_mwp": 10.584,
+      "annual_gwh": 7.699,
+      "specific_kwh_per_kwp": 727.42
+    },
+    {
+      "category": "West",
+      "degrees": 34,
+      "parts": 2144,
+      "capacity_mwp": 14.367,
+      "annual_gwh": 10.351,
+      "specific_kwh_per_kwp": 720.46
+    },
+    {
+      "category": "West",
+      "degrees": 35,
+      "parts": 1693,
+      "capacity_mwp": 10.757,
+      "annual_gwh": 7.766,
+      "specific_kwh_per_kwp": 721.95
+    },
+    {
+      "category": "West",
+      "degrees": 36,
+      "parts": 1715,
+      "capacity_mwp": 11.441,
+      "annual_gwh": 8.125,
+      "specific_kwh_per_kwp": 710.12
+    },
+    {
+      "category": "West",
+      "degrees": 37,
+      "parts": 1996,
+      "capacity_mwp": 13.837,
+      "annual_gwh": 9.866,
+      "specific_kwh_per_kwp": 712.99
+    },
+    {
+      "category": "West",
+      "degrees": 38,
+      "parts": 1939,
+      "capacity_mwp": 12.742,
+      "annual_gwh": 8.976,
+      "specific_kwh_per_kwp": 704.45
+    },
+    {
+      "category": "West",
+      "degrees": 39,
+      "parts": 2061,
+      "capacity_mwp": 13.758,
+      "annual_gwh": 9.772,
+      "specific_kwh_per_kwp": 710.26
+    },
+    {
+      "category": "West",
+      "degrees": 40,
+      "parts": 2006,
+      "capacity_mwp": 12.94,
+      "annual_gwh": 9.064,
+      "specific_kwh_per_kwp": 700.51
+    },
+    {
+      "category": "West",
+      "degrees": 41,
+      "parts": 2025,
+      "capacity_mwp": 12.507,
+      "annual_gwh": 8.773,
+      "specific_kwh_per_kwp": 701.41
+    },
+    {
+      "category": "West",
+      "degrees": 42,
+      "parts": 2399,
+      "capacity_mwp": 13.929,
+      "annual_gwh": 9.629,
+      "specific_kwh_per_kwp": 691.3
+    },
+    {
+      "category": "West",
+      "degrees": 43,
+      "parts": 3207,
+      "capacity_mwp": 20.289,
+      "annual_gwh": 13.894,
+      "specific_kwh_per_kwp": 684.81
+    },
+    {
+      "category": "West",
+      "degrees": 44,
+      "parts": 3443,
+      "capacity_mwp": 25.287,
+      "annual_gwh": 17.82,
+      "specific_kwh_per_kwp": 704.71
+    },
+    {
+      "category": "West",
+      "degrees": 45,
+      "parts": 2104,
+      "capacity_mwp": 14.132,
+      "annual_gwh": 10.056,
+      "specific_kwh_per_kwp": 711.61
+    },
+    {
+      "category": "West",
+      "degrees": 46,
+      "parts": 1426,
+      "capacity_mwp": 8.999,
+      "annual_gwh": 6.302,
+      "specific_kwh_per_kwp": 700.32
+    },
+    {
+      "category": "West",
+      "degrees": 47,
+      "parts": 1229,
+      "capacity_mwp": 6.961,
+      "annual_gwh": 4.855,
+      "specific_kwh_per_kwp": 697.38
+    },
+    {
+      "category": "West",
+      "degrees": 48,
+      "parts": 1026,
+      "capacity_mwp": 5.903,
+      "annual_gwh": 4.102,
+      "specific_kwh_per_kwp": 694.95
+    },
+    {
+      "category": "West",
+      "degrees": 49,
+      "parts": 845,
+      "capacity_mwp": 5.205,
+      "annual_gwh": 3.633,
+      "specific_kwh_per_kwp": 698.02
+    },
+    {
+      "category": "West",
+      "degrees": 50,
+      "parts": 577,
+      "capacity_mwp": 2.916,
+      "annual_gwh": 2.017,
+      "specific_kwh_per_kwp": 691.59
+    },
+    {
+      "category": "West",
+      "degrees": 51,
+      "parts": 394,
+      "capacity_mwp": 1.799,
+      "annual_gwh": 1.252,
+      "specific_kwh_per_kwp": 695.82
+    },
+    {
+      "category": "West",
+      "degrees": 52,
+      "parts": 363,
+      "capacity_mwp": 1.521,
+      "annual_gwh": 1.044,
+      "specific_kwh_per_kwp": 686.37
+    },
+    {
+      "category": "West",
+      "degrees": 53,
+      "parts": 308,
+      "capacity_mwp": 1.279,
+      "annual_gwh": 0.876,
+      "specific_kwh_per_kwp": 685.32
+    },
+    {
+      "category": "West",
+      "degrees": 54,
+      "parts": 268,
+      "capacity_mwp": 0.897,
+      "annual_gwh": 0.601,
+      "specific_kwh_per_kwp": 669.93
+    },
+    {
+      "category": "West",
+      "degrees": 55,
+      "parts": 289,
+      "capacity_mwp": 0.847,
+      "annual_gwh": 0.566,
+      "specific_kwh_per_kwp": 667.72
+    },
+    {
+      "category": "West",
+      "degrees": 56,
+      "parts": 247,
+      "capacity_mwp": 0.7,
+      "annual_gwh": 0.462,
+      "specific_kwh_per_kwp": 660.52
+    },
+    {
+      "category": "West",
+      "degrees": 57,
+      "parts": 260,
+      "capacity_mwp": 0.694,
+      "annual_gwh": 0.469,
+      "specific_kwh_per_kwp": 674.93
+    },
+    {
+      "category": "West",
+      "degrees": 58,
+      "parts": 249,
+      "capacity_mwp": 0.683,
+      "annual_gwh": 0.464,
+      "specific_kwh_per_kwp": 679.95
+    },
+    {
+      "category": "West",
+      "degrees": 59,
+      "parts": 268,
+      "capacity_mwp": 0.661,
+      "annual_gwh": 0.434,
+      "specific_kwh_per_kwp": 656.08
+    },
+    {
+      "category": "West",
+      "degrees": 60,
+      "parts": 290,
+      "capacity_mwp": 0.627,
+      "annual_gwh": 0.415,
+      "specific_kwh_per_kwp": 661.89
+    },
+    {
+      "category": "West",
+      "degrees": 61,
+      "parts": 258,
+      "capacity_mwp": 0.426,
+      "annual_gwh": 0.281,
+      "specific_kwh_per_kwp": 660.08
+    },
+    {
+      "category": "West",
+      "degrees": 62,
+      "parts": 243,
+      "capacity_mwp": 0.442,
+      "annual_gwh": 0.288,
+      "specific_kwh_per_kwp": 652.3
+    },
+    {
+      "category": "West",
+      "degrees": 63,
+      "parts": 268,
+      "capacity_mwp": 0.447,
+      "annual_gwh": 0.287,
+      "specific_kwh_per_kwp": 641.69
+    },
+    {
+      "category": "West",
+      "degrees": 64,
+      "parts": 307,
+      "capacity_mwp": 0.527,
+      "annual_gwh": 0.338,
+      "specific_kwh_per_kwp": 640.22
+    },
+    {
+      "category": "West",
+      "degrees": 65,
+      "parts": 302,
+      "capacity_mwp": 0.556,
+      "annual_gwh": 0.357,
+      "specific_kwh_per_kwp": 643.03
+    },
+    {
+      "category": "West",
+      "degrees": 66,
+      "parts": 300,
+      "capacity_mwp": 0.544,
+      "annual_gwh": 0.34,
+      "specific_kwh_per_kwp": 624.71
+    },
+    {
+      "category": "West",
+      "degrees": 67,
+      "parts": 314,
+      "capacity_mwp": 0.613,
+      "annual_gwh": 0.382,
+      "specific_kwh_per_kwp": 622.57
+    },
+    {
+      "category": "West",
+      "degrees": 68,
+      "parts": 279,
+      "capacity_mwp": 0.549,
+      "annual_gwh": 0.339,
+      "specific_kwh_per_kwp": 618.59
+    },
+    {
+      "category": "West",
+      "degrees": 69,
+      "parts": 263,
+      "capacity_mwp": 0.563,
+      "annual_gwh": 0.343,
+      "specific_kwh_per_kwp": 609.39
+    },
+    {
+      "category": "West",
+      "degrees": 70,
+      "parts": 215,
+      "capacity_mwp": 0.399,
+      "annual_gwh": 0.24,
+      "specific_kwh_per_kwp": 601.59
+    },
+    {
+      "category": "West",
+      "degrees": 71,
+      "parts": 125,
+      "capacity_mwp": 0.241,
+      "annual_gwh": 0.143,
+      "specific_kwh_per_kwp": 592.71
+    },
+    {
+      "category": "West",
+      "degrees": 72,
+      "parts": 109,
+      "capacity_mwp": 0.176,
+      "annual_gwh": 0.104,
+      "specific_kwh_per_kwp": 590.59
+    },
+    {
+      "category": "West",
+      "degrees": 73,
+      "parts": 82,
+      "capacity_mwp": 0.167,
+      "annual_gwh": 0.1,
+      "specific_kwh_per_kwp": 599.47
+    },
+    {
+      "category": "West",
+      "degrees": 74,
+      "parts": 79,
+      "capacity_mwp": 0.144,
+      "annual_gwh": 0.085,
+      "specific_kwh_per_kwp": 588.8
+    },
+    {
+      "category": "West",
+      "degrees": 75,
+      "parts": 91,
+      "capacity_mwp": 0.183,
+      "annual_gwh": 0.107,
+      "specific_kwh_per_kwp": 585.14
+    },
+    {
+      "category": "West",
+      "degrees": 76,
+      "parts": 78,
+      "capacity_mwp": 0.201,
+      "annual_gwh": 0.114,
+      "specific_kwh_per_kwp": 564.94
+    },
+    {
+      "category": "West",
+      "degrees": 77,
+      "parts": 77,
+      "capacity_mwp": 0.174,
+      "annual_gwh": 0.099,
+      "specific_kwh_per_kwp": 567.38
+    },
+    {
+      "category": "West",
+      "degrees": 78,
+      "parts": 64,
+      "capacity_mwp": 0.131,
+      "annual_gwh": 0.075,
+      "specific_kwh_per_kwp": 567.66
+    },
+    {
+      "category": "West",
+      "degrees": 79,
+      "parts": 53,
+      "capacity_mwp": 0.121,
+      "annual_gwh": 0.07,
+      "specific_kwh_per_kwp": 572.67
+    },
+    {
+      "category": "West",
+      "degrees": 80,
+      "parts": 58,
+      "capacity_mwp": 0.199,
+      "annual_gwh": 0.109,
+      "specific_kwh_per_kwp": 549.15
+    },
+    {
+      "category": "West",
+      "degrees": 81,
+      "parts": 49,
+      "capacity_mwp": 0.145,
+      "annual_gwh": 0.08,
+      "specific_kwh_per_kwp": 552.16
+    },
+    {
+      "category": "West",
+      "degrees": 82,
+      "parts": 33,
+      "capacity_mwp": 0.084,
+      "annual_gwh": 0.045,
+      "specific_kwh_per_kwp": 541.37
+    },
+    {
+      "category": "West",
+      "degrees": 83,
+      "parts": 20,
+      "capacity_mwp": 0.047,
+      "annual_gwh": 0.027,
+      "specific_kwh_per_kwp": 582.59
+    },
+    {
+      "category": "West",
+      "degrees": 84,
+      "parts": 24,
+      "capacity_mwp": 0.055,
+      "annual_gwh": 0.03,
+      "specific_kwh_per_kwp": 542.33
+    },
+    {
+      "category": "West",
+      "degrees": 85,
+      "parts": 14,
+      "capacity_mwp": 0.067,
+      "annual_gwh": 0.036,
+      "specific_kwh_per_kwp": 536.01
+    },
+    {
+      "category": "West",
+      "degrees": 86,
+      "parts": 22,
+      "capacity_mwp": 0.093,
+      "annual_gwh": 0.05,
+      "specific_kwh_per_kwp": 539.47
+    },
+    {
+      "category": "West",
+      "degrees": 87,
+      "parts": 7,
+      "capacity_mwp": 0.028,
+      "annual_gwh": 0.014,
+      "specific_kwh_per_kwp": 504.85
+    },
+    {
+      "category": "West",
+      "degrees": 88,
+      "parts": 2,
+      "capacity_mwp": 0.017,
+      "annual_gwh": 0.008,
+      "specific_kwh_per_kwp": 466.16
+    }
+  ],
+  "source_years": [
+    {
+      "year": "2020",
+      "parts": 2190,
+      "capacity_mwp": 20.638,
+      "annual_gwh": 15.596,
+      "specific_kwh_per_kwp": 755.69
+    },
+    {
+      "year": "2022",
+      "parts": 303749,
+      "capacity_mwp": 1978.818,
+      "annual_gwh": 1526.331,
+      "specific_kwh_per_kwp": 771.33
+    }
+  ],
+  "concentration": [
+    {
+      "top_buildings_pct_requested": 1,
+      "groups": 1424,
+      "annual_kwh": "352221323.49871826171675",
+      "energy_share_pct": 22.84
+    },
+    {
+      "top_buildings_pct_requested": 5,
+      "groups": 7119,
+      "annual_kwh": "618384444.07333374023860",
+      "energy_share_pct": 40.1
+    },
+    {
+      "top_buildings_pct_requested": 10,
+      "groups": 14238,
+      "annual_kwh": "784550251.45861816407290",
+      "energy_share_pct": 50.88
+    },
+    {
+      "top_buildings_pct_requested": 25,
+      "groups": 35595,
+      "annual_kwh": "1095288704.18008422853125",
+      "energy_share_pct": 71.03
+    },
+    {
+      "top_buildings_pct_requested": 50,
+      "groups": 71189,
+      "annual_kwh": "1384668479.13204956056150",
+      "energy_share_pct": 89.8
+    },
+    {
+      "top_buildings_pct_requested": 100,
+      "groups": 142377,
+      "annual_kwh": "1541927362.66705322267575",
+      "energy_share_pct": 100.0
+    }
+  ],
+  "rankings": {
+    "energy": [
+      {
+        "geb_id": "Geb1687754lw0303_c",
+        "parts": 135,
+        "capacity_mwp": 6.032,
+        "annual_gwh": 4.742,
+        "specific_kwh_per_kwp": 786.18,
+        "orientations": "Nord,Ost,Süd,West,Flach",
+        "focus": {
+          "longitude": 6.80782,
+          "latitude": 51.26991,
+          "roof_id": "PPVD_2532766"
+        }
+      },
+      {
+        "geb_id": "Geb2048146lw0303_f",
+        "parts": 154,
+        "capacity_mwp": 4.51,
+        "annual_gwh": 3.577,
+        "specific_kwh_per_kwp": 793.19,
+        "orientations": "Nord,Ost,Süd,West,Flach",
+        "focus": {
+          "longitude": 6.88411,
+          "latitude": 51.15915,
+          "roof_id": "PPVD_2383545"
+        }
+      },
+      {
+        "geb_id": "Geb4152731lw0203_l",
+        "parts": 45,
+        "capacity_mwp": 3.272,
+        "annual_gwh": 2.983,
+        "specific_kwh_per_kwp": 911.68,
+        "orientations": "Nord,Ost,Süd,Flach",
+        "focus": {
+          "longitude": 6.69194,
+          "latitude": 51.22842,
+          "roof_id": "PPVD_2414986"
+        }
+      },
+      {
+        "geb_id": "Geb1697210lw0303_b",
+        "parts": 40,
+        "capacity_mwp": 3.131,
+        "annual_gwh": 2.781,
+        "specific_kwh_per_kwp": 888.16,
+        "orientations": "Nord,Ost,Süd,West,Flach",
+        "focus": {
+          "longitude": 6.79816,
+          "latitude": 51.27399,
+          "roof_id": "PPVD_2554928"
+        }
+      },
+      {
+        "geb_id": "Geb4387152lw0203_m",
+        "parts": 6,
+        "capacity_mwp": 2.786,
+        "annual_gwh": 2.539,
+        "specific_kwh_per_kwp": 911.35,
+        "orientations": "Ost,Süd,West,Flach",
+        "focus": {
+          "longitude": 6.73543,
+          "latitude": 51.2201,
+          "roof_id": "PPVD_2419792"
+        }
+      },
+      {
+        "geb_id": "Geb4385918lw0203_m",
+        "parts": 6,
+        "capacity_mwp": 2.784,
+        "annual_gwh": 2.534,
+        "specific_kwh_per_kwp": 910.22,
+        "orientations": "Ost,West,Flach",
+        "focus": {
+          "longitude": 6.73145,
+          "latitude": 51.21813,
+          "roof_id": "PPVD_2442292"
+        }
+      },
+      {
+        "geb_id": "Geb1684925lw0303_b",
+        "parts": 89,
+        "capacity_mwp": 2.827,
+        "annual_gwh": 2.308,
+        "specific_kwh_per_kwp": 816.39,
+        "orientations": "Nord,Ost,Süd,West,Flach",
+        "focus": {
+          "longitude": 6.80359,
+          "latitude": 51.26822,
+          "roof_id": "PPVD_2536289"
+        }
+      },
+      {
+        "geb_id": "Geb1714500lw0303_b",
+        "parts": 67,
+        "capacity_mwp": 2.591,
+        "annual_gwh": 2.154,
+        "specific_kwh_per_kwp": 831.5,
+        "orientations": "Nord,Ost,Süd,West,Flach",
+        "focus": {
+          "longitude": 6.8026,
+          "latitude": 51.27028,
+          "roof_id": "PPVD_2553798"
+        }
+      },
+      {
+        "geb_id": "Geb4415552lw0203_m",
+        "parts": 145,
+        "capacity_mwp": 2.409,
+        "annual_gwh": 2.098,
+        "specific_kwh_per_kwp": 871.02,
+        "orientations": "Nord,Ost,Süd,West,Flach",
+        "focus": {
+          "longitude": 6.74549,
+          "latitude": 51.26305,
+          "roof_id": "PPVD_2450285"
+        }
+      },
+      {
+        "geb_id": "Geb1713119lw0303_b",
+        "parts": 56,
+        "capacity_mwp": 2.439,
+        "annual_gwh": 2.084,
+        "specific_kwh_per_kwp": 854.54,
+        "orientations": "Ost,Süd,West,Flach",
+        "focus": {
+          "longitude": 6.78615,
+          "latitude": 51.26076,
+          "roof_id": "PPVD_2579047"
+        }
+      },
+      {
+        "geb_id": "Geb2144794lw0303_e",
+        "parts": 144,
+        "capacity_mwp": 2.239,
+        "annual_gwh": 1.928,
+        "specific_kwh_per_kwp": 861.27,
+        "orientations": "Nord,Süd,West,Flach",
+        "focus": {
+          "longitude": 6.87785,
+          "latitude": 51.16823,
+          "roof_id": "PPVD_2461725"
+        }
+      },
+      {
+        "geb_id": "Geb4415882lw0203_m",
+        "parts": 103,
+        "capacity_mwp": 2.158,
+        "annual_gwh": 1.864,
+        "specific_kwh_per_kwp": 863.81,
+        "orientations": "Nord,Ost,Süd,West,Flach",
+        "focus": {
+          "longitude": 6.73421,
+          "latitude": 51.26111,
+          "roof_id": "PPVD_2442181"
+        }
+      },
+      {
+        "geb_id": "Geb1711774lw0303_a",
+        "parts": 85,
+        "capacity_mwp": 1.944,
+        "annual_gwh": 1.667,
+        "specific_kwh_per_kwp": 857.6,
+        "orientations": "Nord,Ost,Süd,West,Flach",
+        "focus": {
+          "longitude": 6.7648,
+          "latitude": 51.2783,
+          "roof_id": "PPVD_2533119"
+        }
+      },
+      {
+        "geb_id": "Geb1662689lw0302_h",
+        "parts": 28,
+        "capacity_mwp": 1.832,
+        "annual_gwh": 1.596,
+        "specific_kwh_per_kwp": 871.16,
+        "orientations": "Nord,Ost,Süd,West,Flach",
+        "focus": {
+          "longitude": 6.77997,
+          "latitude": 51.28643,
+          "roof_id": "PPVD_2530187"
+        }
+      },
+      {
+        "geb_id": "Geb4387765lw0203_l",
+        "parts": 5,
+        "capacity_mwp": 1.744,
+        "annual_gwh": 1.591,
+        "specific_kwh_per_kwp": 912.44,
+        "orientations": "West,Flach",
+        "focus": {
+          "longitude": 6.71143,
+          "latitude": 51.22558,
+          "roof_id": "PPVD_2414429"
+        }
+      },
+      {
+        "geb_id": "Geb4417205lw0203_m",
+        "parts": 5,
+        "capacity_mwp": 1.75,
+        "annual_gwh": 1.59,
+        "specific_kwh_per_kwp": 908.32,
+        "orientations": "West,Flach",
+        "focus": {
+          "longitude": 6.73854,
+          "latitude": 51.2575,
+          "roof_id": "PPVD_2430800"
+        }
+      },
+      {
+        "geb_id": "Geb1700867lw0303_c",
+        "parts": 9,
+        "capacity_mwp": 1.768,
+        "annual_gwh": 1.489,
+        "specific_kwh_per_kwp": 842.36,
+        "orientations": "Nord,Ost,Süd,West,Flach",
+        "focus": {
+          "longitude": 6.81196,
+          "latitude": 51.27208,
+          "roof_id": "PPVD_2324378"
+        }
+      },
+      {
+        "geb_id": "Geb1720938lw0303_b",
+        "parts": 44,
+        "capacity_mwp": 1.83,
+        "annual_gwh": 1.46,
+        "specific_kwh_per_kwp": 797.81,
+        "orientations": "Ost,Süd,West,Flach",
+        "focus": {
+          "longitude": 6.78592,
+          "latitude": 51.25803,
+          "roof_id": "PPVD_2572982"
+        }
+      },
+      {
+        "geb_id": "Geb1704178lw0203_m",
+        "parts": 27,
+        "capacity_mwp": 1.828,
+        "annual_gwh": 1.426,
+        "specific_kwh_per_kwp": 779.82,
+        "orientations": "Nord,Ost,Süd,West,Flach",
+        "focus": {
+          "longitude": 6.75757,
+          "latitude": 51.27318,
+          "roof_id": "PPVD_2439008"
+        }
+      },
+      {
+        "geb_id": "Geb1600323lw0303_b",
+        "parts": 23,
+        "capacity_mwp": 1.605,
+        "annual_gwh": 1.405,
+        "specific_kwh_per_kwp": 875.02,
+        "orientations": "Süd,Flach",
+        "focus": {
+          "longitude": 6.79393,
+          "latitude": 51.21936,
+          "roof_id": "PPVD_2576716"
+        }
+      },
+      {
+        "geb_id": "Geb1696783lw0303_a",
+        "parts": 8,
+        "capacity_mwp": 1.745,
+        "annual_gwh": 1.356,
+        "specific_kwh_per_kwp": 777.24,
+        "orientations": "Nord,Süd",
+        "focus": {
+          "longitude": 6.78007,
+          "latitude": 51.26127,
+          "roof_id": "PPVD_2375787"
+        }
+      },
+      {
+        "geb_id": "Geb1687755lw0303_b",
+        "parts": 59,
+        "capacity_mwp": 1.738,
+        "annual_gwh": 1.343,
+        "specific_kwh_per_kwp": 772.65,
+        "orientations": "Nord,Ost,Süd,West,Flach",
+        "focus": {
+          "longitude": 6.80579,
+          "latitude": 51.2717,
+          "roof_id": "PPVD_2564449"
+        }
+      },
+      {
+        "geb_id": "Geb1582980lw0303_d",
+        "parts": 10,
+        "capacity_mwp": 1.483,
+        "annual_gwh": 1.336,
+        "specific_kwh_per_kwp": 900.75,
+        "orientations": "Nord,Ost,West,Flach",
+        "focus": {
+          "longitude": 6.85012,
+          "latitude": 51.18047,
+          "roof_id": "PPVD_2514784"
+        }
+      },
+      {
+        "geb_id": "Geb2093560lw0303_e",
+        "parts": 9,
+        "capacity_mwp": 1.48,
+        "annual_gwh": 1.335,
+        "specific_kwh_per_kwp": 901.48,
+        "orientations": "West,Flach",
+        "focus": {
+          "longitude": 6.85623,
+          "latitude": 51.22418,
+          "roof_id": "PPVD_2474722"
+        }
+      },
+      {
+        "geb_id": "Geb4418630lw0203_m",
+        "parts": 5,
+        "capacity_mwp": 1.45,
+        "annual_gwh": 1.32,
+        "specific_kwh_per_kwp": 910.47,
+        "orientations": "Nord,Süd,West,Flach",
+        "focus": {
+          "longitude": 6.74396,
+          "latitude": 51.26017,
+          "roof_id": "PPVD_2423043"
+        }
+      },
+      {
+        "geb_id": "Geb1711758lw0303_a",
+        "parts": 204,
+        "capacity_mwp": 1.53,
+        "annual_gwh": 1.293,
+        "specific_kwh_per_kwp": 845.32,
+        "orientations": "Nord,Ost,Süd,West,Flach",
+        "focus": {
+          "longitude": 6.76368,
+          "latitude": 51.27973,
+          "roof_id": "PPVD_2363359"
+        }
+      },
+      {
+        "geb_id": "Geb1654234lw0303_c",
+        "parts": 122,
+        "capacity_mwp": 1.481,
+        "annual_gwh": 1.282,
+        "specific_kwh_per_kwp": 865.79,
+        "orientations": "Nord,Ost,Süd,West,Flach",
+        "focus": {
+          "longitude": 6.82084,
+          "latitude": 51.2097,
+          "roof_id": "PPVD_2320339"
+        }
+      },
+      {
+        "geb_id": "Geb4414030lw0203_m",
+        "parts": 73,
+        "capacity_mwp": 1.433,
+        "annual_gwh": 1.246,
+        "specific_kwh_per_kwp": 869.67,
+        "orientations": "Nord,Ost,Süd,West,Flach",
+        "focus": {
+          "longitude": 6.7361,
+          "latitude": 51.25906,
+          "roof_id": "PPVD_2442487"
+        }
+      },
+      {
+        "geb_id": "Geb1568060lw0303_d",
+        "parts": 17,
+        "capacity_mwp": 1.561,
+        "annual_gwh": 1.223,
+        "specific_kwh_per_kwp": 783.4,
+        "orientations": "Nord,Ost,Süd,West",
+        "focus": {
+          "longitude": 6.8473,
+          "latitude": 51.17875,
+          "roof_id": "PPVD_2521305"
+        }
+      },
+      {
+        "geb_id": "Geb4414123lw0203_m",
+        "parts": 8,
+        "capacity_mwp": 1.54,
+        "annual_gwh": 1.197,
+        "specific_kwh_per_kwp": 777.02,
+        "orientations": "Nord,Ost,Süd,Flach",
+        "focus": {
+          "longitude": 6.7289,
+          "latitude": 51.26194,
+          "roof_id": "PPVD_2448573"
+        }
+      },
+      {
+        "geb_id": "Geb1688963lw0303_b",
+        "parts": 69,
+        "capacity_mwp": 1.49,
+        "annual_gwh": 1.19,
+        "specific_kwh_per_kwp": 798.73,
+        "orientations": "Nord,Ost,Süd,West,Flach",
+        "focus": {
+          "longitude": 6.79696,
+          "latitude": 51.27728,
+          "roof_id": "PPVD_2576725"
+        }
+      },
+      {
+        "geb_id": "Geb4419322lw0203_m",
+        "parts": 73,
+        "capacity_mwp": 1.36,
+        "annual_gwh": 1.189,
+        "specific_kwh_per_kwp": 874.23,
+        "orientations": "Nord,Süd,West,Flach",
+        "focus": {
+          "longitude": 6.74152,
+          "latitude": 51.26189,
+          "roof_id": "PPVD_2535640"
+        }
+      },
+      {
+        "geb_id": "Geb4419308lw0203_m",
+        "parts": 76,
+        "capacity_mwp": 1.351,
+        "annual_gwh": 1.183,
+        "specific_kwh_per_kwp": 876.01,
+        "orientations": "Nord,Ost,Süd,West,Flach",
+        "focus": {
+          "longitude": 6.74198,
+          "latitude": 51.26234,
+          "roof_id": "PPVD_2422076"
+        }
+      },
+      {
+        "geb_id": "Geb1586629lw0303_d",
+        "parts": 45,
+        "capacity_mwp": 1.278,
+        "annual_gwh": 1.139,
+        "specific_kwh_per_kwp": 891.69,
+        "orientations": "Ost,Süd,West,Flach",
+        "focus": {
+          "longitude": 6.84776,
+          "latitude": 51.18805,
+          "roof_id": "PPVD_2537969"
+        }
+      },
+      {
+        "geb_id": "Geb1720883lw0303_b",
+        "parts": 20,
+        "capacity_mwp": 1.205,
+        "annual_gwh": 1.072,
+        "specific_kwh_per_kwp": 889.76,
+        "orientations": "Ost,Süd,West,Flach",
+        "focus": {
+          "longitude": 6.78497,
+          "latitude": 51.26122,
+          "roof_id": "PPVD_2576691"
+        }
+      },
+      {
+        "geb_id": "Geb1721118lw0303_b",
+        "parts": 125,
+        "capacity_mwp": 1.25,
+        "annual_gwh": 1.062,
+        "specific_kwh_per_kwp": 849.81,
+        "orientations": "Ost,Süd,West,Flach",
+        "focus": {
+          "longitude": 6.78704,
+          "latitude": 51.25677,
+          "roof_id": "PPVD_2574848"
+        }
+      },
+      {
+        "geb_id": "Geb4171483lw0203_l",
+        "parts": 1,
+        "capacity_mwp": 1.151,
+        "annual_gwh": 1.047,
+        "specific_kwh_per_kwp": 909.41,
+        "orientations": "Flach",
+        "focus": {
+          "longitude": 6.69544,
+          "latitude": 51.23097,
+          "roof_id": "PPVD_2537844"
+        }
+      },
+      {
+        "geb_id": "Geb4414463lw0203_m",
+        "parts": 7,
+        "capacity_mwp": 1.151,
+        "annual_gwh": 1.044,
+        "specific_kwh_per_kwp": 907.48,
+        "orientations": "Nord,Ost,Süd,Flach",
+        "focus": {
+          "longitude": 6.74485,
+          "latitude": 51.26074,
+          "roof_id": "PPVD_2424244"
+        }
+      },
+      {
+        "geb_id": "Geb4418891lw0203_m",
+        "parts": 3,
+        "capacity_mwp": 1.083,
+        "annual_gwh": 0.986,
+        "specific_kwh_per_kwp": 910.5,
+        "orientations": "Süd,West,Flach",
+        "focus": {
+          "longitude": 6.74056,
+          "latitude": 51.26108,
+          "roof_id": "PPVD_2428131"
+        }
+      },
+      {
+        "geb_id": "Geb1647446lw0303_d",
+        "parts": 26,
+        "capacity_mwp": 1.112,
+        "annual_gwh": 0.984,
+        "specific_kwh_per_kwp": 885.72,
+        "orientations": "Ost,West,Flach",
+        "focus": {
+          "longitude": 6.85457,
+          "latitude": 51.16706,
+          "roof_id": "PPVD_2493895"
+        }
+      },
+      {
+        "geb_id": "Geb1579616lw0303_c",
+        "parts": 9,
+        "capacity_mwp": 1.082,
+        "annual_gwh": 0.979,
+        "specific_kwh_per_kwp": 904.8,
+        "orientations": "Süd,Flach",
+        "focus": {
+          "longitude": 6.82583,
+          "latitude": 51.21522,
+          "roof_id": "PPVD_2317856"
+        }
+      },
+      {
+        "geb_id": "Geb1590737lw0303_d",
+        "parts": 85,
+        "capacity_mwp": 1.207,
+        "annual_gwh": 0.965,
+        "specific_kwh_per_kwp": 799.75,
+        "orientations": "Ost,Süd,West,Flach",
+        "focus": {
+          "longitude": 6.83453,
+          "latitude": 51.21684,
+          "roof_id": "PPVD_2512252"
+        }
+      },
+      {
+        "geb_id": "Geb2114794lw0303_e",
+        "parts": 14,
+        "capacity_mwp": 1.279,
+        "annual_gwh": 0.964,
+        "specific_kwh_per_kwp": 753.72,
+        "orientations": "Nord,Ost,Süd,West,Flach",
+        "focus": {
+          "longitude": 6.85907,
+          "latitude": 51.16613,
+          "roof_id": "PPVD_2482922"
+        }
+      },
+      {
+        "geb_id": "Geb1560978lw0303_d",
+        "parts": 15,
+        "capacity_mwp": 1.264,
+        "annual_gwh": 0.954,
+        "specific_kwh_per_kwp": 754.33,
+        "orientations": "Ost,Süd,West",
+        "focus": {
+          "longitude": 6.84204,
+          "latitude": 51.23423,
+          "roof_id": "PPVD_2510818"
+        }
+      },
+      {
+        "geb_id": "Geb4418170lw0203_m",
+        "parts": 55,
+        "capacity_mwp": 1.069,
+        "annual_gwh": 0.951,
+        "specific_kwh_per_kwp": 889.98,
+        "orientations": "Nord,Ost,Süd,West,Flach",
+        "focus": {
+          "longitude": 6.73693,
+          "latitude": 51.26325,
+          "roof_id": "PPVD_2535641"
+        }
+      },
+      {
+        "geb_id": "Geb4418609lw0203_m",
+        "parts": 58,
+        "capacity_mwp": 1.065,
+        "annual_gwh": 0.946,
+        "specific_kwh_per_kwp": 888.43,
+        "orientations": "Nord,Ost,Süd,West,Flach",
+        "focus": {
+          "longitude": 6.73541,
+          "latitude": 51.26247,
+          "roof_id": "PPVD_2421946"
+        }
+      },
+      {
+        "geb_id": "Geb1718884lw0303_b",
+        "parts": 86,
+        "capacity_mwp": 1.22,
+        "annual_gwh": 0.943,
+        "specific_kwh_per_kwp": 772.83,
+        "orientations": "Nord,Ost,Süd,West,Flach",
+        "focus": {
+          "longitude": 6.78927,
+          "latitude": 51.25164,
+          "roof_id": "PPVD_2560373"
+        }
+      },
+      {
+        "geb_id": "Geb1686188lw0303_b",
+        "parts": 51,
+        "capacity_mwp": 1.19,
+        "annual_gwh": 0.938,
+        "specific_kwh_per_kwp": 787.75,
+        "orientations": "Nord,Ost,Süd,West,Flach",
+        "focus": {
+          "longitude": 6.8002,
+          "latitude": 51.26966,
+          "roof_id": "PPVD_2572962"
+        }
+      },
+      {
+        "geb_id": "Geb1559935lw0303_c",
+        "parts": 35,
+        "capacity_mwp": 1.185,
+        "annual_gwh": 0.928,
+        "specific_kwh_per_kwp": 783.19,
+        "orientations": "Ost,West,Flach",
+        "focus": {
+          "longitude": 6.83418,
+          "latitude": 51.16533,
+          "roof_id": "PPVD_2303945"
+        }
+      },
+      {
+        "geb_id": "Geb4418846lw0203_m",
+        "parts": 49,
+        "capacity_mwp": 1.029,
+        "annual_gwh": 0.91,
+        "specific_kwh_per_kwp": 884.19,
+        "orientations": "Nord,Süd,West,Flach",
+        "focus": {
+          "longitude": 6.7378,
+          "latitude": 51.25962,
+          "roof_id": "PPVD_2443474"
+        }
+      }
+    ],
+    "capacity": [
+      {
+        "geb_id": "Geb1687754lw0303_c",
+        "parts": 135,
+        "capacity_mwp": 6.032,
+        "annual_gwh": 4.742,
+        "specific_kwh_per_kwp": 786.18,
+        "orientations": "Nord,Ost,Süd,West,Flach",
+        "focus": {
+          "longitude": 6.80782,
+          "latitude": 51.26991,
+          "roof_id": "PPVD_2532766"
+        }
+      },
+      {
+        "geb_id": "Geb2048146lw0303_f",
+        "parts": 154,
+        "capacity_mwp": 4.51,
+        "annual_gwh": 3.577,
+        "specific_kwh_per_kwp": 793.19,
+        "orientations": "Nord,Ost,Süd,West,Flach",
+        "focus": {
+          "longitude": 6.88411,
+          "latitude": 51.15915,
+          "roof_id": "PPVD_2383545"
+        }
+      },
+      {
+        "geb_id": "Geb4152731lw0203_l",
+        "parts": 45,
+        "capacity_mwp": 3.272,
+        "annual_gwh": 2.983,
+        "specific_kwh_per_kwp": 911.68,
+        "orientations": "Nord,Ost,Süd,Flach",
+        "focus": {
+          "longitude": 6.69194,
+          "latitude": 51.22842,
+          "roof_id": "PPVD_2414986"
+        }
+      },
+      {
+        "geb_id": "Geb1697210lw0303_b",
+        "parts": 40,
+        "capacity_mwp": 3.131,
+        "annual_gwh": 2.781,
+        "specific_kwh_per_kwp": 888.16,
+        "orientations": "Nord,Ost,Süd,West,Flach",
+        "focus": {
+          "longitude": 6.79816,
+          "latitude": 51.27399,
+          "roof_id": "PPVD_2554928"
+        }
+      },
+      {
+        "geb_id": "Geb1684925lw0303_b",
+        "parts": 89,
+        "capacity_mwp": 2.827,
+        "annual_gwh": 2.308,
+        "specific_kwh_per_kwp": 816.39,
+        "orientations": "Nord,Ost,Süd,West,Flach",
+        "focus": {
+          "longitude": 6.80359,
+          "latitude": 51.26822,
+          "roof_id": "PPVD_2536289"
+        }
+      },
+      {
+        "geb_id": "Geb4387152lw0203_m",
+        "parts": 6,
+        "capacity_mwp": 2.786,
+        "annual_gwh": 2.539,
+        "specific_kwh_per_kwp": 911.35,
+        "orientations": "Ost,Süd,West,Flach",
+        "focus": {
+          "longitude": 6.73543,
+          "latitude": 51.2201,
+          "roof_id": "PPVD_2419792"
+        }
+      },
+      {
+        "geb_id": "Geb4385918lw0203_m",
+        "parts": 6,
+        "capacity_mwp": 2.784,
+        "annual_gwh": 2.534,
+        "specific_kwh_per_kwp": 910.22,
+        "orientations": "Ost,West,Flach",
+        "focus": {
+          "longitude": 6.73145,
+          "latitude": 51.21813,
+          "roof_id": "PPVD_2442292"
+        }
+      },
+      {
+        "geb_id": "Geb1714500lw0303_b",
+        "parts": 67,
+        "capacity_mwp": 2.591,
+        "annual_gwh": 2.154,
+        "specific_kwh_per_kwp": 831.5,
+        "orientations": "Nord,Ost,Süd,West,Flach",
+        "focus": {
+          "longitude": 6.8026,
+          "latitude": 51.27028,
+          "roof_id": "PPVD_2553798"
+        }
+      },
+      {
+        "geb_id": "Geb1713119lw0303_b",
+        "parts": 56,
+        "capacity_mwp": 2.439,
+        "annual_gwh": 2.084,
+        "specific_kwh_per_kwp": 854.54,
+        "orientations": "Ost,Süd,West,Flach",
+        "focus": {
+          "longitude": 6.78615,
+          "latitude": 51.26076,
+          "roof_id": "PPVD_2579047"
+        }
+      },
+      {
+        "geb_id": "Geb4415552lw0203_m",
+        "parts": 145,
+        "capacity_mwp": 2.409,
+        "annual_gwh": 2.098,
+        "specific_kwh_per_kwp": 871.02,
+        "orientations": "Nord,Ost,Süd,West,Flach",
+        "focus": {
+          "longitude": 6.74549,
+          "latitude": 51.26305,
+          "roof_id": "PPVD_2450285"
+        }
+      },
+      {
+        "geb_id": "Geb2144794lw0303_e",
+        "parts": 144,
+        "capacity_mwp": 2.239,
+        "annual_gwh": 1.928,
+        "specific_kwh_per_kwp": 861.27,
+        "orientations": "Nord,Süd,West,Flach",
+        "focus": {
+          "longitude": 6.87785,
+          "latitude": 51.16823,
+          "roof_id": "PPVD_2461725"
+        }
+      },
+      {
+        "geb_id": "Geb4415882lw0203_m",
+        "parts": 103,
+        "capacity_mwp": 2.158,
+        "annual_gwh": 1.864,
+        "specific_kwh_per_kwp": 863.81,
+        "orientations": "Nord,Ost,Süd,West,Flach",
+        "focus": {
+          "longitude": 6.73421,
+          "latitude": 51.26111,
+          "roof_id": "PPVD_2442181"
+        }
+      },
+      {
+        "geb_id": "Geb1711774lw0303_a",
+        "parts": 85,
+        "capacity_mwp": 1.944,
+        "annual_gwh": 1.667,
+        "specific_kwh_per_kwp": 857.6,
+        "orientations": "Nord,Ost,Süd,West,Flach",
+        "focus": {
+          "longitude": 6.7648,
+          "latitude": 51.2783,
+          "roof_id": "PPVD_2533119"
+        }
+      },
+      {
+        "geb_id": "Geb1662689lw0302_h",
+        "parts": 28,
+        "capacity_mwp": 1.832,
+        "annual_gwh": 1.596,
+        "specific_kwh_per_kwp": 871.16,
+        "orientations": "Nord,Ost,Süd,West,Flach",
+        "focus": {
+          "longitude": 6.77997,
+          "latitude": 51.28643,
+          "roof_id": "PPVD_2530187"
+        }
+      },
+      {
+        "geb_id": "Geb1720938lw0303_b",
+        "parts": 44,
+        "capacity_mwp": 1.83,
+        "annual_gwh": 1.46,
+        "specific_kwh_per_kwp": 797.81,
+        "orientations": "Ost,Süd,West,Flach",
+        "focus": {
+          "longitude": 6.78592,
+          "latitude": 51.25803,
+          "roof_id": "PPVD_2572982"
+        }
+      },
+      {
+        "geb_id": "Geb1704178lw0203_m",
+        "parts": 27,
+        "capacity_mwp": 1.828,
+        "annual_gwh": 1.426,
+        "specific_kwh_per_kwp": 779.82,
+        "orientations": "Nord,Ost,Süd,West,Flach",
+        "focus": {
+          "longitude": 6.75757,
+          "latitude": 51.27318,
+          "roof_id": "PPVD_2439008"
+        }
+      },
+      {
+        "geb_id": "Geb1700867lw0303_c",
+        "parts": 9,
+        "capacity_mwp": 1.768,
+        "annual_gwh": 1.489,
+        "specific_kwh_per_kwp": 842.36,
+        "orientations": "Nord,Ost,Süd,West,Flach",
+        "focus": {
+          "longitude": 6.81196,
+          "latitude": 51.27208,
+          "roof_id": "PPVD_2324378"
+        }
+      },
+      {
+        "geb_id": "Geb4417205lw0203_m",
+        "parts": 5,
+        "capacity_mwp": 1.75,
+        "annual_gwh": 1.59,
+        "specific_kwh_per_kwp": 908.32,
+        "orientations": "West,Flach",
+        "focus": {
+          "longitude": 6.73854,
+          "latitude": 51.2575,
+          "roof_id": "PPVD_2430800"
+        }
+      },
+      {
+        "geb_id": "Geb1696783lw0303_a",
+        "parts": 8,
+        "capacity_mwp": 1.745,
+        "annual_gwh": 1.356,
+        "specific_kwh_per_kwp": 777.24,
+        "orientations": "Nord,Süd",
+        "focus": {
+          "longitude": 6.78007,
+          "latitude": 51.26127,
+          "roof_id": "PPVD_2375787"
+        }
+      },
+      {
+        "geb_id": "Geb4387765lw0203_l",
+        "parts": 5,
+        "capacity_mwp": 1.744,
+        "annual_gwh": 1.591,
+        "specific_kwh_per_kwp": 912.44,
+        "orientations": "West,Flach",
+        "focus": {
+          "longitude": 6.71143,
+          "latitude": 51.22558,
+          "roof_id": "PPVD_2414429"
+        }
+      },
+      {
+        "geb_id": "Geb1687755lw0303_b",
+        "parts": 59,
+        "capacity_mwp": 1.738,
+        "annual_gwh": 1.343,
+        "specific_kwh_per_kwp": 772.65,
+        "orientations": "Nord,Ost,Süd,West,Flach",
+        "focus": {
+          "longitude": 6.80579,
+          "latitude": 51.2717,
+          "roof_id": "PPVD_2564449"
+        }
+      },
+      {
+        "geb_id": "Geb1600323lw0303_b",
+        "parts": 23,
+        "capacity_mwp": 1.605,
+        "annual_gwh": 1.405,
+        "specific_kwh_per_kwp": 875.02,
+        "orientations": "Süd,Flach",
+        "focus": {
+          "longitude": 6.79393,
+          "latitude": 51.21936,
+          "roof_id": "PPVD_2576716"
+        }
+      },
+      {
+        "geb_id": "Geb1568060lw0303_d",
+        "parts": 17,
+        "capacity_mwp": 1.561,
+        "annual_gwh": 1.223,
+        "specific_kwh_per_kwp": 783.4,
+        "orientations": "Nord,Ost,Süd,West",
+        "focus": {
+          "longitude": 6.8473,
+          "latitude": 51.17875,
+          "roof_id": "PPVD_2521305"
+        }
+      },
+      {
+        "geb_id": "Geb4414123lw0203_m",
+        "parts": 8,
+        "capacity_mwp": 1.54,
+        "annual_gwh": 1.197,
+        "specific_kwh_per_kwp": 777.02,
+        "orientations": "Nord,Ost,Süd,Flach",
+        "focus": {
+          "longitude": 6.7289,
+          "latitude": 51.26194,
+          "roof_id": "PPVD_2448573"
+        }
+      },
+      {
+        "geb_id": "Geb1711758lw0303_a",
+        "parts": 204,
+        "capacity_mwp": 1.53,
+        "annual_gwh": 1.293,
+        "specific_kwh_per_kwp": 845.32,
+        "orientations": "Nord,Ost,Süd,West,Flach",
+        "focus": {
+          "longitude": 6.76368,
+          "latitude": 51.27973,
+          "roof_id": "PPVD_2363359"
+        }
+      },
+      {
+        "geb_id": "Geb1688963lw0303_b",
+        "parts": 69,
+        "capacity_mwp": 1.49,
+        "annual_gwh": 1.19,
+        "specific_kwh_per_kwp": 798.73,
+        "orientations": "Nord,Ost,Süd,West,Flach",
+        "focus": {
+          "longitude": 6.79696,
+          "latitude": 51.27728,
+          "roof_id": "PPVD_2576725"
+        }
+      },
+      {
+        "geb_id": "Geb1582980lw0303_d",
+        "parts": 10,
+        "capacity_mwp": 1.483,
+        "annual_gwh": 1.336,
+        "specific_kwh_per_kwp": 900.75,
+        "orientations": "Nord,Ost,West,Flach",
+        "focus": {
+          "longitude": 6.85012,
+          "latitude": 51.18047,
+          "roof_id": "PPVD_2514784"
+        }
+      },
+      {
+        "geb_id": "Geb1654234lw0303_c",
+        "parts": 122,
+        "capacity_mwp": 1.481,
+        "annual_gwh": 1.282,
+        "specific_kwh_per_kwp": 865.79,
+        "orientations": "Nord,Ost,Süd,West,Flach",
+        "focus": {
+          "longitude": 6.82084,
+          "latitude": 51.2097,
+          "roof_id": "PPVD_2320339"
+        }
+      },
+      {
+        "geb_id": "Geb2093560lw0303_e",
+        "parts": 9,
+        "capacity_mwp": 1.48,
+        "annual_gwh": 1.335,
+        "specific_kwh_per_kwp": 901.48,
+        "orientations": "West,Flach",
+        "focus": {
+          "longitude": 6.85623,
+          "latitude": 51.22418,
+          "roof_id": "PPVD_2474722"
+        }
+      },
+      {
+        "geb_id": "Geb4418630lw0203_m",
+        "parts": 5,
+        "capacity_mwp": 1.45,
+        "annual_gwh": 1.32,
+        "specific_kwh_per_kwp": 910.47,
+        "orientations": "Nord,Süd,West,Flach",
+        "focus": {
+          "longitude": 6.74396,
+          "latitude": 51.26017,
+          "roof_id": "PPVD_2423043"
+        }
+      },
+      {
+        "geb_id": "Geb4414030lw0203_m",
+        "parts": 73,
+        "capacity_mwp": 1.433,
+        "annual_gwh": 1.246,
+        "specific_kwh_per_kwp": 869.67,
+        "orientations": "Nord,Ost,Süd,West,Flach",
+        "focus": {
+          "longitude": 6.7361,
+          "latitude": 51.25906,
+          "roof_id": "PPVD_2442487"
+        }
+      },
+      {
+        "geb_id": "Geb4419322lw0203_m",
+        "parts": 73,
+        "capacity_mwp": 1.36,
+        "annual_gwh": 1.189,
+        "specific_kwh_per_kwp": 874.23,
+        "orientations": "Nord,Süd,West,Flach",
+        "focus": {
+          "longitude": 6.74152,
+          "latitude": 51.26189,
+          "roof_id": "PPVD_2535640"
+        }
+      },
+      {
+        "geb_id": "Geb4419308lw0203_m",
+        "parts": 76,
+        "capacity_mwp": 1.351,
+        "annual_gwh": 1.183,
+        "specific_kwh_per_kwp": 876.01,
+        "orientations": "Nord,Ost,Süd,West,Flach",
+        "focus": {
+          "longitude": 6.74198,
+          "latitude": 51.26234,
+          "roof_id": "PPVD_2422076"
+        }
+      },
+      {
+        "geb_id": "Geb2114794lw0303_e",
+        "parts": 14,
+        "capacity_mwp": 1.279,
+        "annual_gwh": 0.964,
+        "specific_kwh_per_kwp": 753.72,
+        "orientations": "Nord,Ost,Süd,West,Flach",
+        "focus": {
+          "longitude": 6.85907,
+          "latitude": 51.16613,
+          "roof_id": "PPVD_2482922"
+        }
+      },
+      {
+        "geb_id": "Geb1586629lw0303_d",
+        "parts": 45,
+        "capacity_mwp": 1.278,
+        "annual_gwh": 1.139,
+        "specific_kwh_per_kwp": 891.69,
+        "orientations": "Ost,Süd,West,Flach",
+        "focus": {
+          "longitude": 6.84776,
+          "latitude": 51.18805,
+          "roof_id": "PPVD_2537969"
+        }
+      },
+      {
+        "geb_id": "Geb1560978lw0303_d",
+        "parts": 15,
+        "capacity_mwp": 1.264,
+        "annual_gwh": 0.954,
+        "specific_kwh_per_kwp": 754.33,
+        "orientations": "Ost,Süd,West",
+        "focus": {
+          "longitude": 6.84204,
+          "latitude": 51.23423,
+          "roof_id": "PPVD_2510818"
+        }
+      },
+      {
+        "geb_id": "Geb1721118lw0303_b",
+        "parts": 125,
+        "capacity_mwp": 1.25,
+        "annual_gwh": 1.062,
+        "specific_kwh_per_kwp": 849.81,
+        "orientations": "Ost,Süd,West,Flach",
+        "focus": {
+          "longitude": 6.78704,
+          "latitude": 51.25677,
+          "roof_id": "PPVD_2574848"
+        }
+      },
+      {
+        "geb_id": "Geb1718884lw0303_b",
+        "parts": 86,
+        "capacity_mwp": 1.22,
+        "annual_gwh": 0.943,
+        "specific_kwh_per_kwp": 772.83,
+        "orientations": "Nord,Ost,Süd,West,Flach",
+        "focus": {
+          "longitude": 6.78927,
+          "latitude": 51.25164,
+          "roof_id": "PPVD_2560373"
+        }
+      },
+      {
+        "geb_id": "Geb1590737lw0303_d",
+        "parts": 85,
+        "capacity_mwp": 1.207,
+        "annual_gwh": 0.965,
+        "specific_kwh_per_kwp": 799.75,
+        "orientations": "Ost,Süd,West,Flach",
+        "focus": {
+          "longitude": 6.83453,
+          "latitude": 51.21684,
+          "roof_id": "PPVD_2512252"
+        }
+      },
+      {
+        "geb_id": "Geb1720883lw0303_b",
+        "parts": 20,
+        "capacity_mwp": 1.205,
+        "annual_gwh": 1.072,
+        "specific_kwh_per_kwp": 889.76,
+        "orientations": "Ost,Süd,West,Flach",
+        "focus": {
+          "longitude": 6.78497,
+          "latitude": 51.26122,
+          "roof_id": "PPVD_2576691"
+        }
+      },
+      {
+        "geb_id": "Geb1686188lw0303_b",
+        "parts": 51,
+        "capacity_mwp": 1.19,
+        "annual_gwh": 0.938,
+        "specific_kwh_per_kwp": 787.75,
+        "orientations": "Nord,Ost,Süd,West,Flach",
+        "focus": {
+          "longitude": 6.8002,
+          "latitude": 51.26966,
+          "roof_id": "PPVD_2572962"
+        }
+      },
+      {
+        "geb_id": "Geb1559935lw0303_c",
+        "parts": 35,
+        "capacity_mwp": 1.185,
+        "annual_gwh": 0.928,
+        "specific_kwh_per_kwp": 783.19,
+        "orientations": "Ost,West,Flach",
+        "focus": {
+          "longitude": 6.83418,
+          "latitude": 51.16533,
+          "roof_id": "PPVD_2303945"
+        }
+      },
+      {
+        "geb_id": "Geb4171483lw0203_l",
+        "parts": 1,
+        "capacity_mwp": 1.151,
+        "annual_gwh": 1.047,
+        "specific_kwh_per_kwp": 909.41,
+        "orientations": "Flach",
+        "focus": {
+          "longitude": 6.69544,
+          "latitude": 51.23097,
+          "roof_id": "PPVD_2537844"
+        }
+      },
+      {
+        "geb_id": "Geb4414463lw0203_m",
+        "parts": 7,
+        "capacity_mwp": 1.151,
+        "annual_gwh": 1.044,
+        "specific_kwh_per_kwp": 907.48,
+        "orientations": "Nord,Ost,Süd,Flach",
+        "focus": {
+          "longitude": 6.74485,
+          "latitude": 51.26074,
+          "roof_id": "PPVD_2424244"
+        }
+      },
+      {
+        "geb_id": "Geb1647446lw0303_d",
+        "parts": 26,
+        "capacity_mwp": 1.112,
+        "annual_gwh": 0.984,
+        "specific_kwh_per_kwp": 885.72,
+        "orientations": "Ost,West,Flach",
+        "focus": {
+          "longitude": 6.85457,
+          "latitude": 51.16706,
+          "roof_id": "PPVD_2493895"
+        }
+      },
+      {
+        "geb_id": "Geb1596529lw0303_d",
+        "parts": 62,
+        "capacity_mwp": 1.094,
+        "annual_gwh": 0.876,
+        "specific_kwh_per_kwp": 800.75,
+        "orientations": "Nord,Ost,Süd,West,Flach",
+        "focus": {
+          "longitude": 6.84366,
+          "latitude": 51.16639,
+          "roof_id": "PPVD_2521895"
+        }
+      },
+      {
+        "geb_id": "Geb4418891lw0203_m",
+        "parts": 3,
+        "capacity_mwp": 1.083,
+        "annual_gwh": 0.986,
+        "specific_kwh_per_kwp": 910.5,
+        "orientations": "Süd,West,Flach",
+        "focus": {
+          "longitude": 6.74056,
+          "latitude": 51.26108,
+          "roof_id": "PPVD_2428131"
+        }
+      },
+      {
+        "geb_id": "Geb1579616lw0303_c",
+        "parts": 9,
+        "capacity_mwp": 1.082,
+        "annual_gwh": 0.979,
+        "specific_kwh_per_kwp": 904.8,
+        "orientations": "Süd,Flach",
+        "focus": {
+          "longitude": 6.82583,
+          "latitude": 51.21522,
+          "roof_id": "PPVD_2317856"
+        }
+      },
+      {
+        "geb_id": "Geb1711380lw0303_a",
+        "parts": 63,
+        "capacity_mwp": 1.082,
+        "annual_gwh": 0.861,
+        "specific_kwh_per_kwp": 795.57,
+        "orientations": "Nord,Ost,Süd,West,Flach",
+        "focus": {
+          "longitude": 6.76807,
+          "latitude": 51.27806,
+          "roof_id": "PPVD_2338466"
+        }
+      },
+      {
+        "geb_id": "Geb4418170lw0203_m",
+        "parts": 55,
+        "capacity_mwp": 1.069,
+        "annual_gwh": 0.951,
+        "specific_kwh_per_kwp": 889.98,
+        "orientations": "Nord,Ost,Süd,West,Flach",
+        "focus": {
+          "longitude": 6.73693,
+          "latitude": 51.26325,
+          "roof_id": "PPVD_2535641"
+        }
+      }
+    ],
+    "specific": [
+      {
+        "geb_id": "Geb1568474lw0303_a",
+        "parts": 1,
+        "capacity_mwp": 0.013,
+        "annual_gwh": 0.012,
+        "specific_kwh_per_kwp": 918.3,
+        "orientations": "Süd",
+        "focus": {
+          "longitude": 6.7624,
+          "latitude": 51.2072,
+          "roof_id": "PPVD_2369543"
+        }
+      },
+      {
+        "geb_id": "Geb1626899lw0303_a",
+        "parts": 1,
+        "capacity_mwp": 0.003,
+        "annual_gwh": 0.002,
+        "specific_kwh_per_kwp": 915.17,
+        "orientations": "Süd",
+        "focus": {
+          "longitude": 6.77471,
+          "latitude": 51.22427,
+          "roof_id": "PPVD_2533152"
+        }
+      },
+      {
+        "geb_id": "Geb4388153lw0203_m",
+        "parts": 1,
+        "capacity_mwp": 0.008,
+        "annual_gwh": 0.007,
+        "specific_kwh_per_kwp": 915.03,
+        "orientations": "Süd",
+        "focus": {
+          "longitude": 6.73799,
+          "latitude": 51.20378,
+          "roof_id": "PPVD_2444886"
+        }
+      },
+      {
+        "geb_id": "Geb4183392lw0203_l",
+        "parts": 2,
+        "capacity_mwp": 0.019,
+        "annual_gwh": 0.018,
+        "specific_kwh_per_kwp": 914.57,
+        "orientations": "Flach",
+        "focus": {
+          "longitude": 6.7007,
+          "latitude": 51.22494,
+          "roof_id": "PPVD_2410587"
+        }
+      },
+      {
+        "geb_id": "Geb4396427lw0203_l",
+        "parts": 1,
+        "capacity_mwp": 0.003,
+        "annual_gwh": 0.002,
+        "specific_kwh_per_kwp": 914.36,
+        "orientations": "Flach",
+        "focus": {
+          "longitude": 6.7137,
+          "latitude": 51.2311,
+          "roof_id": "PPVD_2415186"
+        }
+      },
+      {
+        "geb_id": "Geb4177806lw0203_l",
+        "parts": 1,
+        "capacity_mwp": 0.005,
+        "annual_gwh": 0.004,
+        "specific_kwh_per_kwp": 914.33,
+        "orientations": "Flach",
+        "focus": {
+          "longitude": 6.69953,
+          "latitude": 51.22556,
+          "roof_id": "PPVD_2410923"
+        }
+      },
+      {
+        "geb_id": "Geb4160179lw0203_l",
+        "parts": 1,
+        "capacity_mwp": 0.005,
+        "annual_gwh": 0.005,
+        "specific_kwh_per_kwp": 914.32,
+        "orientations": "Flach",
+        "focus": {
+          "longitude": 6.69959,
+          "latitude": 51.23403,
+          "roof_id": "PPVD_2414420"
+        }
+      },
+      {
+        "geb_id": "Geb4398088lw0203_l",
+        "parts": 1,
+        "capacity_mwp": 0.006,
+        "annual_gwh": 0.005,
+        "specific_kwh_per_kwp": 914.32,
+        "orientations": "Flach",
+        "focus": {
+          "longitude": 6.71127,
+          "latitude": 51.23581,
+          "roof_id": "PPVD_2414652"
+        }
+      },
+      {
+        "geb_id": "Geb4395960lw0203_l",
+        "parts": 1,
+        "capacity_mwp": 0.001,
+        "annual_gwh": 0.001,
+        "specific_kwh_per_kwp": 914.29,
+        "orientations": "Flach",
+        "focus": {
+          "longitude": 6.71361,
+          "latitude": 51.23132,
+          "roof_id": "PPVD_2415023"
+        }
+      },
+      {
+        "geb_id": "Geb4187703lw0203_l",
+        "parts": 1,
+        "capacity_mwp": 0.002,
+        "annual_gwh": 0.002,
+        "specific_kwh_per_kwp": 914.29,
+        "orientations": "Flach",
+        "focus": {
+          "longitude": 6.69421,
+          "latitude": 51.22672,
+          "roof_id": "PPVD_2413861"
+        }
+      },
+      {
+        "geb_id": "Geb4172645lw0203_l",
+        "parts": 1,
+        "capacity_mwp": 0.07,
+        "annual_gwh": 0.064,
+        "specific_kwh_per_kwp": 914.27,
+        "orientations": "Flach",
+        "focus": {
+          "longitude": 6.7068,
+          "latitude": 51.22614,
+          "roof_id": "PPVD_2414359"
+        }
+      },
+      {
+        "geb_id": "Geb4181098lw0203_l",
+        "parts": 1,
+        "capacity_mwp": 0.166,
+        "annual_gwh": 0.152,
+        "specific_kwh_per_kwp": 914.26,
+        "orientations": "Flach",
+        "focus": {
+          "longitude": 6.7009,
+          "latitude": 51.22525,
+          "roof_id": "PPVD_2414644"
+        }
+      },
+      {
+        "geb_id": "Geb4175769lw0203_l",
+        "parts": 1,
+        "capacity_mwp": 0.023,
+        "annual_gwh": 0.021,
+        "specific_kwh_per_kwp": 914.26,
+        "orientations": "Flach",
+        "focus": {
+          "longitude": 6.70117,
+          "latitude": 51.22893,
+          "roof_id": "PPVD_2414117"
+        }
+      },
+      {
+        "geb_id": "Geb4153480lw0203_l",
+        "parts": 1,
+        "capacity_mwp": 0.021,
+        "annual_gwh": 0.019,
+        "specific_kwh_per_kwp": 914.25,
+        "orientations": "Flach",
+        "focus": {
+          "longitude": 6.70034,
+          "latitude": 51.22789,
+          "roof_id": "PPVD_2410669"
+        }
+      },
+      {
+        "geb_id": "Geb4398694lw0203_l",
+        "parts": 1,
+        "capacity_mwp": 0.007,
+        "annual_gwh": 0.006,
+        "specific_kwh_per_kwp": 914.21,
+        "orientations": "Flach",
+        "focus": {
+          "longitude": 6.71111,
+          "latitude": 51.23599,
+          "roof_id": "PPVD_2414888"
+        }
+      },
+      {
+        "geb_id": "Geb4402631lw0203_l",
+        "parts": 1,
+        "capacity_mwp": 0.007,
+        "annual_gwh": 0.006,
+        "specific_kwh_per_kwp": 914.21,
+        "orientations": "Flach",
+        "focus": {
+          "longitude": 6.71016,
+          "latitude": 51.23047,
+          "roof_id": "PPVD_2411329"
+        }
+      },
+      {
+        "geb_id": "Geb1566154lw0303_a",
+        "parts": 1,
+        "capacity_mwp": 0.002,
+        "annual_gwh": 0.002,
+        "specific_kwh_per_kwp": 913.57,
+        "orientations": "Süd",
+        "focus": {
+          "longitude": 6.76371,
+          "latitude": 51.21119,
+          "roof_id": "PPVD_2533186"
+        }
+      },
+      {
+        "geb_id": "Geb4389068lw0203_m",
+        "parts": 1,
+        "capacity_mwp": 0.002,
+        "annual_gwh": 0.002,
+        "specific_kwh_per_kwp": 913.57,
+        "orientations": "Süd",
+        "focus": {
+          "longitude": 6.74263,
+          "latitude": 51.24018,
+          "roof_id": "PPVD_2444982"
+        }
+      },
+      {
+        "geb_id": "Geb4396639lw0203_l",
+        "parts": 1,
+        "capacity_mwp": 0.002,
+        "annual_gwh": 0.002,
+        "specific_kwh_per_kwp": 913.57,
+        "orientations": "Flach",
+        "focus": {
+          "longitude": 6.71362,
+          "latitude": 51.23109,
+          "roof_id": "PPVD_2414347"
+        }
+      },
+      {
+        "geb_id": "Geb4397785lw0203_l",
+        "parts": 1,
+        "capacity_mwp": 0.002,
+        "annual_gwh": 0.002,
+        "specific_kwh_per_kwp": 913.57,
+        "orientations": "Flach",
+        "focus": {
+          "longitude": 6.7138,
+          "latitude": 51.23126,
+          "roof_id": "PPVD_2414653"
+        }
+      },
+      {
+        "geb_id": "Geb1710813lw0202_m",
+        "parts": 1,
+        "capacity_mwp": 0.003,
+        "annual_gwh": 0.002,
+        "specific_kwh_per_kwp": 913.55,
+        "orientations": "Süd",
+        "focus": {
+          "longitude": 6.75202,
+          "latitude": 51.29976,
+          "roof_id": "PPVD_2399751"
+        }
+      },
+      {
+        "geb_id": "Geb4385289lw0203_l",
+        "parts": 1,
+        "capacity_mwp": 0.003,
+        "annual_gwh": 0.002,
+        "specific_kwh_per_kwp": 913.55,
+        "orientations": "Flach",
+        "focus": {
+          "longitude": 6.71373,
+          "latitude": 51.23128,
+          "roof_id": "PPVD_2414664"
+        }
+      },
+      {
+        "geb_id": "Geb4385528lw0203_l",
+        "parts": 1,
+        "capacity_mwp": 0.003,
+        "annual_gwh": 0.002,
+        "specific_kwh_per_kwp": 913.55,
+        "orientations": "Flach",
+        "focus": {
+          "longitude": 6.71368,
+          "latitude": 51.23131,
+          "roof_id": "PPVD_2414592"
+        }
+      },
+      {
+        "geb_id": "Geb4396865lw0203_l",
+        "parts": 1,
+        "capacity_mwp": 0.003,
+        "annual_gwh": 0.002,
+        "specific_kwh_per_kwp": 913.55,
+        "orientations": "Flach",
+        "focus": {
+          "longitude": 6.71354,
+          "latitude": 51.23112,
+          "roof_id": "PPVD_2413742"
+        }
+      },
+      {
+        "geb_id": "Geb4397083lw0203_l",
+        "parts": 1,
+        "capacity_mwp": 0.003,
+        "annual_gwh": 0.002,
+        "specific_kwh_per_kwp": 913.55,
+        "orientations": "Flach",
+        "focus": {
+          "longitude": 6.71349,
+          "latitude": 51.23113,
+          "roof_id": "PPVD_2413597"
+        }
+      },
+      {
+        "geb_id": "Geb4397309lw0203_l",
+        "parts": 1,
+        "capacity_mwp": 0.003,
+        "annual_gwh": 0.002,
+        "specific_kwh_per_kwp": 913.55,
+        "orientations": "Flach",
+        "focus": {
+          "longitude": 6.71342,
+          "latitude": 51.23113,
+          "roof_id": "PPVD_2415026"
+        }
+      },
+      {
+        "geb_id": "Geb4397546lw0203_l",
+        "parts": 1,
+        "capacity_mwp": 0.003,
+        "annual_gwh": 0.002,
+        "specific_kwh_per_kwp": 913.55,
+        "orientations": "Flach",
+        "focus": {
+          "longitude": 6.71383,
+          "latitude": 51.23122,
+          "roof_id": "PPVD_2414233"
+        }
+      },
+      {
+        "geb_id": "Geb4398211lw0203_l",
+        "parts": 1,
+        "capacity_mwp": 0.003,
+        "annual_gwh": 0.002,
+        "specific_kwh_per_kwp": 913.55,
+        "orientations": "Flach",
+        "focus": {
+          "longitude": 6.71376,
+          "latitude": 51.23107,
+          "roof_id": "PPVD_2414983"
+        }
+      },
+      {
+        "geb_id": "Geb4387678lw0203_l",
+        "parts": 1,
+        "capacity_mwp": 0.003,
+        "annual_gwh": 0.003,
+        "specific_kwh_per_kwp": 913.53,
+        "orientations": "Flach",
+        "focus": {
+          "longitude": 6.70881,
+          "latitude": 51.23748,
+          "roof_id": "PPVD_2414634"
+        }
+      },
+      {
+        "geb_id": "Geb4383167lw0203_l",
+        "parts": 1,
+        "capacity_mwp": 0.004,
+        "annual_gwh": 0.004,
+        "specific_kwh_per_kwp": 913.53,
+        "orientations": "Flach",
+        "focus": {
+          "longitude": 6.71502,
+          "latitude": 51.22657,
+          "roof_id": "PPVD_2414979"
+        }
+      },
+      {
+        "geb_id": "Geb4397081lw0203_l",
+        "parts": 1,
+        "capacity_mwp": 0.004,
+        "annual_gwh": 0.004,
+        "specific_kwh_per_kwp": 913.53,
+        "orientations": "Flach",
+        "focus": {
+          "longitude": 6.70873,
+          "latitude": 51.23723,
+          "roof_id": "PPVD_2414671"
+        }
+      },
+      {
+        "geb_id": "Geb4397308lw0203_l",
+        "parts": 1,
+        "capacity_mwp": 0.004,
+        "annual_gwh": 0.004,
+        "specific_kwh_per_kwp": 913.53,
+        "orientations": "Flach",
+        "focus": {
+          "longitude": 6.7087,
+          "latitude": 51.23714,
+          "roof_id": "PPVD_2415004"
+        }
+      },
+      {
+        "geb_id": "Geb1706068lw0303_a",
+        "parts": 1,
+        "capacity_mwp": 0.005,
+        "annual_gwh": 0.004,
+        "specific_kwh_per_kwp": 913.52,
+        "orientations": "Süd",
+        "focus": {
+          "longitude": 6.76476,
+          "latitude": 51.26401,
+          "roof_id": "PPVD_2376370"
+        }
+      },
+      {
+        "geb_id": "Geb4403053lw0203_l",
+        "parts": 1,
+        "capacity_mwp": 0.002,
+        "annual_gwh": 0.002,
+        "specific_kwh_per_kwp": 913.48,
+        "orientations": "Flach",
+        "focus": {
+          "longitude": 6.71257,
+          "latitude": 51.23753,
+          "roof_id": "PPVD_2414241"
+        }
+      },
+      {
+        "geb_id": "Geb1673496lw0303_a",
+        "parts": 1,
+        "capacity_mwp": 0.001,
+        "annual_gwh": 0.001,
+        "specific_kwh_per_kwp": 913.48,
+        "orientations": "Süd",
+        "focus": {
+          "longitude": 6.76772,
+          "latitude": 51.2701,
+          "roof_id": "PPVD_2335236"
+        }
+      },
+      {
+        "geb_id": "Geb4185306lw0203_l",
+        "parts": 1,
+        "capacity_mwp": 0.001,
+        "annual_gwh": 0.001,
+        "specific_kwh_per_kwp": 913.48,
+        "orientations": "Flach",
+        "focus": {
+          "longitude": 6.70643,
+          "latitude": 51.2316,
+          "roof_id": "PPVD_2408514"
+        }
+      },
+      {
+        "geb_id": "Geb4186528lw0203_l",
+        "parts": 1,
+        "capacity_mwp": 0.001,
+        "annual_gwh": 0.001,
+        "specific_kwh_per_kwp": 913.48,
+        "orientations": "Flach",
+        "focus": {
+          "longitude": 6.70644,
+          "latitude": 51.23158,
+          "roof_id": "PPVD_2408154"
+        }
+      },
+      {
+        "geb_id": "Geb4392178lw0203_m",
+        "parts": 1,
+        "capacity_mwp": 0.001,
+        "annual_gwh": 0.001,
+        "specific_kwh_per_kwp": 913.48,
+        "orientations": "Flach",
+        "focus": {
+          "longitude": 6.7432,
+          "latitude": 51.19647,
+          "roof_id": "PPVD_2439547"
+        }
+      },
+      {
+        "geb_id": "Geb4392702lw0203_l",
+        "parts": 1,
+        "capacity_mwp": 0.001,
+        "annual_gwh": 0.001,
+        "specific_kwh_per_kwp": 913.48,
+        "orientations": "Flach",
+        "focus": {
+          "longitude": 6.71031,
+          "latitude": 51.23565,
+          "roof_id": "PPVD_2414327"
+        }
+      },
+      {
+        "geb_id": "Geb4400390lw0203_l",
+        "parts": 1,
+        "capacity_mwp": 0.001,
+        "annual_gwh": 0.001,
+        "specific_kwh_per_kwp": 913.48,
+        "orientations": "Flach",
+        "focus": {
+          "longitude": 6.72479,
+          "latitude": 51.23784,
+          "roof_id": "PPVD_2408490"
+        }
+      },
+      {
+        "geb_id": "Geb4402718lw0203_m",
+        "parts": 1,
+        "capacity_mwp": 0.001,
+        "annual_gwh": 0.001,
+        "specific_kwh_per_kwp": 913.48,
+        "orientations": "Flach",
+        "focus": {
+          "longitude": 6.72756,
+          "latitude": 51.24761,
+          "roof_id": "PPVD_2419654"
+        }
+      },
+      {
+        "geb_id": "Geb4181968lw0203_l",
+        "parts": 1,
+        "capacity_mwp": 0.017,
+        "annual_gwh": 0.015,
+        "specific_kwh_per_kwp": 913.47,
+        "orientations": "Flach",
+        "focus": {
+          "longitude": 6.69244,
+          "latitude": 51.22918,
+          "roof_id": "PPVD_2411260"
+        }
+      },
+      {
+        "geb_id": "Geb4139194lw0203_l",
+        "parts": 1,
+        "capacity_mwp": 0.014,
+        "annual_gwh": 0.013,
+        "specific_kwh_per_kwp": 913.47,
+        "orientations": "Flach",
+        "focus": {
+          "longitude": 6.70665,
+          "latitude": 51.22899,
+          "roof_id": "PPVD_2411593"
+        }
+      },
+      {
+        "geb_id": "Geb4178733lw0203_l",
+        "parts": 1,
+        "capacity_mwp": 0.137,
+        "annual_gwh": 0.125,
+        "specific_kwh_per_kwp": 913.46,
+        "orientations": "Flach",
+        "focus": {
+          "longitude": 6.70057,
+          "latitude": 51.22559,
+          "roof_id": "PPVD_2410838"
+        }
+      },
+      {
+        "geb_id": "Geb4399109lw0203_l",
+        "parts": 1,
+        "capacity_mwp": 0.067,
+        "annual_gwh": 0.061,
+        "specific_kwh_per_kwp": 913.46,
+        "orientations": "Flach",
+        "focus": {
+          "longitude": 6.71165,
+          "latitude": 51.22797,
+          "roof_id": "PPVD_2414964"
+        }
+      },
+      {
+        "geb_id": "Geb4186663lw0203_l",
+        "parts": 1,
+        "capacity_mwp": 0.107,
+        "annual_gwh": 0.098,
+        "specific_kwh_per_kwp": 913.46,
+        "orientations": "Flach",
+        "focus": {
+          "longitude": 6.70116,
+          "latitude": 51.23318,
+          "roof_id": "PPVD_2413815"
+        }
+      },
+      {
+        "geb_id": "Geb4163542lw0203_l",
+        "parts": 1,
+        "capacity_mwp": 0.211,
+        "annual_gwh": 0.192,
+        "specific_kwh_per_kwp": 913.46,
+        "orientations": "Flach",
+        "focus": {
+          "longitude": 6.70423,
+          "latitude": 51.22878,
+          "roof_id": "PPVD_2414777"
+        }
+      },
+      {
+        "geb_id": "Geb4121906lw0203_l",
+        "parts": 1,
+        "capacity_mwp": 0.014,
+        "annual_gwh": 0.013,
+        "specific_kwh_per_kwp": 913.45,
+        "orientations": "Flach",
+        "focus": {
+          "longitude": 6.70151,
+          "latitude": 51.22675,
+          "roof_id": "PPVD_2414411"
+        }
+      },
+      {
+        "geb_id": "Geb4151020lw0203_l",
+        "parts": 1,
+        "capacity_mwp": 0.021,
+        "annual_gwh": 0.019,
+        "specific_kwh_per_kwp": 913.44,
+        "orientations": "Flach",
+        "focus": {
+          "longitude": 6.7019,
+          "latitude": 51.22774,
+          "roof_id": "PPVD_2414323"
+        }
+      },
+      {
+        "geb_id": "Geb4402494lw0203_l",
+        "parts": 1,
+        "capacity_mwp": 0.019,
+        "annual_gwh": 0.017,
+        "specific_kwh_per_kwp": 913.43,
+        "orientations": "Flach",
+        "focus": {
+          "longitude": 6.71006,
+          "latitude": 51.22744,
+          "roof_id": "PPVD_2413893"
+        }
+      }
+    ]
+  },
+  "ranking_limit": 50,
+  "map_index_sha256": "e24658b493562d3c6e6a2b2a97049a7f26865939873bd504e6538e6f3dc48440",
+  "limits": [
+    "Source-building groups by explicit geb_id, not independently confirmed physical/ALKIS buildings",
+    "No free remaining potential, panel occupancy, structural or investment assessment",
+    "GDB model separate from municipal Excel and other regional models",
+    "No north-roof exclusion; source categories, every original slope degree; no approved slope bins assumed",
+    "Map opens one representative roof part, not a building outline; rounded focus is display only",
+    "Top50 per criterion from all building groups; no weighted score or capacity-floor filter",
+    "Three previous parcel exclusions apply only to roof-parcel work; all305939roof attributes retained"
+  ]
+}

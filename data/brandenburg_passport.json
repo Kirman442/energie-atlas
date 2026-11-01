@@ -1,0 +1,122 @@
+{
+  "schema": "regional_source_passport_v1",
+  "id": "brandenburg_rooftop_aggregates",
+  "state_code": "12",
+  "status": "PREPARED_WITH_LIMITS_NOT_ACTIVE",
+  "provider": "Wirtschaftsförderung Land Brandenburg GmbH (WFBB)",
+  "reporting_year": 2025,
+  "roof_model_date": "2026-02-27",
+  "stock_source_date": "2026-09-01",
+  "provider_processing_date": "2026-09-04",
+  "ground_model_date": "2023-01-31",
+  "energy_settlement_year": 2025,
+  "time_scope": "Different source dates explicitly retained; not our MaStR snapshot",
+  "license": "dl-de/by-2-0",
+  "license_evidence_url": "https://energieportal-brandenburg.de/cms/inhalte/tools/solaratlas-brandenburg/datenservice",
+  "attribution": "© Wirtschaftsförderung Land Brandenburg GmbH (WFBB), dl-de/by-2-0, Daten geändert",
+  "geometry_delivery": "not included; original EPSG:25833 source kept separately; AGS-based aggregate join only",
+  "zero_policy": "All-zero fields excluded from selected delivery until semantics verified; source zeros retained in original",
+  "classes": {
+    "gut": "gut geeignet",
+    "mittel": "geeignet",
+    "schlecht": "bedingt geeignet; not unsuitable"
+  },
+  "counts": "Suitable building total separate from suitability-class counts; class count sums not assumed to partition buildings",
+  "energy": "Roof-potential energy is modeled annual MWh; installed-stock energy comes from mixed settlement sources and is not included in this candidate",
+  "selected_fields": {
+    "bestand_pvdach_anzahl_gesamt": {
+      "unit": "Anzahl",
+      "description": "Bestand Photovoltaikanlagen auf Dachflächen, gesamt",
+      "source_row": 7
+    },
+    "bestand_pvdach_leistung_gesamt_kwp": {
+      "unit": "kWp",
+      "description": "Bestand Photovoltaikanlagen auf Dachflächen, Leistung, gesamt",
+      "source_row": 13
+    },
+    "bestand_pvfrei_leistung_gesamt_kwp": {
+      "unit": "kWp",
+      "description": "Bestand Photovoltaikanlagen auf Freiflächen, Leistung, gesamt",
+      "source_row": 24
+    },
+    "potenzial_pvdach_anzahl_gebaeudeanzahl": {
+      "unit": "Anzahl",
+      "description": "Gebäudeanzahl, gesamt",
+      "source_row": 37
+    },
+    "potenzial_pvdach_anzahl_gesamt": {
+      "unit": "Anzahl",
+      "description": "Potenzial Photovoltaikanlagen auf Dachflächen, Anzahl geeigneter Gebäude, gesamt",
+      "source_row": 38
+    },
+    "potenzial_pvdach_leistung_gesamt_kwp": {
+      "unit": "kWp",
+      "description": "Potenzial Photovoltaikanlagen auf Dachflächen, Eignung der Dachflächen, Leistung, gesamt",
+      "source_row": 55
+    },
+    "potenzial_pvdach_menge_gesamt_mwh": {
+      "unit": "MWh",
+      "description": "Potenzial Photovoltaikanlagen auf Dachflächen, Eignung der Dachflächen, Energiemenge, gesamt",
+      "source_row": 67
+    },
+    "potenzial_pvdach_flaeche_gesamt_qm": {
+      "unit": "m²",
+      "description": "Potenzial Photovoltaikanlagen auf Dachflächen, Eignung der Dachflächen, Modulfläche, gesamt",
+      "source_row": 43
+    },
+    "potenzial_pvdach_leistung_eignung_gut_kwp": {
+      "unit": "kWp",
+      "description": "Potenzial Photovoltaikanlagen auf Dachflächen, Eignung der Dachflächen, Leistung, gut geeignet",
+      "source_row": 52
+    },
+    "potenzial_pvdach_leistung_eignung_mittel_kwp": {
+      "unit": "kWp",
+      "description": "Potenzial Photovoltaikanlagen auf Dachflächen, Eignung der Dachflächen, Leistung, geeignet",
+      "source_row": 53
+    },
+    "potenzial_pvdach_leistung_eignung_schlecht_kwp": {
+      "unit": "kWp",
+      "description": "Potenzial Photovoltaikanlagen auf Dachflächen, Eignung der Dachflächen, Leistung, bedingt geeignet",
+      "source_row": 54
+    },
+    "potenzial_pvdach_menge_eignung_gut_mwh": {
+      "unit": "MWh",
+      "description": "Potenzial Photovoltaikanlagen auf Dachflächen, Eignung der Dachflächen, Energiemenge, gut geeignet",
+      "source_row": 64
+    },
+    "potenzial_pvdach_menge_eignung_mittel_mwh": {
+      "unit": "MWh",
+      "description": "Potenzial Photovoltaikanlagen auf Dachflächen, Eignung der Dachflächen, Energiemenge, geeignet",
+      "source_row": 65
+    },
+    "potenzial_pvdach_menge_eignung_schlecht_mwh": {
+      "unit": "MWh",
+      "description": "Potenzial Photovoltaikanlagen auf Dachflächen, Eignung der Dachflächen, Energiemenge, bedingt geeignet",
+      "source_row": 66
+    },
+    "potenzial_pvdach_flaeche_eignung_gut_qm": {
+      "unit": "m²",
+      "description": "Potenzial Photovoltaikanlagen auf Dachflächen, Eignung der Dachflächen, Modulfläche, gut geeignet",
+      "source_row": 40
+    },
+    "potenzial_pvdach_flaeche_eignung_mittel_qm": {
+      "unit": "m²",
+      "description": "Potenzial Photovoltaikanlagen auf Dachflächen, Eignung der Dachflächen, Modulfläche, geeignet",
+      "source_row": 41
+    },
+    "potenzial_pvdach_flaeche_eignung_schlecht_qm": {
+      "unit": "m²",
+      "description": "Potenzial Photovoltaikanlagen auf Dachflächen, Eignung der Dachflächen, Modulfläche, bedingt geeignet",
+      "source_row": 42
+    }
+  },
+  "source_reference_strings": [
+    "Marktstammdatenregister der Bundesnetzagentur (Stand: 01.09.2026), Marktstammdatenregister der Bundesnetzagentur - Korrektur durch Energie- und Klimaagentur Brandenburg (Stand: 01.09.2026),Informationsplattform der vier deutschen Übertragungsnetzbetreiber - EEG-Jahresabrechnung - Bewegungsdaten - 2025, Energie- und Klimaagentur Brandenburg - eigene Aufbereitung (Stand: 04.09.2026),Energie- und Klimaagentur Brandenburg - Ergebnisse der Potenzialanalyse über nutzbare Flächen für solartechnische Anlagen (Photovoltaikdachanlagen) im Land Brandenburg (Stand: 27.02.2026),Energie- und Klimaagentur Brandenburg - Ergebnisse der Potenzialanalyse über nutzbare Flächen für solartechnische Anlagen (Photovoltaikfreiflächenanlagen) im Land Brandenburg nach EEG 2023 (Stand: 31.01.2023),Energie- und Klimaagentur Brandenburg - Ergebnisse der Potenzialanalyse über nutzbare Flächen für solartechnische Anlagen (solarthermische Anlagen) im Land Brandenburg (Stand: 31.03.2022)"
+  ],
+  "limits": [
+    "Do not sum roof and ground potential or subtract own MaStR as free residual",
+    "Reported all-potential total includes conditionally suitable class",
+    "Dictionary has category-description/unit inconsistencies outside selected fields; building-use splits and mislabeled combined-power field are withheld",
+    "Class sums retain published rounding residuals; no source values corrected"
+  ]
+}

@@ -1,0 +1,164 @@
+{
+  "schema": "atlas_local_app_v1",
+  "snapshot": "2026-10-28",
+  "geography": "bkg_fixed_20261021_v6",
+  "outputs": {
+    "annual_national.json": {
+      "sha256": "f930baca899dd9daba72fd7284424b8e2c1fd2be88047d769c7b41445ded41f8",
+      "bytes": 9180
+    },
+    "bb_municipalities.geojson": {
+      "sha256": "b96f8a53df19d2a7a994c1a9b8d1305e202350a781634b571e0ad7136c228eb0",
+      "bytes": 1307186
+    },
+    "brandenburg_passport.json": {
+      "sha256": "2432cf3a865ebdd4f0057a28b6fd298868fb74e199da8d8ccdfd3558dd13c327",
+      "bytes": 6578
+    },
+    "brandenburg_roofs_2025_reporting.json": {
+      "sha256": "b7afbb3a97bd2215704ae7029f1db5c0473f7089c274d0e32025dacb547060dd",
+      "bytes": 389812
+    },
+    "current_districts.json": {
+      "sha256": "0945a1963aa0d5fac012f4fc1a3b4be7d55ebfbb47677f9e26c95f084f6fe189",
+      "bytes": 226471
+    },
+    "current_national.json": {
+      "sha256": "8c596f87bd1a30cf7e97481ee19aa544989fd8f0b2e3239f2906d34d577258b4",
+      "bytes": 620
+    },
+    "current_states.json": {
+      "sha256": "79e34c5d59afe71b7358f534fde27e6a26fc49cb43dc45a8e92778f74460560a",
+      "bytes": 9647
+    },
+    "district_normalization.json": {
+      "sha256": "30ae24fc8b07d4e869f475a5ff0c0bef1d306f469319f2f41304f303a10cb301",
+      "bytes": 137540
+    },
+    "districts.geojson": {
+      "sha256": "37aa5e43521e9d0eb41c85cb9ea081e4c0fd8698a1a779113b5cef601f81d974",
+      "bytes": 4294229
+    },
+    "duesseldorf_roof_analytics.json": {
+      "sha256": "54ec0306c6440a10d2a1e4458f59f85a5866a1f637f6cc8096046c0e2b05d472",
+      "bytes": 125785
+    },
+    "energy_context.json": {
+      "sha256": "6d9e71d10311a001256c2b2278f5b4ee8fa6e785fe2f1a09dd3466e9d305f7f7",
+      "bytes": 83040
+    },
+    "national_snapshot_stock.json": {
+      "sha256": "f69e6d2714eed8a2256fd996d524bfe8a72cfd8dc7d9257f85ca11fb959b256b",
+      "bytes": 3559
+    },
+    "normalization_context.json": {
+      "sha256": "7c491504956f1fefedc8a3445dd9c9d552259961ac36342533cc360c0f509e8d",
+      "bytes": 8750
+    },
+    "nrw_combined_profile.json": {
+      "sha256": "de6467a746e85d596f057e0f746113be968d17c7ac81331d314b3574f08eb1f8",
+      "bytes": 18902
+    },
+    "nrw_districts.json": {
+      "sha256": "327fa71ad8be5ff39ab3dda98b0781395651d88895aa2173ac9c4d576c459c36",
+      "bytes": 53665
+    },
+    "nrw_municipal.json": {
+      "sha256": "b185d42309bf0aeea903584188c0c2b72839c95e0b4ef18dcfc4d380ebd0e75e",
+      "bytes": 241169
+    },
+    "nrw_municipalities.geojson": {
+      "sha256": "373d41b5669c863b76af1b698aabf04933769694b65545fd3a1c39533769c83c",
+      "bytes": 1402804
+    },
+    "regional_analytics.json": {
+      "sha256": "88e4bf99cd0123bfb166da5526e9bcbf9531ad69388aa58daa4bccf6d662b19c",
+      "bytes": 42223
+    },
+    "regional_source_profiles.json": {
+      "sha256": "b05bbc48116bb61fef6b200c9a19487c7998d9c26d9e16b9b67c39ac1337c325",
+      "bytes": 33465
+    },
+    "rlp_passport.json": {
+      "sha256": "7a7b1d13b2e97fbfac9fc0a39573625988e861fd3a502f0bf8df2958eab6add1",
+      "bytes": 2029
+    },
+    "rlp_power_2025.json": {
+      "sha256": "06722dd5068175eb85294e160e13e69423db31b41338a7e9aadb20d30d678781",
+      "bytes": 6474
+    },
+    "rlp_power_history.json": {
+      "sha256": "ae845692ffb54c4a4c4a56ba7292e456159dca13695f7d63a4824f1256b14a39",
+      "bytes": 142345
+    },
+    "rlp_solarthermal_2025.json": {
+      "sha256": "66512625600d1dacb4bea89db8d3f56321ddefdbe7d8545d7773ce2ede3ae075",
+      "bytes": 4346
+    },
+    "snapshot_comparisons_extended.json": {
+      "sha256": "2929d0b48e09e5fdd8f79f6f1504d1e46bdd643edeedb1165fdcdbe5a9daed62",
+      "bytes": 50372
+    },
+    "snapshot_comparisons.json": {
+      "sha256": "44d2fa528930d83f841d35b06a0e58bf3736c1da828ba373e31cef6a87a6509d",
+      "bytes": 28265
+    },
+    "solar_nrw_points.json": {
+      "sha256": "07c7caab42a974f41870f169ae975b82372bbfefc13e1bb1b99be235340b9101",
+      "bytes": 4917527
+    },
+    "solar_spatial_review.json": {
+      "sha256": "e7ab24cc2c614c0b430fd4b7b08d9c2da3db6841bc314d1c07bbe19043134336",
+      "bytes": 39715
+    },
+    "states.geojson": {
+      "sha256": "4bd69ca18d721e9c3bd75dd7cd0357cdc8defeb6dd7baf5fbbd5fdc910c54a31",
+      "bytes": 971343
+    },
+    "wind_planning_analytics.json": {
+      "sha256": "fc8466899fa60feaf02b5ddb3ab6a5fbf30b3b5cbcf28737eb75d50b15027c68",
+      "bytes": 958801
+    },
+    "wind_planning_metadata.json": {
+      "sha256": "6348831b53f6587711ac204327a495f469f6d02b0e22145dc0a0f342b8817a36",
+      "bytes": 1976
+    },
+    "wind_planning.geojson": {
+      "sha256": "c3f2e5f6a8d27f61ff1ee65970359f1c0d7312b1a09e2b0bcb9012fda1b02907",
+      "bytes": 1555367
+    },
+    "wind_resource_density.png": {
+      "sha256": "ea51952294e0ec32d1634f5ae4e93835d65214813390878df7ec4c1110d2200e",
+      "bytes": 679391
+    },
+    "wind_resource_speed.png": {
+      "sha256": "2ffe137e54e07d57a63985a21797c8b4594a63e7c15140edfe6c0461464c4c33",
+      "bytes": 665445
+    },
+    "wind_resource_uncertainty.png": {
+      "sha256": "e26280e6bf59501c40a1c02fa6bbee37ffa622b4779bef8138c74e40afc4e0de",
+      "bytes": 390362
+    },
+    "wind_resource.json": {
+      "sha256": "fc8c26c1d414d2777df27c7bb1ad874171536f26e778424ad0de255e23adde88",
+      "bytes": 541347
+    },
+    "wind_units.json": {
+      "sha256": "4d6b3290da82555fbd10e5cad27234d86b904f4e4ef921d1d6d3f520b5c3dd51",
+      "bytes": 3915708
+    }
+  },
+  "limits": [
+    "Annual cohorts reflect operating units and capacity in the selected snapshot, not past fleet totals.",
+    "Coordinate counts establish numeric availability, not physical validation.",
+    "Quality buckets must remain in totals and must not be joined to map polygons.",
+    "NRW GDB/Excel remain separate; date and method reconciliation open.",
+    "No actual electricity generation, free rooftop remainder or municipal MaStR estimate.",
+    "Geometry, installation points and roofs are not exported in this aggregate candidate."
+  ],
+  "regional_completion": {
+    "scope": "LOCAL_ONLY_WITH_SOURCE_LIMITS",
+    "source": "01_36_regional_data_completion_four_tasks.md",
+    "publication": false
+  }
+}

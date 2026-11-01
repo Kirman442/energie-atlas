@@ -1,0 +1,1276 @@
+{
+  "schema": "regional_analytics_candidate_v1",
+  "status": "INTERNAL_CANDIDATE_NOT_ACTIVE",
+  "cross_region_ranking_allowed": false,
+  "subtract_mastr_to_get_free_potential_allowed": false,
+  "hamburg": {
+    "region_code": "02",
+    "source_basis": "Spring 2022 survey per LGV",
+    "roof_scope_cards": {
+      "source_suitable_classes_1_2_3": {
+        "objects": 449994,
+        "capacity_mwp": 4701.376,
+        "modeled_energy_gwh_per_year": 3970.169,
+        "energy_objects_available": 449994,
+        "paired_objects": 449994,
+        "specific_kwh_per_kwp_per_year": 844.47
+      },
+      "source_class_6_less_suitable": {
+        "objects": 393376,
+        "capacity_mwp": 540.778,
+        "modeled_energy_gwh_per_year": 331.822,
+        "energy_objects_available": 393376,
+        "paired_objects": 250962,
+        "specific_kwh_per_kwp_per_year": 613.6
+      },
+      "source_classes_0_8_no_quality_or_no_building": {
+        "objects": 8090,
+        "capacity_mwp": 0.0,
+        "modeled_energy_gwh_per_year": 0.0,
+        "energy_objects_available": 8090,
+        "paired_objects": 0,
+        "specific_kwh_per_kwp_per_year": null
+      }
+    },
+    "roof_class_breakdown": [
+      {
+        "category": "Eignung 1 (geeignet, sehr hohe Einstrahlung)",
+        "objects": 132829,
+        "capacity_mwp": 2045.073,
+        "modeled_energy_gwh_per_year": 1835.314,
+        "energy_objects_available": 132829,
+        "paired_objects": 132829,
+        "specific_kwh_per_kwp_per_year": 897.43
+      },
+      {
+        "category": "Eignung 2 (geeignet, hohe Einstrahlung)",
+        "objects": 165062,
+        "capacity_mwp": 1669.757,
+        "modeled_energy_gwh_per_year": 1390.825,
+        "energy_objects_available": 165062,
+        "paired_objects": 165062,
+        "specific_kwh_per_kwp_per_year": 832.95
+      },
+      {
+        "category": "Eignung 3 (geeignet, mittlere Einstrahlung)",
+        "objects": 152103,
+        "capacity_mwp": 986.545,
+        "modeled_energy_gwh_per_year": 744.03,
+        "energy_objects_available": 152103,
+        "paired_objects": 152103,
+        "specific_kwh_per_kwp_per_year": 754.18
+      }
+    ],
+    "building_level_card": {
+      "objects": 384898,
+      "capacity_mwp": 4596.692,
+      "modeled_energy_gwh_per_year": null,
+      "energy_objects_available": 0,
+      "paired_objects": 0,
+      "specific_kwh_per_kwp_per_year": null
+    },
+    "reconciliation": {
+      "categories": {
+        "DIFFERENT": 291555,
+        "WITHIN_0_01_KWP": 24047,
+        "EXACT_MATCH": 69255,
+        "NO_ROOF_ROWS": 41
+      },
+      "sum_compared_roof_minus_building_kwp": "645483.63676063",
+      "tolerance_kwp": "0.01",
+      "tolerance_use": "Diagnostic category, no value rewritten",
+      "largest_absolute_differences": [
+        {
+          "buildingid": "260020",
+          "roof_units": 1,
+          "building_capacity_kwp": "0.0",
+          "roof_capacity_kwp": "7291.48",
+          "roof_annual_kwh": "2785640.66",
+          "roof_minus_building_kwp": "7291.48",
+          "comparison": "DIFFERENT",
+          "building_geometry_components": 1
+        },
+        {
+          "buildingid": "17783",
+          "roof_units": 4,
+          "building_capacity_kwp": "2.49411318",
+          "roof_capacity_kwp": "4071.93",
+          "roof_annual_kwh": "2210864.20",
+          "roof_minus_building_kwp": "4069.43588682",
+          "comparison": "DIFFERENT",
+          "building_geometry_components": 1
+        },
+        {
+          "buildingid": "29852",
+          "roof_units": 11,
+          "building_capacity_kwp": "57.59858727",
+          "roof_capacity_kwp": "3353.59",
+          "roof_annual_kwh": "1218472.94",
+          "roof_minus_building_kwp": "3295.99141273",
+          "comparison": "DIFFERENT",
+          "building_geometry_components": 1
+        },
+        {
+          "buildingid": "362761",
+          "roof_units": 9,
+          "building_capacity_kwp": "435.99179553",
+          "roof_capacity_kwp": "3117.49",
+          "roof_annual_kwh": "1888789.63",
+          "roof_minus_building_kwp": "2681.49820447",
+          "comparison": "DIFFERENT",
+          "building_geometry_components": 1
+        },
+        {
+          "buildingid": "144564",
+          "roof_units": 55,
+          "building_capacity_kwp": "0.0",
+          "roof_capacity_kwp": "2110.58",
+          "roof_annual_kwh": "1898662.93",
+          "roof_minus_building_kwp": "2110.58",
+          "comparison": "DIFFERENT",
+          "building_geometry_components": 1
+        },
+        {
+          "buildingid": "135813",
+          "roof_units": 137,
+          "building_capacity_kwp": "676.87302248",
+          "roof_capacity_kwp": "2052.74",
+          "roof_annual_kwh": "1414563.60",
+          "roof_minus_building_kwp": "1375.86697752",
+          "comparison": "DIFFERENT",
+          "building_geometry_components": 1
+        },
+        {
+          "buildingid": "149678",
+          "roof_units": 1,
+          "building_capacity_kwp": "1036.70258897",
+          "roof_capacity_kwp": "0.0",
+          "roof_annual_kwh": "0.0",
+          "roof_minus_building_kwp": "-1036.70258897",
+          "comparison": "DIFFERENT",
+          "building_geometry_components": 1
+        },
+        {
+          "buildingid": "145703",
+          "roof_units": 4,
+          "building_capacity_kwp": "888.36331837",
+          "roof_capacity_kwp": "46.20",
+          "roof_annual_kwh": "41589.62",
+          "roof_minus_building_kwp": "-842.16331837",
+          "comparison": "DIFFERENT",
+          "building_geometry_components": 1
+        },
+        {
+          "buildingid": "262041",
+          "roof_units": 217,
+          "building_capacity_kwp": "2056.44920061",
+          "roof_capacity_kwp": "2852.53",
+          "roof_annual_kwh": "2120154.48",
+          "roof_minus_building_kwp": "796.08079939",
+          "comparison": "DIFFERENT",
+          "building_geometry_components": 1
+        },
+        {
+          "buildingid": "152236",
+          "roof_units": 126,
+          "building_capacity_kwp": "1106.50477369",
+          "roof_capacity_kwp": "1894.12",
+          "roof_annual_kwh": "1548877.98",
+          "roof_minus_building_kwp": "787.61522631",
+          "comparison": "DIFFERENT",
+          "building_geometry_components": 1
+        },
+        {
+          "buildingid": "63610",
+          "roof_units": 1,
+          "building_capacity_kwp": "740.31335699",
+          "roof_capacity_kwp": "0.0",
+          "roof_annual_kwh": "0.0",
+          "roof_minus_building_kwp": "-740.31335699",
+          "comparison": "DIFFERENT",
+          "building_geometry_components": 1
+        },
+        {
+          "buildingid": "313422",
+          "roof_units": 73,
+          "building_capacity_kwp": "0.0",
+          "roof_capacity_kwp": "606.06",
+          "roof_annual_kwh": "506058.57",
+          "roof_minus_building_kwp": "606.06",
+          "comparison": "DIFFERENT",
+          "building_geometry_components": 1
+        },
+        {
+          "buildingid": "53211",
+          "roof_units": 4,
+          "building_capacity_kwp": "78.06450877",
+          "roof_capacity_kwp": "646.18",
+          "roof_annual_kwh": "388355.96",
+          "roof_minus_building_kwp": "568.11549123",
+          "comparison": "DIFFERENT",
+          "building_geometry_components": 1
+        },
+        {
+          "buildingid": "145988",
+          "roof_units": 1,
+          "building_capacity_kwp": "540.46233522",
+          "roof_capacity_kwp": "0.0",
+          "roof_annual_kwh": "0.0",
+          "roof_minus_building_kwp": "-540.46233522",
+          "comparison": "DIFFERENT",
+          "building_geometry_components": 1
+        },
+        {
+          "buildingid": "33194",
+          "roof_units": 1,
+          "building_capacity_kwp": "0.0",
+          "roof_capacity_kwp": "535.4",
+          "roof_annual_kwh": "350229.08",
+          "roof_minus_building_kwp": "535.4",
+          "comparison": "DIFFERENT",
+          "building_geometry_components": 1
+        },
+        {
+          "buildingid": "161471",
+          "roof_units": 10,
+          "building_capacity_kwp": "1908.28512873",
+          "roof_capacity_kwp": "2433.26",
+          "roof_annual_kwh": "2197733.25",
+          "roof_minus_building_kwp": "524.97487127",
+          "comparison": "DIFFERENT",
+          "building_geometry_components": 1
+        },
+        {
+          "buildingid": "366292",
+          "roof_units": 107,
+          "building_capacity_kwp": "2074.25778953",
+          "roof_capacity_kwp": "2585.25",
+          "roof_annual_kwh": "2231821.86",
+          "roof_minus_building_kwp": "510.99221047",
+          "comparison": "DIFFERENT",
+          "building_geometry_components": 1
+        },
+        {
+          "buildingid": "262039",
+          "roof_units": 39,
+          "building_capacity_kwp": "1081.65137033",
+          "roof_capacity_kwp": "1585.84",
+          "roof_annual_kwh": "1375102.54",
+          "roof_minus_building_kwp": "504.18862967",
+          "comparison": "DIFFERENT",
+          "building_geometry_components": 1
+        },
+        {
+          "buildingid": "280347",
+          "roof_units": 1,
+          "building_capacity_kwp": "0.0",
+          "roof_capacity_kwp": "490.59",
+          "roof_annual_kwh": "176916.45",
+          "roof_minus_building_kwp": "490.59",
+          "comparison": "DIFFERENT",
+          "building_geometry_components": 1
+        },
+        {
+          "buildingid": "142399",
+          "roof_units": 48,
+          "building_capacity_kwp": "1245.53472335",
+          "roof_capacity_kwp": "1709.99",
+          "roof_annual_kwh": "1360713.42",
+          "roof_minus_building_kwp": "464.45527665",
+          "comparison": "DIFFERENT",
+          "building_geometry_components": 1
+        }
+      ],
+      "missing_roof_cause": "Not encoded by source; absence is not zero potential",
+      "rule": "Keep two levels separate; never add them or force equality"
+    },
+    "notes": [
+      "One metric tuple per buildingid/roofid; all geometry FIDs retained",
+      "Source suitability1/2/3 and less-suitable6 remain separate",
+      "Building and roof values are separate levels, not additive",
+      "Geometry877roof/2building warnings; no repair or map export",
+      "41buildings without roof records remain coverage gaps, not zero potential"
+    ],
+    "attribution": "Freie und Hansestadt Hamburg, LGV; dl-de/by-2-0"
+  },
+  "chemnitz": {
+    "region_code": "14511",
+    "roof_card_source_fields_only": {
+      "objects": 103808,
+      "capacity_mwp": 793.543,
+      "modeled_energy_gwh_per_year": 642.225,
+      "energy_objects_available": 103808,
+      "paired_objects": 103808,
+      "specific_kwh_per_kwp_per_year": 809.31
+    },
+    "roof_buildings": 62637,
+    "roof_orientation": [
+      {
+        "category": "Flach",
+        "objects": 25457,
+        "capacity_mwp": 304.416,
+        "modeled_energy_gwh_per_year": 242.848,
+        "energy_objects_available": 25457,
+        "paired_objects": 25457,
+        "specific_kwh_per_kwp_per_year": 797.75
+      },
+      {
+        "category": "Nord",
+        "objects": 6672,
+        "capacity_mwp": 35.959,
+        "modeled_energy_gwh_per_year": 25.094,
+        "energy_objects_available": 6672,
+        "paired_objects": 6672,
+        "specific_kwh_per_kwp_per_year": 697.83
+      },
+      {
+        "category": "Ost",
+        "objects": 16696,
+        "capacity_mwp": 110.435,
+        "modeled_energy_gwh_per_year": 83.301,
+        "energy_objects_available": 16696,
+        "paired_objects": 16696,
+        "specific_kwh_per_kwp_per_year": 754.3
+      },
+      {
+        "category": "Süd",
+        "objects": 38458,
+        "capacity_mwp": 231.559,
+        "modeled_energy_gwh_per_year": 206.616,
+        "energy_objects_available": 38458,
+        "paired_objects": 38458,
+        "specific_kwh_per_kwp_per_year": 892.28
+      },
+      {
+        "category": "West",
+        "objects": 16525,
+        "capacity_mwp": 111.174,
+        "modeled_energy_gwh_per_year": 84.367,
+        "energy_objects_available": 16525,
+        "paired_objects": 16525,
+        "specific_kwh_per_kwp_per_year": 758.88
+      }
+    ],
+    "roof_inclination_exact_source_degrees": [
+      {
+        "category": "0",
+        "objects": 512,
+        "capacity_mwp": 8.141,
+        "modeled_energy_gwh_per_year": 7.87,
+        "energy_objects_available": 512,
+        "paired_objects": 512,
+        "specific_kwh_per_kwp_per_year": 966.76
+      },
+      {
+        "category": "1",
+        "objects": 4334,
+        "capacity_mwp": 79.879,
+        "modeled_energy_gwh_per_year": 63.786,
+        "energy_objects_available": 4334,
+        "paired_objects": 4334,
+        "specific_kwh_per_kwp_per_year": 798.53
+      },
+      {
+        "category": "10",
+        "objects": 1719,
+        "capacity_mwp": 12.77,
+        "modeled_energy_gwh_per_year": 9.998,
+        "energy_objects_available": 1719,
+        "paired_objects": 1719,
+        "specific_kwh_per_kwp_per_year": 782.91
+      },
+      {
+        "category": "11",
+        "objects": 1773,
+        "capacity_mwp": 10.561,
+        "modeled_energy_gwh_per_year": 8.344,
+        "energy_objects_available": 1773,
+        "paired_objects": 1773,
+        "specific_kwh_per_kwp_per_year": 790.05
+      },
+      {
+        "category": "12",
+        "objects": 1987,
+        "capacity_mwp": 7.141,
+        "modeled_energy_gwh_per_year": 5.544,
+        "energy_objects_available": 1987,
+        "paired_objects": 1987,
+        "specific_kwh_per_kwp_per_year": 776.36
+      },
+      {
+        "category": "13",
+        "objects": 3240,
+        "capacity_mwp": 17.547,
+        "modeled_energy_gwh_per_year": 13.567,
+        "energy_objects_available": 3240,
+        "paired_objects": 3240,
+        "specific_kwh_per_kwp_per_year": 773.22
+      },
+      {
+        "category": "14",
+        "objects": 2983,
+        "capacity_mwp": 25.352,
+        "modeled_energy_gwh_per_year": 19.848,
+        "energy_objects_available": 2983,
+        "paired_objects": 2983,
+        "specific_kwh_per_kwp_per_year": 782.91
+      },
+      {
+        "category": "15",
+        "objects": 1712,
+        "capacity_mwp": 8.373,
+        "modeled_energy_gwh_per_year": 6.601,
+        "energy_objects_available": 1712,
+        "paired_objects": 1712,
+        "specific_kwh_per_kwp_per_year": 788.28
+      },
+      {
+        "category": "16",
+        "objects": 1618,
+        "capacity_mwp": 5.434,
+        "modeled_energy_gwh_per_year": 4.281,
+        "energy_objects_available": 1618,
+        "paired_objects": 1618,
+        "specific_kwh_per_kwp_per_year": 787.79
+      },
+      {
+        "category": "17",
+        "objects": 1654,
+        "capacity_mwp": 7.577,
+        "modeled_energy_gwh_per_year": 5.996,
+        "energy_objects_available": 1654,
+        "paired_objects": 1654,
+        "specific_kwh_per_kwp_per_year": 791.35
+      },
+      {
+        "category": "18",
+        "objects": 1311,
+        "capacity_mwp": 7.698,
+        "modeled_energy_gwh_per_year": 6.101,
+        "energy_objects_available": 1311,
+        "paired_objects": 1311,
+        "specific_kwh_per_kwp_per_year": 792.62
+      },
+      {
+        "category": "19",
+        "objects": 1169,
+        "capacity_mwp": 6.249,
+        "modeled_energy_gwh_per_year": 4.964,
+        "energy_objects_available": 1169,
+        "paired_objects": 1169,
+        "specific_kwh_per_kwp_per_year": 794.22
+      },
+      {
+        "category": "2",
+        "objects": 3355,
+        "capacity_mwp": 39.101,
+        "modeled_energy_gwh_per_year": 31.057,
+        "energy_objects_available": 3355,
+        "paired_objects": 3355,
+        "specific_kwh_per_kwp_per_year": 794.28
+      },
+      {
+        "category": "20",
+        "objects": 1253,
+        "capacity_mwp": 6.727,
+        "modeled_energy_gwh_per_year": 5.333,
+        "energy_objects_available": 1253,
+        "paired_objects": 1253,
+        "specific_kwh_per_kwp_per_year": 792.74
+      },
+      {
+        "category": "21",
+        "objects": 1561,
+        "capacity_mwp": 7.724,
+        "modeled_energy_gwh_per_year": 6.191,
+        "energy_objects_available": 1561,
+        "paired_objects": 1561,
+        "specific_kwh_per_kwp_per_year": 801.59
+      },
+      {
+        "category": "22",
+        "objects": 1315,
+        "capacity_mwp": 6.63,
+        "modeled_energy_gwh_per_year": 5.347,
+        "energy_objects_available": 1315,
+        "paired_objects": 1315,
+        "specific_kwh_per_kwp_per_year": 806.51
+      },
+      {
+        "category": "23",
+        "objects": 1245,
+        "capacity_mwp": 5.707,
+        "modeled_energy_gwh_per_year": 4.564,
+        "energy_objects_available": 1245,
+        "paired_objects": 1245,
+        "specific_kwh_per_kwp_per_year": 799.72
+      },
+      {
+        "category": "24",
+        "objects": 1603,
+        "capacity_mwp": 6.441,
+        "modeled_energy_gwh_per_year": 5.299,
+        "energy_objects_available": 1603,
+        "paired_objects": 1603,
+        "specific_kwh_per_kwp_per_year": 822.82
+      },
+      {
+        "category": "25",
+        "objects": 1110,
+        "capacity_mwp": 5.526,
+        "modeled_energy_gwh_per_year": 4.543,
+        "energy_objects_available": 1110,
+        "paired_objects": 1110,
+        "specific_kwh_per_kwp_per_year": 822.17
+      },
+      {
+        "category": "26",
+        "objects": 1031,
+        "capacity_mwp": 5.833,
+        "modeled_energy_gwh_per_year": 4.781,
+        "energy_objects_available": 1031,
+        "paired_objects": 1031,
+        "specific_kwh_per_kwp_per_year": 819.55
+      },
+      {
+        "category": "27",
+        "objects": 1052,
+        "capacity_mwp": 5.703,
+        "modeled_energy_gwh_per_year": 4.722,
+        "energy_objects_available": 1052,
+        "paired_objects": 1052,
+        "specific_kwh_per_kwp_per_year": 827.99
+      },
+      {
+        "category": "28",
+        "objects": 1087,
+        "capacity_mwp": 5.818,
+        "modeled_energy_gwh_per_year": 4.742,
+        "energy_objects_available": 1087,
+        "paired_objects": 1087,
+        "specific_kwh_per_kwp_per_year": 814.95
+      },
+      {
+        "category": "29",
+        "objects": 1246,
+        "capacity_mwp": 8.183,
+        "modeled_energy_gwh_per_year": 6.796,
+        "energy_objects_available": 1246,
+        "paired_objects": 1246,
+        "specific_kwh_per_kwp_per_year": 830.46
+      },
+      {
+        "category": "3",
+        "objects": 3710,
+        "capacity_mwp": 39.735,
+        "modeled_energy_gwh_per_year": 31.512,
+        "energy_objects_available": 3710,
+        "paired_objects": 3710,
+        "specific_kwh_per_kwp_per_year": 793.05
+      },
+      {
+        "category": "30",
+        "objects": 1145,
+        "capacity_mwp": 6.869,
+        "modeled_energy_gwh_per_year": 5.577,
+        "energy_objects_available": 1145,
+        "paired_objects": 1145,
+        "specific_kwh_per_kwp_per_year": 811.93
+      },
+      {
+        "category": "31",
+        "objects": 1202,
+        "capacity_mwp": 7.621,
+        "modeled_energy_gwh_per_year": 6.179,
+        "energy_objects_available": 1202,
+        "paired_objects": 1202,
+        "specific_kwh_per_kwp_per_year": 810.83
+      },
+      {
+        "category": "32",
+        "objects": 1288,
+        "capacity_mwp": 8.281,
+        "modeled_energy_gwh_per_year": 6.702,
+        "energy_objects_available": 1288,
+        "paired_objects": 1288,
+        "specific_kwh_per_kwp_per_year": 809.3
+      },
+      {
+        "category": "33",
+        "objects": 1611,
+        "capacity_mwp": 11.581,
+        "modeled_energy_gwh_per_year": 9.456,
+        "energy_objects_available": 1611,
+        "paired_objects": 1611,
+        "specific_kwh_per_kwp_per_year": 816.53
+      },
+      {
+        "category": "34",
+        "objects": 2168,
+        "capacity_mwp": 15.601,
+        "modeled_energy_gwh_per_year": 12.796,
+        "energy_objects_available": 2168,
+        "paired_objects": 2168,
+        "specific_kwh_per_kwp_per_year": 820.2
+      },
+      {
+        "category": "35",
+        "objects": 2337,
+        "capacity_mwp": 22.026,
+        "modeled_energy_gwh_per_year": 18.249,
+        "energy_objects_available": 2337,
+        "paired_objects": 2337,
+        "specific_kwh_per_kwp_per_year": 828.49
+      },
+      {
+        "category": "36",
+        "objects": 3019,
+        "capacity_mwp": 37.222,
+        "modeled_energy_gwh_per_year": 31.412,
+        "energy_objects_available": 3019,
+        "paired_objects": 3019,
+        "specific_kwh_per_kwp_per_year": 843.9
+      },
+      {
+        "category": "37",
+        "objects": 3381,
+        "capacity_mwp": 26.064,
+        "modeled_energy_gwh_per_year": 21.711,
+        "energy_objects_available": 3381,
+        "paired_objects": 3381,
+        "specific_kwh_per_kwp_per_year": 832.98
+      },
+      {
+        "category": "38",
+        "objects": 2676,
+        "capacity_mwp": 19.242,
+        "modeled_energy_gwh_per_year": 15.876,
+        "energy_objects_available": 2676,
+        "paired_objects": 2676,
+        "specific_kwh_per_kwp_per_year": 825.07
+      },
+      {
+        "category": "39",
+        "objects": 2557,
+        "capacity_mwp": 18.077,
+        "modeled_energy_gwh_per_year": 15.077,
+        "energy_objects_available": 2557,
+        "paired_objects": 2557,
+        "specific_kwh_per_kwp_per_year": 834.04
+      },
+      {
+        "category": "4",
+        "objects": 3210,
+        "capacity_mwp": 34.242,
+        "modeled_energy_gwh_per_year": 27.149,
+        "energy_objects_available": 3210,
+        "paired_objects": 3210,
+        "specific_kwh_per_kwp_per_year": 792.85
+      },
+      {
+        "category": "40",
+        "objects": 2130,
+        "capacity_mwp": 14.338,
+        "modeled_energy_gwh_per_year": 11.903,
+        "energy_objects_available": 2130,
+        "paired_objects": 2130,
+        "specific_kwh_per_kwp_per_year": 830.16
+      },
+      {
+        "category": "41",
+        "objects": 2207,
+        "capacity_mwp": 14.34,
+        "modeled_energy_gwh_per_year": 11.909,
+        "energy_objects_available": 2207,
+        "paired_objects": 2207,
+        "specific_kwh_per_kwp_per_year": 830.49
+      },
+      {
+        "category": "42",
+        "objects": 2138,
+        "capacity_mwp": 13.062,
+        "modeled_energy_gwh_per_year": 10.777,
+        "energy_objects_available": 2138,
+        "paired_objects": 2138,
+        "specific_kwh_per_kwp_per_year": 825.07
+      },
+      {
+        "category": "43",
+        "objects": 2657,
+        "capacity_mwp": 17.541,
+        "modeled_energy_gwh_per_year": 14.5,
+        "energy_objects_available": 2657,
+        "paired_objects": 2657,
+        "specific_kwh_per_kwp_per_year": 826.6
+      },
+      {
+        "category": "44",
+        "objects": 3282,
+        "capacity_mwp": 23.335,
+        "modeled_energy_gwh_per_year": 19.485,
+        "energy_objects_available": 3282,
+        "paired_objects": 3282,
+        "specific_kwh_per_kwp_per_year": 835.0
+      },
+      {
+        "category": "45",
+        "objects": 1899,
+        "capacity_mwp": 11.968,
+        "modeled_energy_gwh_per_year": 9.84,
+        "energy_objects_available": 1899,
+        "paired_objects": 1899,
+        "specific_kwh_per_kwp_per_year": 822.17
+      },
+      {
+        "category": "46",
+        "objects": 1450,
+        "capacity_mwp": 9.094,
+        "modeled_energy_gwh_per_year": 7.474,
+        "energy_objects_available": 1450,
+        "paired_objects": 1450,
+        "specific_kwh_per_kwp_per_year": 821.82
+      },
+      {
+        "category": "47",
+        "objects": 1547,
+        "capacity_mwp": 9.547,
+        "modeled_energy_gwh_per_year": 7.822,
+        "energy_objects_available": 1547,
+        "paired_objects": 1547,
+        "specific_kwh_per_kwp_per_year": 819.3
+      },
+      {
+        "category": "48",
+        "objects": 1552,
+        "capacity_mwp": 10.135,
+        "modeled_energy_gwh_per_year": 8.303,
+        "energy_objects_available": 1552,
+        "paired_objects": 1552,
+        "specific_kwh_per_kwp_per_year": 819.21
+      },
+      {
+        "category": "49",
+        "objects": 1324,
+        "capacity_mwp": 8.227,
+        "modeled_energy_gwh_per_year": 6.725,
+        "energy_objects_available": 1324,
+        "paired_objects": 1324,
+        "specific_kwh_per_kwp_per_year": 817.43
+      },
+      {
+        "category": "5",
+        "objects": 3762,
+        "capacity_mwp": 59.194,
+        "modeled_energy_gwh_per_year": 46.808,
+        "energy_objects_available": 3762,
+        "paired_objects": 3762,
+        "specific_kwh_per_kwp_per_year": 790.77
+      },
+      {
+        "category": "50",
+        "objects": 1076,
+        "capacity_mwp": 6.82,
+        "modeled_energy_gwh_per_year": 5.551,
+        "energy_objects_available": 1076,
+        "paired_objects": 1076,
+        "specific_kwh_per_kwp_per_year": 813.96
+      },
+      {
+        "category": "51",
+        "objects": 839,
+        "capacity_mwp": 4.711,
+        "modeled_energy_gwh_per_year": 3.892,
+        "energy_objects_available": 839,
+        "paired_objects": 839,
+        "specific_kwh_per_kwp_per_year": 826.23
+      },
+      {
+        "category": "52",
+        "objects": 622,
+        "capacity_mwp": 3.097,
+        "modeled_energy_gwh_per_year": 2.511,
+        "energy_objects_available": 622,
+        "paired_objects": 622,
+        "specific_kwh_per_kwp_per_year": 810.71
+      },
+      {
+        "category": "53",
+        "objects": 444,
+        "capacity_mwp": 1.848,
+        "modeled_energy_gwh_per_year": 1.508,
+        "energy_objects_available": 444,
+        "paired_objects": 444,
+        "specific_kwh_per_kwp_per_year": 815.95
+      },
+      {
+        "category": "54",
+        "objects": 348,
+        "capacity_mwp": 1.029,
+        "modeled_energy_gwh_per_year": 0.835,
+        "energy_objects_available": 348,
+        "paired_objects": 348,
+        "specific_kwh_per_kwp_per_year": 811.42
+      },
+      {
+        "category": "55",
+        "objects": 290,
+        "capacity_mwp": 1.0,
+        "modeled_energy_gwh_per_year": 0.803,
+        "energy_objects_available": 290,
+        "paired_objects": 290,
+        "specific_kwh_per_kwp_per_year": 802.66
+      },
+      {
+        "category": "56",
+        "objects": 289,
+        "capacity_mwp": 0.805,
+        "modeled_energy_gwh_per_year": 0.643,
+        "energy_objects_available": 289,
+        "paired_objects": 289,
+        "specific_kwh_per_kwp_per_year": 799.19
+      },
+      {
+        "category": "57",
+        "objects": 256,
+        "capacity_mwp": 0.537,
+        "modeled_energy_gwh_per_year": 0.423,
+        "energy_objects_available": 256,
+        "paired_objects": 256,
+        "specific_kwh_per_kwp_per_year": 788.03
+      },
+      {
+        "category": "58",
+        "objects": 239,
+        "capacity_mwp": 0.553,
+        "modeled_energy_gwh_per_year": 0.455,
+        "energy_objects_available": 239,
+        "paired_objects": 239,
+        "specific_kwh_per_kwp_per_year": 823.26
+      },
+      {
+        "category": "59",
+        "objects": 190,
+        "capacity_mwp": 0.393,
+        "modeled_energy_gwh_per_year": 0.312,
+        "energy_objects_available": 190,
+        "paired_objects": 190,
+        "specific_kwh_per_kwp_per_year": 793.34
+      },
+      {
+        "category": "6",
+        "objects": 2204,
+        "capacity_mwp": 12.549,
+        "modeled_energy_gwh_per_year": 9.859,
+        "energy_objects_available": 2204,
+        "paired_objects": 2204,
+        "specific_kwh_per_kwp_per_year": 785.65
+      },
+      {
+        "category": "60",
+        "objects": 225,
+        "capacity_mwp": 0.341,
+        "modeled_energy_gwh_per_year": 0.273,
+        "energy_objects_available": 225,
+        "paired_objects": 225,
+        "specific_kwh_per_kwp_per_year": 800.09
+      },
+      {
+        "category": "61",
+        "objects": 210,
+        "capacity_mwp": 0.398,
+        "modeled_energy_gwh_per_year": 0.318,
+        "energy_objects_available": 210,
+        "paired_objects": 210,
+        "specific_kwh_per_kwp_per_year": 798.95
+      },
+      {
+        "category": "62",
+        "objects": 173,
+        "capacity_mwp": 0.259,
+        "modeled_energy_gwh_per_year": 0.208,
+        "energy_objects_available": 173,
+        "paired_objects": 173,
+        "specific_kwh_per_kwp_per_year": 801.5
+      },
+      {
+        "category": "63",
+        "objects": 161,
+        "capacity_mwp": 0.26,
+        "modeled_energy_gwh_per_year": 0.204,
+        "energy_objects_available": 161,
+        "paired_objects": 161,
+        "specific_kwh_per_kwp_per_year": 787.57
+      },
+      {
+        "category": "64",
+        "objects": 214,
+        "capacity_mwp": 0.331,
+        "modeled_energy_gwh_per_year": 0.262,
+        "energy_objects_available": 214,
+        "paired_objects": 214,
+        "specific_kwh_per_kwp_per_year": 790.25
+      },
+      {
+        "category": "65",
+        "objects": 187,
+        "capacity_mwp": 0.315,
+        "modeled_energy_gwh_per_year": 0.257,
+        "energy_objects_available": 187,
+        "paired_objects": 187,
+        "specific_kwh_per_kwp_per_year": 817.01
+      },
+      {
+        "category": "66",
+        "objects": 164,
+        "capacity_mwp": 0.356,
+        "modeled_energy_gwh_per_year": 0.289,
+        "energy_objects_available": 164,
+        "paired_objects": 164,
+        "specific_kwh_per_kwp_per_year": 812.14
+      },
+      {
+        "category": "67",
+        "objects": 161,
+        "capacity_mwp": 0.274,
+        "modeled_energy_gwh_per_year": 0.222,
+        "energy_objects_available": 161,
+        "paired_objects": 161,
+        "specific_kwh_per_kwp_per_year": 810.06
+      },
+      {
+        "category": "68",
+        "objects": 146,
+        "capacity_mwp": 0.23,
+        "modeled_energy_gwh_per_year": 0.183,
+        "energy_objects_available": 146,
+        "paired_objects": 146,
+        "specific_kwh_per_kwp_per_year": 793.28
+      },
+      {
+        "category": "69",
+        "objects": 150,
+        "capacity_mwp": 0.288,
+        "modeled_energy_gwh_per_year": 0.227,
+        "energy_objects_available": 150,
+        "paired_objects": 150,
+        "specific_kwh_per_kwp_per_year": 788.8
+      },
+      {
+        "category": "7",
+        "objects": 1100,
+        "capacity_mwp": 7.193,
+        "modeled_energy_gwh_per_year": 5.655,
+        "energy_objects_available": 1100,
+        "paired_objects": 1100,
+        "specific_kwh_per_kwp_per_year": 786.16
+      },
+      {
+        "category": "70",
+        "objects": 100,
+        "capacity_mwp": 0.193,
+        "modeled_energy_gwh_per_year": 0.15,
+        "energy_objects_available": 100,
+        "paired_objects": 100,
+        "specific_kwh_per_kwp_per_year": 776.2
+      },
+      {
+        "category": "71",
+        "objects": 72,
+        "capacity_mwp": 0.119,
+        "modeled_energy_gwh_per_year": 0.091,
+        "energy_objects_available": 72,
+        "paired_objects": 72,
+        "specific_kwh_per_kwp_per_year": 766.04
+      },
+      {
+        "category": "72",
+        "objects": 53,
+        "capacity_mwp": 0.082,
+        "modeled_energy_gwh_per_year": 0.061,
+        "energy_objects_available": 53,
+        "paired_objects": 53,
+        "specific_kwh_per_kwp_per_year": 746.78
+      },
+      {
+        "category": "73",
+        "objects": 41,
+        "capacity_mwp": 0.086,
+        "modeled_energy_gwh_per_year": 0.065,
+        "energy_objects_available": 41,
+        "paired_objects": 41,
+        "specific_kwh_per_kwp_per_year": 753.7
+      },
+      {
+        "category": "74",
+        "objects": 33,
+        "capacity_mwp": 0.074,
+        "modeled_energy_gwh_per_year": 0.056,
+        "energy_objects_available": 33,
+        "paired_objects": 33,
+        "specific_kwh_per_kwp_per_year": 746.67
+      },
+      {
+        "category": "75",
+        "objects": 44,
+        "capacity_mwp": 0.096,
+        "modeled_energy_gwh_per_year": 0.072,
+        "energy_objects_available": 44,
+        "paired_objects": 44,
+        "specific_kwh_per_kwp_per_year": 741.2
+      },
+      {
+        "category": "76",
+        "objects": 35,
+        "capacity_mwp": 0.058,
+        "modeled_energy_gwh_per_year": 0.043,
+        "energy_objects_available": 35,
+        "paired_objects": 35,
+        "specific_kwh_per_kwp_per_year": 737.18
+      },
+      {
+        "category": "77",
+        "objects": 13,
+        "capacity_mwp": 0.015,
+        "modeled_energy_gwh_per_year": 0.011,
+        "energy_objects_available": 13,
+        "paired_objects": 13,
+        "specific_kwh_per_kwp_per_year": 724.5
+      },
+      {
+        "category": "78",
+        "objects": 13,
+        "capacity_mwp": 0.02,
+        "modeled_energy_gwh_per_year": 0.015,
+        "energy_objects_available": 13,
+        "paired_objects": 13,
+        "specific_kwh_per_kwp_per_year": 755.15
+      },
+      {
+        "category": "79",
+        "objects": 10,
+        "capacity_mwp": 0.033,
+        "modeled_energy_gwh_per_year": 0.024,
+        "energy_objects_available": 10,
+        "paired_objects": 10,
+        "specific_kwh_per_kwp_per_year": 742.04
+      },
+      {
+        "category": "8",
+        "objects": 807,
+        "capacity_mwp": 6.281,
+        "modeled_energy_gwh_per_year": 4.966,
+        "energy_objects_available": 807,
+        "paired_objects": 807,
+        "specific_kwh_per_kwp_per_year": 790.67
+      },
+      {
+        "category": "80",
+        "objects": 7,
+        "capacity_mwp": 0.021,
+        "modeled_energy_gwh_per_year": 0.016,
+        "energy_objects_available": 7,
+        "paired_objects": 7,
+        "specific_kwh_per_kwp_per_year": 735.83
+      },
+      {
+        "category": "81",
+        "objects": 4,
+        "capacity_mwp": 0.007,
+        "modeled_energy_gwh_per_year": 0.005,
+        "energy_objects_available": 4,
+        "paired_objects": 4,
+        "specific_kwh_per_kwp_per_year": 741.67
+      },
+      {
+        "category": "82",
+        "objects": 6,
+        "capacity_mwp": 0.028,
+        "modeled_energy_gwh_per_year": 0.021,
+        "energy_objects_available": 6,
+        "paired_objects": 6,
+        "specific_kwh_per_kwp_per_year": 735.64
+      },
+      {
+        "category": "83",
+        "objects": 6,
+        "capacity_mwp": 0.029,
+        "modeled_energy_gwh_per_year": 0.021,
+        "energy_objects_available": 6,
+        "paired_objects": 6,
+        "specific_kwh_per_kwp_per_year": 725.36
+      },
+      {
+        "category": "84",
+        "objects": 2,
+        "capacity_mwp": 0.002,
+        "modeled_energy_gwh_per_year": 0.001,
+        "energy_objects_available": 2,
+        "paired_objects": 2,
+        "specific_kwh_per_kwp_per_year": 707.06
+      },
+      {
+        "category": "85",
+        "objects": 5,
+        "capacity_mwp": 0.006,
+        "modeled_energy_gwh_per_year": 0.004,
+        "energy_objects_available": 5,
+        "paired_objects": 5,
+        "specific_kwh_per_kwp_per_year": 725.74
+      },
+      {
+        "category": "86",
+        "objects": 2,
+        "capacity_mwp": 0.011,
+        "modeled_energy_gwh_per_year": 0.008,
+        "energy_objects_available": 2,
+        "paired_objects": 2,
+        "specific_kwh_per_kwp_per_year": 695.35
+      },
+      {
+        "category": "87",
+        "objects": 1,
+        "capacity_mwp": 0.0,
+        "modeled_energy_gwh_per_year": 0.0,
+        "energy_objects_available": 1,
+        "paired_objects": 1,
+        "specific_kwh_per_kwp_per_year": 850.0
+      },
+      {
+        "category": "9",
+        "objects": 744,
+        "capacity_mwp": 5.332,
+        "modeled_energy_gwh_per_year": 4.188,
+        "energy_objects_available": 744,
+        "paired_objects": 744,
+        "specific_kwh_per_kwp_per_year": 785.37
+      }
+    ],
+    "roof_model_version_status": "UNRESOLVED_FIELD_PASSPORT_MISMATCH",
+    "ground_source_summary": {
+      "schema": "chemnitz_ground_source_model_examples_v1",
+      "status": "CANDIDATE_SOURCE_MODEL_ANALYTICS_WITH_LIMITS",
+      "source_document_year": 2024,
+      "actual_source_model_date_confirmed": false,
+      "land_use_summary": [
+        {
+          "source_land_use": null,
+          "parts": 722,
+          "frei_ids_in_category": 482,
+          "source_model_capacity_kw": "472170.60035705566381",
+          "source_model_annual_kwh": "421157891",
+          "specific_model_kwh_per_kwp": "891.96"
+        },
+        {
+          "source_land_use": "Ackerland",
+          "parts": 513,
+          "frei_ids_in_category": 406,
+          "source_model_capacity_kw": "5078827.79969787597684",
+          "source_model_annual_kwh": "4748148134",
+          "specific_model_kwh_per_kwp": "934.89"
+        },
+        {
+          "source_land_use": "Autobahnparkplatz",
+          "parts": 1,
+          "frei_ids_in_category": 1,
+          "source_model_capacity_kw": "229.5",
+          "source_model_annual_kwh": "204403",
+          "specific_model_kwh_per_kwp": "890.64"
+        },
+        {
+          "source_land_use": "Bahnbegleitfläche",
+          "parts": 6,
+          "frei_ids_in_category": 5,
+          "source_model_capacity_kw": "2665.90000915527340",
+          "source_model_annual_kwh": "2333481",
+          "specific_model_kwh_per_kwp": "875.31"
+        },
+        {
+          "source_land_use": "Deponie",
+          "parts": 3,
+          "frei_ids_in_category": 3,
+          "source_model_capacity_kw": "9140.7998046875",
+          "source_model_annual_kwh": "8559483",
+          "specific_model_kwh_per_kwp": "936.40"
+        },
+        {
+          "source_land_use": "Grünland",
+          "parts": 802,
+          "frei_ids_in_category": 628,
+          "source_model_capacity_kw": "1545830.59772491455065",
+          "source_model_annual_kwh": "1422097384",
+          "specific_model_kwh_per_kwp": "919.96"
+        },
+        {
+          "source_land_use": "Parkplatz",
+          "parts": 46,
+          "frei_ids_in_category": 45,
+          "source_model_capacity_kw": "20404.39980316162120",
+          "source_model_annual_kwh": "18375785",
+          "specific_model_kwh_per_kwp": "900.58"
+        },
+        {
+          "source_land_use": "StehendesGewaesser",
+          "parts": 45,
+          "frei_ids_in_category": 45,
+          "source_model_capacity_kw": "18116.89988708496076",
+          "source_model_annual_kwh": "16294184",
+          "specific_model_kwh_per_kwp": "899.39"
+        },
+        {
+          "source_land_use": "Strassenbegleitfleche",
+          "parts": 131,
+          "frei_ids_in_category": 109,
+          "source_model_capacity_kw": "58619.99987030029298",
+          "source_model_annual_kwh": "52885482",
+          "specific_model_kwh_per_kwp": "902.17"
+        }
+      ],
+      "object_cards": [
+        {
+          "frei_id": "Frei37366sf0201_a",
+          "parts": 1,
+          "source_part_sum_capacity_kw": "2513.199951171875",
+          "source_part_sum_annual_kwh": "2320079",
+          "specific_annual_kwh_per_kwp": "923.16",
+          "native_area_sum_m2": 35029.628,
+          "native_union_area_m2": 35029.628,
+          "self_overlap_m2": 0.0,
+          "has_any_positive_overlap": false,
+          "land_use_categories": "Parkplatz",
+          "equal_power_and_energy_in_multiple_parts": false
+        },
+        {
+          "frei_id": "Frei18026sf0202_a",
+          "parts": 6,
+          "source_part_sum_capacity_kw": "174279.1990661621094",
+          "source_part_sum_annual_kwh": "162259237",
+          "specific_annual_kwh_per_kwp": "931.03",
+          "native_area_sum_m2": 1572033.504,
+          "native_union_area_m2": 1572033.504,
+          "self_overlap_m2": 0.0,
+          "has_any_positive_overlap": false,
+          "land_use_categories": "Ackerland",
+          "equal_power_and_energy_in_multiple_parts": false
+        }
+      ],
+      "scope": "Sum of model attributes of source potential parts, not commissioned generation, vacant land or approved buildable capacity",
+      "limits": [
+        "Potential geometry and modeled annual energy, not active plants, actual generation or availability",
+        "Source part sums are exact descriptive accounting; no aggregate regional potential accepted solely from ID or geometry",
+        "Native area used only for overlap evidence, no potential recalculation; no repair/clipping or source rewrite",
+        "Original generalized BKG boundary exceptions retained; points not dropped",
+        "Each overlap pair is evidence, pair area sum is not unique total overlap area",
+        "Five decimal coordinates only in new point delivery; no large browser map export",
+        "Redistribution terms of original SAENA package remain to be confirmed before publication"
+      ]
+    },
+    "notes": [
+      "Roof values from kw_19_5/str_19_5 preserved; efficiency/date not inferred",
+      "East-west alternative unavailable, not zero",
+      "Current 2024 passport is byte-identical; no authoritative version reconciliation",
+      "Ground and roof model interpretations remain separate; no combined available-potential total",
+      "Source redistribution terms/date need confirmation before publication"
+    ]
+  },
+  "usage": "Compact analytical preview; modeled annual energy is not measured generation. Full canonical attributes stay in Parquet. No heavy geometry embedded."
+}
